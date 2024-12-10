@@ -1,0 +1,244 @@
+{
+  "games": [
+    {
+      "sport": "NHL",
+      "gameTime": "6:10PM",
+      "awayTeam": "NJ Devils",
+      "homeTeam": "NY Rangers",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": 200,
+            "value": "-1.5",
+            "pick": "NJ Devils"
+          },
+          "underdog": {
+            "odds": -245,
+            "value": "+1.5",
+            "pick": "NY Rangers"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -125,
+            "value": null,
+            "pick": "NJ Devils"
+          },
+          "underdog": {
+            "odds": 105,
+            "value": null,
+            "pick": "NY Rangers"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -115,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NHL",
+      "gameTime": "6:40PM",
+      "awayTeam": "CHI Blackhawks",
+      "homeTeam": "TOR Maple Leafs",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": 140,
+            "value": "-1.5",
+            "pick": "TOR Maple Leafs"
+          },
+          "underdog": {
+            "odds": -166,
+            "value": "+1.5",
+            "pick": "CHI Blackhawks"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -425,
+            "value": null,
+            "pick": "TOR Maple Leafs"
+          },
+          "underdog": {
+            "odds": 330,
+            "value": null,
+            "pick": "CHI Blackhawks"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "6",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "6",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NHL",
+      "gameTime": "8:10PM",
+      "awayTeam": "DAL Stars",
+      "homeTeam": "UTA Hockey Club",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": 180,
+            "value": "-1.5",
+            "pick": "DAL Stars"
+          },
+          "underdog": {
+            "odds": -218,
+            "value": "+1.5",
+            "pick": "UTA Hockey Club"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -230,
+            "value": null,
+            "pick": "DAL Stars"
+          },
+          "underdog": {
+            "odds": 190,
+            "value": null,
+            "pick": "UTA Hockey Club"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -115,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NHL",
+      "gameTime": "6:00PM",
+      "awayTeam": "DET Red Wings",
+      "homeTeam": "BOS Bruins",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": 124,
+            "value": "-1.5",
+            "pick": "BOS Bruins"
+          },
+          "underdog": {
+            "odds": -148,
+            "value": "+1.5",
+            "pick": "DET Red Wings"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -285,
+            "value": null,
+            "pick": "BOS Bruins"
+          },
+          "underdog": {
+            "odds": 230,
+            "value": null,
+            "pick": "DET Red Wings"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -115,
+            "value": "5.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "5.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NHL",
+      "gameTime": "6:00PM",
+      "awayTeam": "BUF Sabres",
+      "homeTeam": "COL Avalanche",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": 120,
+            "value": "-1.5",
+            "pick": "COL Avalanche"
+          },
+          "underdog": {
+            "odds": -142,
+            "value": "+1.5",
+            "pick": "BUF Sabres"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -205,
+            "value": null,
+            "pick": "COL Avalanche"
+          },
+          "underdog": {
+            "odds": 170,
+            "value": null,
+            "pick": "BUF Sabres"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -105,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -115,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}

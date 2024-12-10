@@ -1,0 +1,292 @@
+{
+  "games": [
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "TB Buccaneers",
+      "homeTeam": "CLE Browns",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "-6.5",
+            "pick": "TB Buccaneers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+6.5",
+            "pick": "CLE Browns"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -290,
+            "value": null,
+            "pick": "TB Buccaneers"
+          },
+          "underdog": {
+            "odds": 235,
+            "value": null,
+            "pick": "CLE Browns"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "42",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "42",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "PIT Steelers",
+      "homeTeam": "NY Jets",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "-4.5",
+            "pick": "PIT Steelers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+4.5",
+            "pick": "NY Jets"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -265,
+            "value": null,
+            "pick": "PIT Steelers"
+          },
+          "underdog": {
+            "odds": 215,
+            "value": null,
+            "pick": "NY Jets"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "42",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "42",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "MIA Dolphins",
+      "homeTeam": "NO Saints",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -115,
+            "value": "-6.5",
+            "pick": "MIA Dolphins"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+6.5",
+            "pick": "NO Saints"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -275,
+            "value": null,
+            "pick": "MIA Dolphins"
+          },
+          "underdog": {
+            "odds": 225,
+            "value": null,
+            "pick": "NO Saints"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -108,
+            "value": "45.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -112,
+            "value": "45.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "NY Giants",
+      "homeTeam": "S+D Saints",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "-5",
+            "pick": "NY Giants"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+5",
+            "pick": "S+D Saints"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -225,
+            "value": null,
+            "pick": "NY Giants"
+          },
+          "underdog": {
+            "odds": 185,
+            "value": null,
+            "pick": "S+D Saints"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -108,
+            "value": "40.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -112,
+            "value": "40.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "JAX Jaguars",
+      "homeTeam": "TEN Titans",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -112,
+            "value": "-3.5",
+            "pick": "TEN Titans"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "+3.5",
+            "pick": "JAX Jaguars"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -185,
+            "value": null,
+            "pick": "TEN Titans"
+          },
+          "underdog": {
+            "odds": 154,
+            "value": null,
+            "pick": "JAX Jaguars"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -112,
+            "value": "40",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "40",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "MON 8:15PM ET",
+      "awayTeam": "SEA Seahawks",
+      "homeTeam": "ARI Cardinals",
+      "spread": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "-3",
+            "pick": "ARI Cardinals"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+3",
+            "pick": "SEA Seahawks"
+          }
+        }
+      },
+      "moneyline": {
+        "draftkings": {
+          "favorite": {
+            "odds": -155,
+            "value": null,
+            "pick": "ARI Cardinals"
+          },
+          "underdog": {
+            "odds": 130,
+            "value": null,
+            "pick": "SEA Seahawks"
+          }
+        }
+      },
+      "totals": {
+        "draftkings": {
+          "favorite": {
+            "odds": -110,
+            "value": "45",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "45",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}

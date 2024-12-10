@@ -1,0 +1,196 @@
+{
+  "games": [
+    {
+      "sport": "NBA",
+      "gameTime": "6:40PM CT",
+      "awayTeam": "Miami Heat",
+      "homeTeam": "Boston Celtics",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-10",
+            "pick": "Boston Celtics"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+10",
+            "pick": "Miami Heat"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -450,
+            "value": null,
+            "pick": "Boston Celtics"
+          },
+          "underdog": {
+            "odds": 350,
+            "value": null,
+            "pick": "Miami Heat"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -108,
+            "value": "220",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -112,
+            "value": "220",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "6:40PM CT",
+      "awayTeam": "New Orleans Pelicans",
+      "homeTeam": "Atlanta Hawks",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -108,
+            "value": "-10",
+            "pick": "Atlanta Hawks"
+          },
+          "underdog": {
+            "odds": -112,
+            "value": "+10",
+            "pick": "New Orleans Pelicans"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -460,
+            "value": null,
+            "pick": "Atlanta Hawks"
+          },
+          "underdog": {
+            "odds": 360,
+            "value": null,
+            "pick": "New Orleans Pelicans"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "229.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "229.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "7:10PM CT",
+      "awayTeam": "Los Angeles Lakers",
+      "homeTeam": "Minnesota Timberwolves",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-8",
+            "pick": "Minnesota Timberwolves"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+8",
+            "pick": "Los Angeles Lakers"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -335,
+            "value": null,
+            "pick": "Minnesota Timberwolves"
+          },
+          "underdog": {
+            "odds": 270,
+            "value": null,
+            "pick": "Los Angeles Lakers"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "219",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "219",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "7:10PM CT",
+      "awayTeam": "Brooklyn Nets",
+      "homeTeam": "Chicago Bulls",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -112,
+            "value": "-7.5",
+            "pick": "Chicago Bulls"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "+7.5",
+            "pick": "Brooklyn Nets"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -330,
+            "value": null,
+            "pick": "Chicago Bulls"
+          },
+          "underdog": {
+            "odds": 265,
+            "value": null,
+            "pick": "Brooklyn Nets"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "233.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "233.5",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}

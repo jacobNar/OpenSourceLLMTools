@@ -1,0 +1,292 @@
+{
+  "games": [
+    {
+      "sport": "NFL",
+      "gameTime": "MON 7:15PM CT",
+      "awayTeam": "Cleveland Browns",
+      "homeTeam": "Denver Broncos",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -115,
+            "value": "-5.5",
+            "pick": "Denver Broncos"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+5.5",
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -255,
+            "value": null,
+            "pick": "Denver Broncos"
+          },
+          "underdog": {
+            "odds": 210,
+            "value": null,
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -115,
+            "value": "42.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "42.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "THU 7:15PM CT",
+      "awayTeam": "Green Bay Packers",
+      "homeTeam": "Detroit Lions",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -115,
+            "value": "-3.5",
+            "pick": "Detroit Lions"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+3.5",
+            "pick": "Green Bay Packers"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -200,
+            "value": null,
+            "pick": "Detroit Lions"
+          },
+          "underdog": {
+            "odds": 168,
+            "value": null,
+            "pick": "Green Bay Packers"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "51.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "51.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 8, 12:00PM CT",
+      "awayTeam": "Las Vegas Raiders",
+      "homeTeam": "Tampa Bay Buccaneers",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-7",
+            "pick": "Tampa Bay Buccaneers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+7",
+            "pick": "Las Vegas Raiders"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -350,
+            "value": null,
+            "pick": "Tampa Bay Buccaneers"
+          },
+          "underdog": {
+            "odds": 280,
+            "value": null,
+            "pick": "Las Vegas Raiders"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "44.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "44.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 8, 12:00PM CT",
+      "awayTeam": "Cleveland Browns",
+      "homeTeam": "Pittsburgh Steelers",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-6.5",
+            "pick": "Pittsburgh Steelers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+6.5",
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -290,
+            "value": null,
+            "pick": "Pittsburgh Steelers"
+          },
+          "underdog": {
+            "odds": 235,
+            "value": null,
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "41.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "41.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 8, 12:00PM CT",
+      "awayTeam": "Jacksonville Jaguars",
+      "homeTeam": "Tennessee Titans",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -105,
+            "value": "-4.5",
+            "pick": "Tennessee Titans"
+          },
+          "underdog": {
+            "odds": -115,
+            "value": "+4.5",
+            "pick": "Jacksonville Jaguars"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -210,
+            "value": null,
+            "pick": "Tennessee Titans"
+          },
+          "underdog": {
+            "odds": 176,
+            "value": null,
+            "pick": "Jacksonville Jaguars"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -115,
+            "value": "40.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "40.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 8, 12:00PM CT",
+      "awayTeam": "Carolina Panthers",
+      "homeTeam": null,
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-12.5",
+            "pick": null
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+12.5",
+            "pick": "Carolina Panthers"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": null,
+            "value": null,
+            "pick": null
+          },
+          "underdog": {
+            "odds": 570,
+            "value": null,
+            "pick": "Carolina Panthers"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "45.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "45.5",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}

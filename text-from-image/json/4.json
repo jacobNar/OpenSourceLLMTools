@@ -1,0 +1,340 @@
+{
+  "games": [
+    {
+      "sport": "NBA",
+      "gameTime": "6:40PM",
+      "awayTeam": "MIA Heat",
+      "homeTeam": "BOS Celtics",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -105,
+            "value": "-10",
+            "pick": "BOS Celtics"
+          },
+          "underdog": {
+            "odds": -115,
+            "value": "+10",
+            "pick": "MIA Heat"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -470,
+            "value": null,
+            "pick": "BOS Celtics"
+          },
+          "underdog": {
+            "odds": 360,
+            "value": null,
+            "pick": "MIA Heat"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -112,
+            "value": "220",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "220",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "6:40PM",
+      "awayTeam": "NO Pelicans",
+      "homeTeam": "ATL Hawks",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-10",
+            "pick": "ATL Hawks"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+10",
+            "pick": "NO Pelicans"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -485,
+            "value": null,
+            "pick": "ATL Hawks"
+          },
+          "underdog": {
+            "odds": 370,
+            "value": null,
+            "pick": "NO Pelicans"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "229.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "229.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "7:10PM",
+      "awayTeam": "BKN Nets",
+      "homeTeam": "CHI Bulls",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -112,
+            "value": "-7.5",
+            "pick": "CHI Bulls"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "+7.5",
+            "pick": "BKN Nets"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -340,
+            "value": null,
+            "pick": "CHI Bulls"
+          },
+          "underdog": {
+            "odds": 270,
+            "value": null,
+            "pick": "BKN Nets"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "233.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "233.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "7:10PM",
+      "awayTeam": "LA Lakers",
+      "homeTeam": "MIN Timberwolves",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -112,
+            "value": "-8",
+            "pick": "MIN Timberwolves"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "+8",
+            "pick": "LA Lakers"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -340,
+            "value": null,
+            "pick": "MIN Timberwolves"
+          },
+          "underdog": {
+            "odds": 270,
+            "value": null,
+            "pick": "LA Lakers"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -112,
+            "value": "219",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -108,
+            "value": "219",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "6:10PM",
+      "awayTeam": "MIL Bucks",
+      "homeTeam": "DET Pistons",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-4",
+            "pick": "MIL Bucks"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+4",
+            "pick": "DET Pistons"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -180,
+            "value": null,
+            "pick": "MIL Bucks"
+          },
+          "underdog": {
+            "odds": 150,
+            "value": null,
+            "pick": "DET Pistons"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "224.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "224.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "6:10PM",
+      "awayTeam": "PHI 76ers",
+      "homeTeam": "CHA Hornets",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-5.5",
+            "pick": "PHI 76ers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+5.5",
+            "pick": "CHA Hornets"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -225,
+            "value": null,
+            "pick": "PHI 76ers"
+          },
+          "underdog": {
+            "odds": 185,
+            "value": null,
+            "pick": "CHA Hornets"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "212",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "212",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NBA",
+      "gameTime": "6:10PM",
+      "awayTeam": "WAS Wizards",
+      "homeTeam": "CLE Cavaliers",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "-15.5",
+            "pick": "CLE Cavaliers"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "+15.5",
+            "pick": "WAS Wizards"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -1600,
+            "value": null,
+            "pick": "CLE Cavaliers"
+          },
+          "underdog": {
+            "odds": 900,
+            "value": null,
+            "pick": "WAS Wizards"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -110,
+            "value": "236.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "236.5",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}

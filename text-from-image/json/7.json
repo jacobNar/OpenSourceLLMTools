@@ -1,0 +1,148 @@
+{
+  "games": [
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 2 7:15PM",
+      "awayTeam": "Cleveland Browns",
+      "homeTeam": "Denver Broncos",
+      "spread": {
+        "caesars": {
+          "favorite": {
+            "odds": -115,
+            "value": "-6.0",
+            "pick": "Denver Broncos"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+6.0",
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "moneyline": {
+        "caesars": {
+          "favorite": {
+            "odds": -285,
+            "value": null,
+            "pick": "Denver Broncos"
+          },
+          "underdog": {
+            "odds": 228,
+            "value": null,
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "totals": {
+        "caesars": {
+          "favorite": {
+            "odds": -110,
+            "value": "42.0",
+            "pick": "Under"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "42.0",
+            "pick": "Over"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 2 7:15PM",
+      "awayTeam": "Green Bay Packers",
+      "homeTeam": "Detroit Lions",
+      "spread": {
+        "caesars": {
+          "favorite": {
+            "odds": -105,
+            "value": "-3.5",
+            "pick": "Green Bay Packers"
+          },
+          "underdog": {
+            "odds": -115,
+            "value": "+3.5",
+            "pick": "Detroit Lions"
+          }
+        }
+      },
+      "moneyline": {
+        "caesars": {
+          "favorite": {
+            "odds": -190,
+            "value": null,
+            "pick": "Detroit Lions"
+          },
+          "underdog": {
+            "odds": 158,
+            "value": null,
+            "pick": "Green Bay Packers"
+          }
+        }
+      },
+      "totals": {
+        "caesars": {
+          "favorite": {
+            "odds": -110,
+            "value": "51.5",
+            "pick": "Under"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "51.5",
+            "pick": "Over"
+          }
+        }
+      }
+    },
+    {
+      "sport": "NFL",
+      "gameTime": "DEC 8 12:00PM",
+      "awayTeam": "Cleveland Browns",
+      "homeTeam": "Pittsburgh Steelers",
+      "spread": {
+        "caesars": {
+          "favorite": {
+            "odds": -115,
+            "value": "-6.5",
+            "pick": "Pittsburgh Steelers"
+          },
+          "underdog": {
+            "odds": -105,
+            "value": "+6.5",
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "moneyline": {
+        "caesars": {
+          "favorite": {
+            "odds": -292,
+            "value": null,
+            "pick": "Pittsburgh Steelers"
+          },
+          "underdog": {
+            "odds": 235,
+            "value": null,
+            "pick": "Cleveland Browns"
+          }
+        }
+      },
+      "totals": {
+        "caesars": {
+          "favorite": {
+            "odds": -110,
+            "value": "41.5",
+            "pick": "Under"
+          },
+          "underdog": {
+            "odds": -110,
+            "value": "41.5",
+            "pick": "Over"
+          }
+        }
+      }
+    }
+  ]
+}

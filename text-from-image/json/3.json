@@ -1,0 +1,340 @@
+{
+  "games": [
+    {
+      "sport": "Hockey",
+      "gameTime": "6:00PM CT",
+      "awayTeam": "New Jersey Devils",
+      "homeTeam": "New York Rangers",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -134,
+            "value": "-1.5",
+            "pick": "New Jersey Devils"
+          },
+          "underdog": {
+            "odds": 176,
+            "value": "+1.5",
+            "pick": "New York Rangers"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -220,
+            "value": null,
+            "pick": "New Jersey Devils"
+          },
+          "underdog": {
+            "odds": 112,
+            "value": null,
+            "pick": "New York Rangers"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -106,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -114,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "6:00PM CT",
+      "awayTeam": "Chicago Blackhawks",
+      "homeTeam": "Toronto Maple Leafs",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -420,
+            "value": "-1.5",
+            "pick": "Toronto Maple Leafs"
+          },
+          "underdog": {
+            "odds": 320,
+            "value": "+1.5",
+            "pick": "Chicago Blackhawks"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -158,
+            "value": null,
+            "pick": "Toronto Maple Leafs"
+          },
+          "underdog": {
+            "odds": 128,
+            "value": null,
+            "pick": "Chicago Blackhawks"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": 112,
+            "value": "5.5",
+            "pick": "O"
+          },
+          "underdog": {
+            "odds": -140,
+            "value": "5.5",
+            "pick": "U"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "6:30PM CT",
+      "awayTeam": "Dallas Stars",
+      "homeTeam": "Utah Hockey Club",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -142,
+            "value": "-1.5",
+            "pick": "Dallas Stars"
+          },
+          "underdog": {
+            "odds": 168,
+            "value": "+1.5",
+            "pick": "Utah Hockey Club"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -210,
+            "value": null,
+            "pick": "Dallas Stars"
+          },
+          "underdog": {
+            "odds": 118,
+            "value": null,
+            "pick": "Utah Hockey Club"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -102,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -120,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "8:00PM CT",
+      "awayTeam": "Florida Panthers",
+      "homeTeam": "Pittsburgh Penguins",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -182,
+            "value": "-1.5",
+            "pick": "Florida Panthers"
+          },
+          "underdog": {
+            "odds": 150,
+            "value": "+1.5",
+            "pick": "Pittsburgh Penguins"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -170,
+            "value": null,
+            "pick": "Florida Panthers"
+          },
+          "underdog": {
+            "odds": 138,
+            "value": null,
+            "pick": "Pittsburgh Penguins"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -128,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": 104,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "6:00PM CT",
+      "awayTeam": "Colorado Avalanche",
+      "homeTeam": "Buffalo Sabres",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -142,
+            "value": "-1.5",
+            "pick": "Colorado Avalanche"
+          },
+          "underdog": {
+            "odds": 168,
+            "value": "+1.5",
+            "pick": "Buffalo Sabres"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -210,
+            "value": null,
+            "pick": "Colorado Avalanche"
+          },
+          "underdog": {
+            "odds": 118,
+            "value": null,
+            "pick": "Buffalo Sabres"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -106,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -114,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "6:00PM CT",
+      "awayTeam": "San Jose Sharks",
+      "homeTeam": "Washington Capitals",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -265,
+            "value": "-1.5",
+            "pick": "Washington Capitals"
+          },
+          "underdog": {
+            "odds": 215,
+            "value": "+1.5",
+            "pick": "San Jose Sharks"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -105,
+            "value": null,
+            "pick": "Washington Capitals"
+          },
+          "underdog": {
+            "odds": -115,
+            "value": null,
+            "pick": "San Jose Sharks"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -132,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": 108,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    },
+    {
+      "sport": "Hockey",
+      "gameTime": "6:00PM CT",
+      "awayTeam": "New York Islanders",
+      "homeTeam": "Montreal Canadiens",
+      "spread": {
+        "fanduel": {
+          "favorite": {
+            "odds": -134,
+            "value": "-1.5",
+            "pick": "New York Islanders"
+          },
+          "underdog": {
+            "odds": 176,
+            "value": "+1.5",
+            "pick": "Montreal Canadiens"
+          }
+        }
+      },
+      "moneyline": {
+        "fanduel": {
+          "favorite": {
+            "odds": -220,
+            "value": null,
+            "pick": "New York Islanders"
+          },
+          "underdog": {
+            "odds": 112,
+            "value": null,
+            "pick": "Montreal Canadiens"
+          }
+        }
+      },
+      "totals": {
+        "fanduel": {
+          "favorite": {
+            "odds": -106,
+            "value": "6.5",
+            "pick": "U"
+          },
+          "underdog": {
+            "odds": -114,
+            "value": "6.5",
+            "pick": "O"
+          }
+        }
+      }
+    }
+  ]
+}
