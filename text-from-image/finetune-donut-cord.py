@@ -1,5 +1,3 @@
-#THIS IS NOT WORKING
-
 import torch
 from transformers import VisionEncoderDecoderConfig, VisionEncoderDecoderModel, DonutProcessor, DataCollatorForSeq2Seq, Seq2SeqTrainer, Seq2SeqTrainingArguments
 import json
@@ -26,19 +24,6 @@ torch.cuda.memory_summary(device=device)
 torch.cuda.empty_cache()
 
 model.to(device)
-
-# tokenizer = DonutProcessor.from_pretrained("naver-clova-ix/donut-base", padding=False)
-# tokenizer.bos_token_id
-# print(tokenizer.vocab)
-# processor.tokenizer_class.
-# # Set the decoder start token ID
-# config.decoder_start_token_id = tokenizer.bos_token_id
-# PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-
-
-# Prepare data
-from PIL import Image
-import torch
 
 def preprocess_function(example):
     image = example["image"]
@@ -90,3 +75,4 @@ trainer.train()
 # Push the model to Hugging Face
 # login()  # Log in to your Hugging Face account
 model.push_to_hub("jacobNar/donut-base-finetuned-cord-v2-sports-betting-tables")
+processor.push_to_hub("jacobNar/donut-base-finetuned-cord-v2-sports-betting-tables")
