@@ -1,19 +1,24 @@
-from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
+from transformers import AutoProcessor, PaliGemmaForConditionalGeneration, PaliGemmaProcessor
+from transformers.image_utils import load_image
 from PIL import Image
 import requests
 import torch
 
 model_id = "google/paligemma-3b-mix-224"
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id)
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model.to(device)
-processor = AutoProcessor.from_pretrained(model_id)
 
-prompt = "What is on the flower?"
-image_file = "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/bee.jpg?download=true"
-raw_image = Image.open(requests.get(image_file, stream=True).raw)
+url = "./processed-images/1.png"
+image = load_image(url)
 
-inputs = processor(images=raw_image, text=prompt, return_tensors="pt")
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, torch_dtype=torch.bfloat16, device_map="auto").eval()
+processor = PaliGemmaProcessor.from_pretrained(model_id)
 
-output = model.generate(**inputs, max_new_tokens=20)
-print(processor.decode(output[0], skip_special_tokens=True)[inputs.input_ids.shape[1]: ])
+# Leaving the prompt blank for pre-trained models
+prompt = "<image><bos>the screenshot is an image of a betting lines tab in the order of spread, money and total. What is the spread betting odds for the first row?"
+model_inputs = processor(text=prompt, images=image, return_tensors="pt").to(torch.bfloat16).to(model.device)
+input_len = model_inputs["input_ids"].shape[-1]
+
+with torch.inference_mode():
+    generation = model.generate(**model_inputs, max_new_tokens=1000, do_sample=False)
+    generation = generation[0][input_len:]
+    decoded = processor.decode(generation, skip_special_tokens=True)
+    print(decoded)
