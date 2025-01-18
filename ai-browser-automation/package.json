@@ -1,0 +1,19 @@
+{
+  "name": "ai-browser-automation",
+  "version": "1.0.0",
+  "description": "A project for automating browser tasks using AI.",
+  "main": "dist/basic-browser-task.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/basic-browser-task.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
