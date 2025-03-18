@@ -6,15 +6,6 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent
 import os
 
-from huggingface_hub import login
-# login() 
-
-api = HfApi(token=os.getenv("HUGGINGFACEHUB_API_TOKEN"))
-
-# Get your username
-me = api.whoami()
-print(f"Logged in as: {me['name']}")
-
 from dotenv import load_dotenv
 # Load environment variables from .env file for Tavily API
 load_dotenv()
