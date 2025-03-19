@@ -13,7 +13,7 @@ load_dotenv()
 memory = MemorySaver()
 chat = ChatOllama(
     base_url = "http://localhost:11434/",
-    model = "llama3",
+    model = "llama3.2",
     temperature = 0.8,
     num_predict = 256,
 )
