@@ -3,6 +3,11 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.messages import HumanMessage
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent
+from langchain_community.agent_toolkits import PlayWrightBrowserToolkit
+from langchain_community.tools.playwright.utils import (
+    create_async_playwright_browser,
+    create_sync_playwright_browser,
+)
 import os
 
 from dotenv import load_dotenv
@@ -17,14 +22,23 @@ chat = ChatOllama(
     temperature = 0.8,
     num_predict = 256,
 )
+
+#add playwright
+async_browser = create_async_playwright_browser(headless=False)
+toolkit = PlayWrightBrowserToolkit.from_browser(async_browser=async_browser)
+playwright_tools = toolkit.get_tools()
+
+
 search = TavilySearchResults(max_results=5)
 tools = [search]
-agent_executor = create_react_agent(chat, tools, checkpointer=memory)
+# print(tools)
+# agent_executor = create_react_agent(chat, tools, checkpointer=memory)
+agent_executor = create_react_agent(chat, playwright_tools, checkpointer=memory)
 
 # Use the agent
 config = {"configurable": {"thread_id": "abc123"}}
 for step in agent_executor.stream(
-    {"messages": [HumanMessage(content="use tavily search results to tell me the most recent basketball scores.")]},
+    {"messages": [HumanMessage(content="go to ticketmaster.com, in the search bar type luke combs, then hit enter. Tell me the first 3 events you see and give me links.")]},
     config,
     stream_mode="values",
 ):
