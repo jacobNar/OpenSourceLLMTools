@@ -40,21 +40,42 @@ def chunk_xml(document_path):
     tree = ET.parse(document_path)
     root = tree.getroot()
 
-    # Find the legis-body element
     legis_body = root.find('.//legis-body')
 
     if legis_body is not None:
-        # Iterate through all section elements within the legis-body
-        for element in legis_body.findall('.//section'):
-            # Extract all text within the tag
-            text_content = ' '.join(element.itertext())
-            text_content = text_content.strip()
-
-            document = Document(
-                page_content=text_content,
-                metadata={"tag": element.tag}
-            )
-            documents.append(document)
+        for section in legis_body.findall('.//section'):
+            section_id = section.get('id')
+            print(f"Processing section with ID: {section_id}")
+            section_header_elem = section.find('header')
+            print(f"Section header element: {section_header_elem}")
+            section_header = section_header_elem.text.strip() if section_header_elem is not None and section_header_elem.text else ""
+            # Get all text in section
+            section_text = ' '.join(section.itertext()).strip()
+            # Check for subsections if text is long
+            subsections = section.findall('.//subsection')
+            if len(section_text) > 1000 and subsections:
+                for subsection in subsections:
+                    subsection_header_elem = subsection.find('header')
+                    subsection_header = subsection_header_elem.text.strip() if subsection_header_elem is not None and subsection_header_elem.text else ""
+                    print(f"Processing subsection with header: {subsection_header}")
+                    subsection_text = ' '.join(subsection.itertext()).strip()
+                    document = Document(
+                        page_content=subsection_text,
+                        metadata={
+                            "section-id": section_id,
+                            "header": subsection_header
+                        }
+                    )
+                    documents.append(document)
+            else:
+                document = Document(
+                    page_content=section_text,
+                    metadata={
+                        "section-id": section_id,
+                        "header": section_header
+                    }
+                )
+                documents.append(document)
     return documents
 
 # Load and chunk the text document
@@ -68,10 +89,10 @@ xml_documents = chunk_xml('../rag-docs/BILLS-119hr1eh.xml')
 
 for doc in xml_documents:
     try:
-        print(f"Embedding document: {doc.metadata['tag']}")
+        print(f"Embedding document: {doc.metadata['header']}")
         vector_store.add_documents([doc])  # Add documents one by one
     except Exception as e:
-        print(f"Error embedding document: {doc.metadata['tag']}")
+        print(f"Error embedding document: {doc.metadata['header']}")
         print(f"Error: {e}")
 
 query = "how will the health insurance indsutry be affected by this bill."
