@@ -6,6 +6,7 @@ from langchain_ollama import ChatOllama
 import os
 from langchain_community.document_loaders import UnstructuredXMLLoader
 import xml.etree.ElementTree as ET
+import re
 
 embed = OllamaEmbeddings(
     model="llama3.2"
@@ -21,18 +22,31 @@ chat = ChatOllama(
 vector_store = InMemoryVectorStore(embed)
 
 def chunk_text(document_path):
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=200,
-        chunk_overlap=0,
-    )
-
+    documents = []
     with open(document_path, 'r', encoding='utf-8') as file:
         document = file.read()
-
-    sentences = text_splitter.split_text(document)
-    documents = []
-    for sentence in sentences:
-        documents.append(Document(page_content=sentence))
+    # Split by paragraphs first
+    paragraphs = re.split(r'\n\s*\n', document)
+    for para in paragraphs:
+        para = para.strip()
+        if not para:
+            continue
+        # If paragraph is short enough, use as is
+        if len(para) <= 512:
+            documents.append(Document(page_content=para))
+        else:
+            # Otherwise, split into sentences and chunk <= 512 chars
+            sentences = re.split(r'(?<=[.!?])\s+', para)
+            chunk = ""
+            for sentence in sentences:
+                if len(chunk) + len(sentence) + 1 <= 512:
+                    chunk = (chunk + " " + sentence).strip()
+                else:
+                    if chunk:
+                        documents.append(Document(page_content=chunk))
+                    chunk = sentence
+            if chunk:
+                documents.append(Document(page_content=chunk))
     return documents
 
 def chunk_xml(document_path):
@@ -79,17 +93,17 @@ def chunk_xml(document_path):
     return documents
 
 # Load and chunk the text document
-# text_documents = chunk_text('./text-docs/article.txt')
+text_documents = chunk_text('./text-docs/article.txt')
 
 # Example usage for XML document
-xml_documents = chunk_xml('../rag-docs/BILLS-119hr1eh.xml')
+# xml_documents = chunk_xml('../rag-docs/BILLS-119hr1eh.xml')
 
 # vector_store.add_documents(documents=text_documents)
 # vector_store.add_documents(documents=xml_documents)
 
-for doc in xml_documents:
+for doc in text_documents:
     try:
-        print(f"Embedding document: {doc.metadata['header']}")
+        # print(f"Embedding document: {doc.metadata['header']}")
         vector_store.add_documents([doc])  # Add documents one by one
     except Exception as e:
         print(f"Error embedding document: {doc.metadata['header']}")
@@ -114,3 +128,19 @@ messages = [
 
 ai_msg = chat.invoke(messages)
 print(ai_msg.content)
+
+# Conversation loop for follow-up questions
+while True:
+    user_input = input("\nAsk a follow-up question (or type 'exit' to quit): ").strip()
+    if user_input.lower() == "exit":
+        print("Exiting conversation.")
+        break
+    # Perform similarity search for the new user input
+    search_results = vector_store.similarity_search(query=user_input, k=10)
+    context = "\n".join([doc.page_content for doc in search_results])
+    print("Search Results:")
+    print(search_results)
+    messages.append(("human", "Context:" + context + "\n\n Query:\n" + user_input))
+    ai_msg = chat.invoke(messages)
+    print(ai_msg.content)
+    messages.append(("ai", ai_msg.content))
