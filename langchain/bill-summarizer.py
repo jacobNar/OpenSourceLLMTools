@@ -176,6 +176,7 @@ while True:
         previous_chunks = db.get(where={"chunk_id": previous_chunk_id})['documents']
         current_chunks = db.get(where={"chunk_id": current_chunk_id})['documents']
         next_chunks = db.get(where={"chunk_id": next_chunk_id})['documents']
+        # print(previous_chunks[0], current_chunks[0], next_chunks[0])
 
         # Add the chunks to final_context in order
         if previous_chunks:
@@ -186,8 +187,8 @@ while True:
             final_context.extend(next_chunks)
             
     context = ""
-    for i, result in enumerate(reranked_results, 1):
-        context += f"Result {i}\n{result.page_content}\n\n"
+    for i, result in enumerate(final_context, 0):
+        context += f"Result {i}\n{result}\n\n"
     print(context)
     
     messages.append(("human", "Context:" + context + "\n\n Query:\n" + user_input))
