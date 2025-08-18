@@ -2,3 +2,6 @@ node_modules
 dist/
 .env
 langchain/env/
+langchain/langchain-hf-rag-app/bill-sumarrizer
+langchain/chroma_db/*
+langchain/chroma_db_xml/*

@@ -12,8 +12,6 @@ memory = MemorySaver()
 chat = ChatOllama(
     base_url = "http://localhost:11434/",
     model = "llama3.2",
-    temperature = 0.8,
-    num_predict = 256,
 )
 
 #add playwright
@@ -25,9 +23,9 @@ print(playwright_tools)
 agent_executor = create_react_agent(chat, playwright_tools, checkpointer=memory)
 
 # Use the agent
-config = {"configurable": {"thread_id": "abc123"}}
+config = {"configurable": {"thread_id": "1"}}
 for step in agent_executor.stream(
-    {"messages": [HumanMessage(content="you are a internet rag app. I will give you urls, you will visit them, grab the text, and use it as context to answer my questions. visit https://python.langchain.com/api_reference/community/document_loaders/langchain_community.document_loaders.url_playwright.PlaywrightURLLoader.html and tell me what type of the headless paramater is for the class constructor of PlaywrightURLLoader.")]},
+    {"messages": [HumanMessage(content="Visit the following url https://python.langchain.com/docs/concepts/tool_calling/ and tell what are the best practices for designing tools based on the info from the page. use all tools asynchrounously.")],},
     config,
     stream_mode="values",
 ):

@@ -1,4 +1,4 @@
-from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 from browser_use import Agent, BrowserConfig, Browser
 from dotenv import load_dotenv
 load_dotenv()
@@ -14,7 +14,10 @@ config = BrowserConfig(
 
 browser = Browser(config=config)
 
-llm = ChatOpenAI(model="gpt-4o", api_key=api_key)  
+llm = ChatOllama(
+    base_url = "http://localhost:11434/",
+    model = "llama3.2",
+)
 
 async def main():
     agent = Agent(
