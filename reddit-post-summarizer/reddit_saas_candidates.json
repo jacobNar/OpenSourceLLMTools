@@ -13,8 +13,9 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "looking for a software to simplify the process of capturing live audio from a webpage and translating it into text"
-    }
+      "reason": "The user is looking for a specific software feature to improve their current workflow."
+    },
+    "comments_checked": 0
   },
   {
     "title": "ITunes equivalent for pc/andoid",
@@ -30,7 +31,12 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is looking for an alternative to existing music management software"
+      "reason": "user is looking for an alternative to existing software"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   },
   {
@@ -48,6 +54,11 @@
       "match": true,
       "category": "improve",
       "reason": "The user is looking for an improved solution to their current Bluetooth setup in the car"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   },
   {
@@ -65,6 +76,61 @@
       "match": true,
       "category": "improve",
       "reason": "The user is looking for an improved version of a plug-in timer switch with specific features and design preferences."
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "A website like aggie.io but for music",
+    "link": "https://www.reddit.com/r/Doesthisexist/comments/1mlywhb/a_website_like_aggieio_but_for_music/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello! I'm looking to see if there's a website where you can collaborate with multiple peiple on something online like aggie.io but for music ! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Original-Brief-4735\"> /u/Original-Brief-4735 </a> <br /> <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mlywhb/a_website_like_aggieio_but_for_music/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mlywhb/a_website_like_aggieio_but_for_music/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is looking for an alternative or improved version of a specific website"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Small pair of devices that beep when separated more than a few feet from each other.",
+    "link": "https://www.reddit.com/r/Doesthisexist/comments/1mbmgqx/small_pair_of_devices_that_beep_when_separated/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm looking for something with a hair trigger and not smart phone based. 2 &quot;things&quot; that just beep immediately when more than 5 feet apart. They're only paired to each other and nothing else, and the key feature is the immediacy of their reaction to being separated. You might describe this as a &quot;wireless tether&quot;.</p> <p>All of the the trackers and tag systems seem to be built around bluetooth and phone apps as the anchor. They're more geared towards finding something after it's allowed to separate in the first place; they don't immediately notify you within seconds of separation from the phone.</p> <p>I'm wondering if this exists, but perhaps built for a different purpose than what I intend (put one on a phone and one on a wallet)? Maybe an industrial solution exists?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stratedge\"> /u/Stratedge </a> <br /> <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mbmgqx/small_pair_of_devices_that_beep_when_separated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mbmgqx/small_pair_of_devices_that_beep_when_separated/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is looking for a specific feature in existing tracking systems and is open to alternatives."
+    },
+    "comments_checked": 31,
+    "comment_analysis": {
+      "result": {
+        "found": [
+          "Prox PRD",
+          "Tile system",
+          "Find my iPhone system"
+        ],
+        "solution": [
+          "Pair Prox PRD with phone and set distance threshold",
+          "Use Tile system to track phone location",
+          "Integrate Find my iPhone system with wallet or keychain"
+        ]
+      }
     }
   },
   {
@@ -81,7 +147,12 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for a simpler solution to track food consumption and calories, suggesting an improvement to their current workflow."
+      "reason": "The user is looking for a simpler solution to track food calories and consumption, suggesting an improvement over their current method."
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   },
   {
@@ -98,7 +169,12 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The post is asking for an improved software/tool compared to what the user currently uses."
+      "reason": "The post is asking for an improved software/tool compared to what they use."
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   },
   {
@@ -116,6 +192,247 @@
       "match": true,
       "category": "improve",
       "reason": "user is looking for a specific type of software or tool to improve their experience"
+    },
+    "comments_checked": 9,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I’m looking for an app where I can replace the lyrics / vocals on a popular song with different lyrics",
+    "link": "https://www.reddit.com/r/apps/comments/1mu3uoi/im_looking_for_an_app_where_i_can_replace_the/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gifgyfs\"> /u/gifgyfs </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mu3uoi/im_looking_for_an_app_where_i_can_replace_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mu3uoi/im_looking_for_an_app_where_i_can_replace_the/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "looking for an app to replace functionality of existing tool"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Panel Translation App For Japanese Panel",
+    "link": "https://www.reddit.com/r/apps/comments/1mtuutw/panel_translation_app_for_japanese_panel/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello,</p> <p>I will be going to Japan next month and I'll be at an event that will really all be in Japanese. I'm wondering if there is an app, payed even, that would translate just a live panel Q and A just for me. Like using audio from the panel it could translate as close as possible, live? I've seen a few, but it doesn't keep going. They all stop after a bit. </p> <p>I know they have those translation ear buds, but do those work and will they work for my needs?</p> <p>I also don't mind paying for it, or paying for a subscription while I'm there. </p> <p>Any help would be much appreciated. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DylanCorona\"> /u/DylanCorona </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mtuutw/panel_translation_app_for_japanese_panel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mtuutw/panel_translation_app_for_japanese_panel/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is looking for a specific feature (live panel Q&A translation) in an existing app or tool."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Quickest way to make branded assets for a pitch when you’re out of time?",
+    "link": "https://www.reddit.com/r/apps/comments/1mtt0ml/quickest_way_to_make_branded_assets_for_a_pitch/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm only in the beginning stages of putting my business out there. I run a small travel software agency and we’ve got a pitch in two days. I need slides, a one-pager, and a couple of mockups, but we don’t have an in-house designer. Any tools or hacks for this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dismal_Career_7681\"> /u/Dismal_Career_7681 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mtt0ml/quickest_way_to_make_branded_assets_for_a_pitch/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mtt0ml/quickest_way_to_make_branded_assets_for_a_pitch/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is looking for a solution to create branded assets quickly, which can be achieved with software or tools."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I built an app called Synchro...",
+    "link": "https://www.reddit.com/r/apps/comments/1mt6qa3/i_built_an_app_called_synchro/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/vul2fvhb4ojf1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=a3e23794b055e5892ec19c8b7f124a459590160d\">https://preview.redd.it/vul2fvhb4ojf1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=a3e23794b055e5892ec19c8b7f124a459590160d</a></p> <p>I’ve been working on a new app called <strong>Synchro</strong>, and I’d love to share it with you all and get some feedback.</p> <p>Synchro is designed to <strong>record your voice and quickly transcribe it into text</strong>. You can also play it back with <strong>line-by-line highlights (like karaoke)</strong>, which makes it super easy to follow along.</p> <p>If the built-in engine has trouble with certain words or phrases, Synchro gives you the option to <strong>re-transcribe using AI</strong>, which greatly improves accuracy. My goal was to keep it <strong>simple, fast, and actually useful in daily life</strong>, without all the clutter that similar apps usually come with.</p> <p>✨ <strong>A few key features:</strong></p> <ul> <li>🔄 Voice to Text</li> <li>📱 Dual engine transcription (built-in + AI for higher accuracy)</li> <li>☁️ Sync to your iCloud</li> <li>🎨 Clean, minimal UI designed for ease of use</li> </ul> <p>I’d really love to hear your thoughts — what you like, what could be improved, or any features you think would make it more useful.</p> <p>Thanks for checking it out! 🙏 </p> <p><a href=\"https://apps.apple.com/us/app/synchro-smart-transcriber/id6749406016\">https://apps.apple.com/us/app/synchro-smart-transcriber/id6749406016</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rebelution23\"> /u/Rebelution23 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mt6qa3/i_built_an_app_called_synchro/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mt6qa3/i_built_an_app_called_synchro/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is seeking feedback and suggestions for improvement on their app Synchro"
+    },
+    "comments_checked": 8,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "[4.99$ to FREE for 48H] StepZen – Pedometer Counter",
+    "link": "https://www.reddit.com/r/apps/comments/1mt61vh/499_to_free_for_48h_stepzen_pedometer_counter/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey Reddit!<br /> I just released <strong>StepZen – Pedometer Counter</strong>, a clean and minimalist step tracking app for iOS.</p> <p>No clutter, no unnecessary features – just an elegant way to track your daily movement:<br /> 👣 Step, distance, and floor tracking<br /> 📊 Daily/weekly progress + monthly calendar with bar charts<br /> 🎯 Personal goals with smart notifications when you hit them<br /> ✨ Lightweight, distraction-free design<br /> 💵 One-time purchase – no subscriptions, no hidden fees</p> <p>StepZen is built for people who want to stay active and motivated without the overwhelm of bloated fitness apps. Whether you’re walking for fitness, health, or mindfulness, it’s designed to keep things simple and focused.</p> <p><strong>What I’d love from you:</strong></p> <ul> <li>Feedback on the design and usability</li> <li>Suggestions for improvements or missing features</li> <li>General thoughts on the “minimalist tracker” approach</li> </ul> <p>📲 <a href=\"https://apps.apple.com/us/app/stepzen-pedometer-counter/id6749229395\"><strong>Download on the App Store</strong></a><br /> Regular price: <strong>FREE</strong><br /> <strong>IAP - 4.99$ Pro version</strong> now its <strong>FREE for 2 DAYS</strong></p> <p>Would really appreciate any feedback, bug reports, or ideas – and if you try it out, let me know how it fits into your daily routine! 🚶</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MefjuEditor\"> /u/MefjuEditor </a> <br /> <span><a href=\"https://i.redd.it/7a2jroi3znjf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mt61vh/499_to_free_for_48h_stepzen_pedometer_counter/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is seeking feedback and suggestions for improvements on their existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "shot in the dark for party",
+    "link": "https://www.reddit.com/r/apps/comments/1mt06ko/shot_in_the_dark_for_party/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>so for context, i have a party tonight that im bartending. nothing but friends, i have my bartending license but i will be drinking myself, very casual sort of thing. i was wondering if there was an app, sort of like a bar POS system where they could send in orders of drinks they want, and i could just call they're name when the drink is ready. ive been looking for a bit but all ive been able to find is legit restaurant POSs, and i wanted something they could easily download and use. is there anything youd recommend?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheMadness152\"> /u/TheMadness152 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mt06ko/shot_in_the_dark_for_party/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mt06ko/shot_in_the_dark_for_party/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "the user is looking for a specific type of software to improve their bartending experience"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "inventory manager app",
+    "link": "https://www.reddit.com/r/apps/comments/1msw28x/inventory_manager_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>i built an inventory app called <strong>Inventory Nest</strong> mainly for tracking stuff in storage, tools, gear, whatever you have really. you can organize things by location (rooms, shelves, boxes), add pics, group items into kits, track maintenance, loan stuff out, and it works offline,instant website generation of the products coming soon.</p> <p>i'm looking for <strong>people</strong> to test it out and tell me what need adjustments and give feedback and<br /> i'll give you <strong>3 months of pro mode</strong> for free to try it out</p> <p>android only for now. dm me your google email that you use on playstore to add you into the testers list</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rlcontent\"> /u/rlcontent </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1msw28x\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1msw28x/inventory_manager_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is seeking feedback and improvements for their existing software."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I made an app that builds your perfect trip in 60 sec!",
+    "link": "https://www.reddit.com/r/apps/comments/1mrzqv5/i_made_an_app_that_builds_your_perfect_trip_in_60/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/koiu83x0pejf1.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=a00e57828e7448d7e231acbda44a9f2b8c70d3fb\">https://preview.redd.it/koiu83x0pejf1.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=a00e57828e7448d7e231acbda44a9f2b8c70d3fb</a></p> <p>SwipeCity is a new, simple and fun way to plan a trip.</p> <p>You answer a quick quiz, swipe (like Tinder) through places you like — restaurants, bars, hotels, museums, and more — then see them on your map and in favorites to plan your dream vacation stress-free.</p> <p>This is my first app, so I’d love to hear your feedback!</p> <p>P.S. The app is free to try, but if you want to use the Pro version, DM me and I’ll share a referral code.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Dog-9960\"> /u/Ok-Dog-9960 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mrzqv5/i_made_an_app_that_builds_your_perfect_trip_in_60/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mrzqv5/i_made_an_app_that_builds_your_perfect_trip_in_60/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is seeking feedback on their new app and asking for users to try it out."
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I'm on a mission to fight the loneliness & depression epidemic. I spent a lot of time building an AI companion to make sure no one has to feel completely alone. I’d be honored if you tried it.",
+    "link": "https://www.reddit.com/r/apps/comments/1mrrs38/im_on_a_mission_to_fight_the_loneliness/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey Community Members,</p> <p>This is a bit personal, but it’s the reason I’m here. Like many of you, I've seen the devastating impact of depression and loneliness on people I care about. That feeling of being alone with your thoughts at 3 AM, with no one to talk to, is something I believe no one should have to endure.</p> <p>The statistics on suicide and mental health are terrifying, and I got tired of feeling helpless. I decided I had to do <em>something</em>.</p> <p>So, I poured everything I had into building <strong>ThunDroid</strong>.</p> <p>It's an AI mental health companion for iOS. My goal wasn't to replace therapists, but to create a safe, non-judgmental space that's available 24/7. It’s for those moments when you need to talk, vent, or just get out of your own head, but don't have anywhere else to turn.</p> <p>I focused on the things I believe matter most:</p> <ul> <li><strong>A Real Conversation:</strong> The AI is trained in proven therapeutic methods (CBT, DBT, ACT). It doesn't just give robotic answers; it understands context, adapts to your mood, and learns from you. You can talk to it without any limits.</li> <li><strong>Absolute Privacy:</strong> This was non-negotiable for me. All your conversations and journal entries are secured with military-grade encryption and <strong>never leave your device</strong>. I can't see them, and no one else can either. Your privacy is yours alone.</li> <li><strong>Tools That Actually Work:</strong> Beyond the chat, I included things that genuinely help, like a smart journaling system to help you spot patterns in your anxiety, and 13 different professional breathing exercises (including the Navy SEAL Box Breathing technique) for when you feel overwhelmed.</li> </ul> <p>I know the idea of an &quot;AI therapist&quot; can sound weird, and I want to be crystal clear: <strong>ThunDroid is a tool to complement, not replace, professional mental health care.</strong> It's a companion for the journey.</p> <p>My mission is to get this into the hands of millions and make a real dent in the suffering caused by mental health struggles. But I can't do it alone. I’m turning to you, the Reddit community, for help.</p> <p>There's a <strong>3-day free trial</strong> with full access to everything. I would be incredibly grateful if you would download it, try it out, and give me your honest feedback. Tell me what you love, what you hate, and what's missing. Your insights will be invaluable in helping me improve it for others.</p> <p>My dream is that one day, someone, somewhere, feeling at their absolute lowest, will open this app instead of giving up. If I can achieve that even once, all of this will have been worth it.</p> <p>Thank you for reading.</p> <p><strong>App Store Link:</strong> <a href=\"https://apps.apple.com/app/thundroid-ai/id6746182736\">https://apps.apple.com/app/thundroid-ai/id6746182736</a></p> <p><strong>TL;DR:</strong> I built a highly secure, AI-powered mental health companion app to fight loneliness and depression. It offers unlimited AI chat, smart journaling, and breathing exercises. My mission is to make mental support accessible 24/7. I'd be honored if you'd try the 3-day free trial and give me feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThunDroid1\"> /u/ThunDroid1 </a> <br /> <span><a href=\"https://apps.apple.com/app/thundroid-ai/id6746182736\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mrrs38/im_on_a_mission_to_fight_the_loneliness/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is asking for feedback and improvement suggestions to enhance the AI mental health companion app."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "🎁 Giving Away 300 Premium Codes for My UV Tracking App - Don't Get Burned This Summer!",
+    "link": "https://www.reddit.com/r/apps/comments/1mru9ld/giving_away_300_premium_codes_for_my_uv_tracking/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><strong>Hey Reddit!</strong></p> <p>I'm the developer of <strong>UV Guardian</strong> and I'm giving away <strong>300 PREMIUM CODES</strong> to celebrate our launch!</p> <p>🔥 <strong>What Makes This App Special:</strong></p> <ul> <li><strong>Real-time UV tracking</strong> - Know exactly when it's dangerous</li> <li><strong>AI-powered skin analysis</strong> - Personalized recommendations for YOUR skin type</li> <li><strong>Smart notifications</strong> - Never get caught off guard by UV spikes</li> <li><strong>100% PRIVACY FOCUSED</strong> - Your skin data stays on your device</li> <li><strong>Family profiles</strong> - Protect your loved ones too</li> <li><strong>Offline mode</strong> - Works without internet connection</li> <li><strong>Zero ads, zero tracking</strong> - Clean experience forever</li> <li><strong>Global UV data</strong> - Accurate anywhere in the world</li> </ul> <p>📱 <strong>Perfect For:</strong> ✓ People with fair/sensitive skin ✓ Outdoor workers &amp; athletes ✓ Parents protecting their children ✓ Anyone wanting to prevent skin damage ✓ Travelers visiting sunny destinations ✓ Vitamin D optimization (safe sun exposure)</p> <p>🎁 <strong>What You Get:</strong></p> <ul> <li><strong>100 codes:</strong> 6 months Premium (worth $29.99)</li> <li><strong>100 codes:</strong> 3 months Premium (worth $19.99)</li> <li><strong>100 codes:</strong> 1 month Premium (worth $9.99)</li> <li>All current features included</li> <li>Priority support</li> <li>Family profiles (up to 6 members)</li> </ul> <p>📲 <strong>App Store Link:</strong> <a href=\"https://apps.apple.com/app/id6749812045\">https://apps.apple.com/app/id6749812045</a></p> <p>⚡ <strong>How to Get Your Code:</strong> Send me a DM saying <strong>&quot;UV Guardian Premium Code Please&quot;</strong> First 300 people get a code! (distributed randomly)</p> <p>⏰ <strong>HURRY!</strong> Only 300 codes available. Once they're gone, they're gone!</p> <p>💬 <strong>UPDATE:</strong> Will respond to DMs within 1-2 hours. Check your messages!</p> <p><strong>P.S.</strong> If you love the app, a quick App Store review would mean the world to me as an indie developer! 🚀</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Repulsive_Care_390\"> /u/Repulsive_Care_390 </a> <br /> <span><a href=\"https://apps.apple.com/app/id6749812045\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mru9ld/giving_away_300_premium_codes_for_my_uv_tracking/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is giving away premium codes to celebrate the launch of their app and asking for reviews, indicating they want to improve their app's visibility."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Any suggestions on copacking?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mu89tg/any_suggestions_on_copacking/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m building a coffee syrup brand with single-serve stick packs. Flavors are testing well, but I’m struggling to find a co-packer.</p> <p>Most places I’ve reached out to either don’t handle liquids, aren’t set up for small stick packs, or require MOQs that are too high for me at the moment.</p> <p>Anyone have advice, connections, or recommendations for facilities that can handle liquid single-serve products or how to go about finding a copacker?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rzp424\"> /u/rzp424 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mu89tg/any_suggestions_on_copacking/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mu89tg/any_suggestions_on_copacking/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "pain",
+      "reason": "Business pain point related to finding a co-packer for liquid single-serve products"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Preferred financial spreadsheets",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mu5ceq/preferred_financial_spreadsheets/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I am looking to find a google sheets spreadsheet template for my companies financials and hoping to save the time (and learning) of making one. I see there are tons of templates you can purchase but want to see if I can get some recommendations before buying 10 and hating them all lol. </p> <p>Basically just have a home page with all the big picture financials, then have sheets for the jobs we do and equipment we used to track costs of jobs, as well as payments we have received. I’d assume this is basic but honestly idk. </p> <p>We are a solar company, so we’d like to be able to track a lot of different equiptment separately (same sized job can have way different equiptment requirements), and be able to see profit margin, and all that other stuff. </p> <p>If anyone has some recommendations on ones they have purchased, or if it’d actually better to bit the bullet and make it myself, I’d greatly appreciate it! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Real_Eagle_1408\"> /u/Real_Eagle_1408 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mu5ceq/preferred_financial_spreadsheets/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mu5ceq/preferred_financial_spreadsheets/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is looking for a template or recommendations to improve their current financial spreadsheet process"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   }
 ]

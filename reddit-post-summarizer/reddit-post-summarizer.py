@@ -48,7 +48,7 @@ Post content:
 Only output valid JSON.
 """
 
-COMMENTS_PROMPT = """You are an assistant. The following are comments from a Reddit post. Decide whether any comment provides a clear, actionable software solution suggestion (one that could be implemented as a SaaS or tool).
+COMMENTS_PROMPT = """You are an assistant. The following are comments from a Reddit post. Decide whether any comment provides a clear, actionable software solution that answers the original poster's question or pain point.
 Answer in JSON exactly: {{"found": true|false, "example": "<short example or empty>"}}
 Comments:
 ---
@@ -80,21 +80,70 @@ def classify_post_text(text: str) -> Dict:
 def comments_have_solution(comments: List[str]) -> Dict:
     joined = "\n\n".join(comments)[:20000]  # keep prompt size reasonable
     prompt = COMMENTS_PROMPT.format(comments=joined)
-    return call_ollama(prompt)
+    resp = call_ollama(prompt)
+    # try to parse JSON from response (best-effort)
+    try:
+        return json.loads(resp)
+    except Exception:
+        # naive extraction: look for braces
+        start = resp.find("{")
+        end = resp.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            try:
+                return json.loads(resp[start:end+1])
+            except Exception:
+                pass
+        # fallback: no match
+        return {"found": False, "example": "could not parse LLM response"}
 
 
-def fetch_feed(url: str, timeout: int = 10):
-    resp = requests.get(url)
-    resp.raise_for_status()
-
-    xml = feedparser.parse(resp.content)
-    print(xml)
-    return xml
+def fetch_feed(url: str, timeout: int = 10, max_retries: int = 5):
+    headers = {
+        "User-Agent": "reddit-post-summarizer/0.1 (by /u/yourusername)"
+    }
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            # If reddit returns Too Many Requests, wait 60s and retry
+            if resp.status_code == 429:
+                wait = 60
+                print(
+                    f"Received 429 for {url}. Waiting {wait} seconds before retry {attempt}/{max_retries}...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            xml = feedparser.parse(resp.content)
+            return xml
+        except requests.exceptions.HTTPError as e:
+            status = getattr(e.response, "status_code", None)
+            # For server errors, do an exponential backoff and retry
+            if status and 500 <= status < 600 and attempt < max_retries:
+                wait = 2 ** attempt
+                print(
+                    f"Server error {status} for {url}. Waiting {wait}s and retrying ({attempt}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            # Otherwise re-raise the HTTP error
+            raise
+        except requests.exceptions.RequestException as e:
+            # Network-level errors: retry with exponential backoff
+            if attempt < max_retries:
+                wait = 2 ** attempt
+                print(
+                    f"Request failed ({e}). Waiting {wait}s and retrying ({attempt}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            raise
+    # If we exhaust retries, raise a clear error
+    raise requests.exceptions.HTTPError(
+        f"Failed to fetch {url} after {max_retries} attempts")
 
 
 def main():
     results = []
     candidates = []
+    # candidates = json.load(
+    #     open("reddit_saas_candidates.json", "r", encoding="utf-8"))
 
     for feed_url in subreddits:
         print("Fetching", feed_url)
@@ -117,41 +166,60 @@ def main():
                     "content": content,
                     "classification": classification,
                 })
-    with open("reddit_saas_candidates.json", "w", encoding="utf-8") as f:
-        json.dump(candidates, f, indent=2, ensure_ascii=False)
-    # # For each candidate, fetch comments by adding .rss to the post link and scanning comments
-    # final_list = []
-    # for c in candidates:
-    #     link = c["link"].rstrip("/")
-    #     comments_rss = link + ".rss"
-    #     print("Checking comments for", c["title"], comments_rss)
-    #     feed = fetch_feed(comments_rss)
-    #     comments = []
-    #     if feed and getattr(feed, "entries", None):
-    #         for e in feed.entries:
-    #             # skip the submission itself if present
-    #             if getattr(e, "link", "") == c["link"]:
-    #                 continue
-    #             comments.append(extract_entry_text(e))
-    #     analysis = comments_have_solution(comments)
-    #     if not analysis.get("found"):
-    #         final_list.append({
-    #             "title": c["title"],
-    #             "link": c["link"],
-    #             "classification": c["classification"],
-    #             "comments_checked": len(comments),
-    #             "comment_analysis": analysis,
-    #         })
-    #     time.sleep(0.5)
+    # with open("reddit_saas_candidates.json", "w", encoding="utf-8") as f:
+    #     json.dump(candidates, f, indent=2, ensure_ascii=False)
+    # For each candidate, fetch comments by adding .rss to the post link and scanning comments
+    final_list = []
+    for c in candidates:
+        link = c["link"]
+        comments_rss = link + ".rss"
+        print("Checking comments for", c["title"], comments_rss)
+        feed = fetch_feed(comments_rss)
+        comments = []
 
-    # out_path = "reddit_saas_candidates.json"
-    # with open(out_path, "w", encoding="utf-8") as f:
-    #     json.dump(final_list, f, indent=2, ensure_ascii=False)
+        if feed and getattr(feed, "entries", None):
+            for e in feed.entries:
+                # skip the submission itself if present
+                if getattr(e, "link", "") == c["link"]:
+                    continue
 
-    # print(f"Done. {len(final_list)} items saved to {out_path}")
-    # # minimal output
-    # for i, item in enumerate(final_list, 1):
-    #     print(i, item["title"], item["link"])
+                comment_content = getattr(e, "content", "")
+                if isinstance(comment_content, list):
+                    comment_content = comment_content[0].get("value", "")
+                comments.append(comment_content)
+
+        print(comments)
+        if len(comments) == 0:
+            print("No comments found for", c["title"])
+            final_list.append({
+                "title": c["title"],
+                "link": c["link"],
+                "content": c["content"],
+                "classification": c["classification"],
+                "comments_checked": len(comments),
+            })
+            continue
+
+        analysis = comments_have_solution(comments)
+        if not analysis.get("found"):
+            final_list.append({
+                "title": c["title"],
+                "link": c["link"],
+                "content": c["content"],
+                "classification": c["classification"],
+                "comments_checked": len(comments),
+                "comment_analysis": analysis,
+            })
+        time.sleep(0.5)
+
+    out_path = "reddit_saas_candidates.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(final_list, f, indent=2, ensure_ascii=False)
+
+    print(f"Done. {len(final_list)} items saved to {out_path}")
+    # minimal output
+    for i, item in enumerate(final_list, 1):
+        print(i, item["title"], item["link"])
 
 
 if __name__ == "__main__":
