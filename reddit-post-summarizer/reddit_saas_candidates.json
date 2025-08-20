@@ -13,9 +13,13 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for a specific software feature to improve their current workflow."
+      "reason": "seeking a software recommendation for improvement on an existing one"
     },
-    "comments_checked": 0
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
   },
   {
     "title": "ITunes equivalent for pc/andoid",
@@ -31,7 +35,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is looking for an alternative to existing software"
+      "reason": "seeking an alternative to existing music management software"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -53,7 +57,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for an improved solution to their current Bluetooth setup in the car"
+      "reason": "asking for an improved solution compared to existing Bluetooth FM transmitter devices"
     },
     "comments_checked": 2,
     "comment_analysis": {
@@ -75,7 +79,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for an improved version of a plug-in timer switch with specific features and design preferences."
+      "reason": "user is looking for an improved version of a product they like but have issues with"
     },
     "comments_checked": 3,
     "comment_analysis": {
@@ -97,7 +101,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is looking for an alternative or improved version of a specific website"
+      "reason": "seeking a website recommendation for collaboration on music projects"
     },
     "comments_checked": 0
   },
@@ -115,22 +119,11 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for a specific feature in existing tracking systems and is open to alternatives."
+      "reason": "seeking an existing solution with a specific feature improvement"
     },
     "comments_checked": 31,
     "comment_analysis": {
-      "result": {
-        "found": [
-          "Prox PRD",
-          "Tile system",
-          "Find my iPhone system"
-        ],
-        "solution": [
-          "Pair Prox PRD with phone and set distance threshold",
-          "Use Tile system to track phone location",
-          "Integrate Find my iPhone system with wallet or keychain"
-        ]
-      }
+      "result": "<a href=\"https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J\">Prox PRD</a>, <a href=\"https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J\">Home Assistant and ESP32s as Bluetooth transponders, Tile system, Find My iPhone system with wallet integrations</a>"
     }
   },
   {
@@ -147,7 +140,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for a simpler solution to track food calories and consumption, suggesting an improvement over their current method."
+      "reason": "seeking a simpler solution to an existing problem with a standard kitchen scale"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -169,7 +162,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The post is asking for an improved software/tool compared to what they use."
+      "reason": "asking for an improved software/tool compared to what they use"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -191,7 +184,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is looking for a specific type of software or tool to improve their experience"
+      "reason": "seeking a high-quality desktop wallpaper site without AI or poor image scaling"
     },
     "comments_checked": 9,
     "comment_analysis": {
@@ -213,7 +206,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "looking for an app to replace functionality of existing tool"
+      "reason": "seeking an alternative to replace lyrics/vocals on popular songs"
     },
     "comments_checked": 0
   },
@@ -231,7 +224,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "The user is looking for a specific feature (live panel Q&A translation) in an existing app or tool."
+      "reason": "The poster is looking for an improved software/tool to translate live panel Q&A in Japanese."
     },
     "comments_checked": 0
   },
@@ -433,6 +426,608 @@
     "comment_analysis": {
       "found": false,
       "example": ""
+    }
+  },
+  {
+    "title": "Real-time Mortage Countdown App",
+    "link": "https://www.reddit.com/r/apps/comments/1muo2lj/realtime_mortage_countdown_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>A friend of mine is an avid iPhone user and due to being both deaf and blind, cannot always access the store to search for apps the way I can. I, however, am a die hard Samsung user as my apple ID has been locked out since moses as in Egypt. But I figured y'all seem smart so maybe you can help me find something. </p> <p>She is looking for an app that will allow you to input you original mortage amount, the interest, the min monthly payment, the remaining amount, and then what you actually pay and it will countdown to your final payment. So like if I put $300k was my original, and I have a 6% APR, I have $173k a $1500 a month payment, and I pay $2000 instead, you will have your mortage paid off by April 2036. All these numbers and figures are made up, obviously, so...</p> <p>She can't find something like that and in looking in the play store, nothing seems right either. Does anyone know of anything that does that? She'd also like for the chance to change the figure every once in a while. Like &quot;Oh, you paid $50 more this month? You now shaved xyz time off your mortage.&quot; Even the option to 'What if' it too. Like &quot;What if I paid $50 more for the next year? Oh, that'd save you 2 months and your mortage would be paid off by 123 of 2036 insead.&quot;</p> <p>I have access to an iPad if I need to download and verify, but it's my son's and he hates letting others use it (wonky screen). But if I can get enough ideas, I'm sure letting me use it for a bulk and then not need to bug him again can be arranged.</p> <p>I also have <em>some</em> coding ability so making one might be an option. </p> <p>Thoughts? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eGrant03\"> /u/eGrant03 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1muo2lj/realtime_mortage_countdown_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muo2lj/realtime_mortage_countdown_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for improvement on an existing app or tool"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I’m looking for an app that allows me to geo-tag and timestamp my photos and videos directly from my camera roll (IOS & Android)",
+    "link": "https://www.reddit.com/r/apps/comments/1mubjut/im_looking_for_an_app_that_allows_me_to_geotag/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>It doesn’t really have to be an app. It could be a website, software, etc. I prefer stuff that is open source too for privacy reasons.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Livid_Split3589\"> /u/Livid_Split3589 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mubjut/im_looking_for_an_app_that_allows_me_to_geotag/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mubjut/im_looking_for_an_app_that_allows_me_to_geotag/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking an app improvement for existing functionality"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Android TTS app with rich voice library and an API",
+    "link": "https://www.reddit.com/r/apps/comments/1mtrn2p/android_tts_app_with_rich_voice_library_and_an_api/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>Would appreciate any recommendations for an app that meets these fairly tight specifications. </p> <p>I have always wanted to be able to store some of the AI runs that I do in a place that I can access at my own leisure and retain for later - splitting up the prompting and running and reading processes into separate elements. </p> <p>I've managed to build out some nice workflows in N8N for doing precisely this: For capturing prompts with voice I use Voice Notes; run that into an agent and then &quot;put&quot; it in places (a database for posterity, email (for some), and a notebook).</p> <p>As much as I enjoy reading some outputs however I also would like to be able to listen to them using TTS,</p> <p>What I'm looking for therefore is an app that meets these criteria for Android:</p> <p>- You can create notes or save text programmatically, hence the API endpoint that I can integrate into my n8n workflows</p> <p>- On-device TTS with a good variety of natural sounding voices </p> <p>- The ability to play through your saved notes in chronological order and in a seamless process that would emulate a podcast with automatic skipping from one saved note to the next. </p> <p>Anything that does this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/danielrosehill\"> /u/danielrosehill </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mtrn2p/android_tts_app_with_rich_voice_library_and_an_api/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mtrn2p/android_tts_app_with_rich_voice_library_and_an_api/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": true,
+      "example": "https://play.google.com/store/apps/details?id=com.tuapp.aivoicecloner"
+    }
+  },
+  {
+    "title": "Novo Banking is not a safe place for your small business funds!",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1muvmwg/novo_banking_is_not_a_safe_place_for_your_small/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>All of my small business deposits have gone through Novo until my account was hacked 3 weeks ago. They bypassed multi factor authentication and came in as an untrusted device. $2500 of fraudulent transactions were taken from my account, leaving me with zero dollars. I changed my email address (which is also the username) and the password too. They managed to login again and change the email address! The security features on Novo suck immensely! There is no way to view or kick out suspicious devices like you can with other banks. Also the username is your email address, which is public information, easy to find out. If you call the fraud department they authenticate you by asking very simple questions like your name, email and business name. No security questions, pins or one time passwords. Way too easy to bypass security messages by simply calling. I didn’t get hacked or phished so I do not know how else they gained access other than using Novo’s lax security. I got my money back but seeing as they are not a bank technically, I consider myself fortunate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/filmbuff1971\"> /u/filmbuff1971 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1muvmwg/novo_banking_is_not_a_safe_place_for_your_small/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1muvmwg/novo_banking_is_not_a_safe_place_for_your_small/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Anyone else losing business just because of reception/front desk issues?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mv361p/anyone_else_losing_business_just_because_of/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I run a small business and have been talking with a few owners lately. What surprised me: a lot of their worst reviews weren’t about the doctor at all—it was the first touch. Stuff like “great service, but nobody called me back” or “phone rang forever.” </p> <p>It made me look at my own setup and wonder how many leads I fumble just because I’m slow to reply or juggling too much. </p> <p>For those running salons/spas/contracting/clinics—how do you keep calls/messages from slipping through the cracks? Hire more staff? Rotate duties? Something else that actually works? </p> <p>I’m building software to deal with this, and I’m testing it with a few other SMBs. Happy to open it up free for a few more if anyone’s curious and is willing to give blunt feedback. Mostly curious how you’re handling it, so I don’t over-engineer the wrong thing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chavdeem\"> /u/chavdeem </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv361p/anyone_else_losing_business_just_because_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv361p/anyone_else_losing_business_just_because_of/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to improve existing business processes"
+    },
+    "comments_checked": 4,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "What are the ins and outs of having a small business that does fantasy art?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mv2t01/what_are_the_ins_and_outs_of_having_a_small/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I have my own website and I have shops that make the products and sell them, and I want to sell on my own website, but I’m at a loss? </p> <p>No matter how much research I put into this, I feel like I can only understand the creative process and not the actual business process</p> <p>I know about conventions and art markets but haven’t been apart of any out of fear that my art doesn’t match the right vibes? I work with various mediums in traditional art, as well as digital art. Conventions usually have digital art (mostly fanart — which I have some, just not as much as my original art), whereas art markets have usually consisted of ceramics, clothing, and jewelry. </p> <p>I’d also like to be able to occasionally have more control over selling my art through my website/Ko-fi/Etsy because I think it’s nice whenever I receive art from other artists who include thank you notes and small freebies and business cards. But, I don’t really understand shipping and packaging, or sales tax, and even less when it comes to international delivery </p> <p>I’ve only made a handful of sales over the past few years, and social media became a detriment to my health and I’d prefer to not go back, not unless I feel confident that it won’t put me in a bad place again. But without that, there’s not much marketing I can do unless they’re in person</p> <p>That said, I have no clue how small business Anything works. </p> <p>When should I register as a small business? </p> <p>How do small business taxes work? </p> <p>What requirements do I need to meet? </p> <p>Should I be making a specific amount of revenue each month, or each year? </p> <p>Are there benefits to register as a small business if I don’t really make much sales? Or would it be better to hold off until I get more sales? Or am I required to have my small business registered before attending in-person events?</p> <p>What other paperwork should I expect?</p> <p>How do you motivate yourself to work on your small business when you already don’t have any money outside of survival money? </p> <p>I know I’m at the part where I just take the jump but I’m scared that I’ll end up losing more money than I can gain and I’m not in a position where I can risk that</p> <p>I’m sure there’s more questions that I’m missing, but I would highly appreciate anything and everything that can help me understand any/all of this better</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Accomplished-Lab4412\"> /u/Accomplished-Lab4412 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv2t01/what_are_the_ins_and_outs_of_having_a_small/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv2t01/what_are_the_ins_and_outs_of_having_a_small/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for guidance on improving existing business processes and understanding of small business operations"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Bank Account Balancing Apps",
+    "link": "https://www.reddit.com/r/apps/comments/1mux4qu/bank_account_balancing_apps/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi all. I’ll make this short. I recently upgraded my iPhone. For years, I was using an app called Vault to keep track of my expenses and income. The app is no longer available on my upgraded phone. I liked the simplicity of the app, the fact that you could easily edit your balance, and it even had a calendar that would display your balance just before payday. It was really easy for me to look at and see when I could be frivolous. Just curious if anyone has recommendations for something similar. For reference, I uploaded a screen shot of the app that I was using. Thanks again </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nattyrod13\"> /u/nattyrod13 </a> <br /> <span><a href=\"https://i.redd.it/gkg63d2vx1kf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mux4qu/bank_account_balancing_apps/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Hire my first employee?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mv2hmt/hire_my_first_employee/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi. I have a boutique Pilates studio in brooklyn that’s been open for 3 years. It’s a 50/50 LLC with my business partner and until this point we’ve mostly just been seeing our own private clients in the space. We’re both caretakers (I have two kids &amp; she is taking care of her ailing mother) and are each only available 3 days out of the week and almost completely booked up. We have a few renters that utilize the space but for the most part the space (which is beautiful) is underutilized. One of our current renters wants to start seeing 8-10 clients a week and I can’t decide wether it would be in my best interest to keep her as a renter at $30 an hour and have her bring her own people or hire her as an independent contractor and have her schedule open in our books. Is it complicated to have an independent contractor? What do I need to be aware of? I’m not quite sure what she’s charging her clients now and what she takes home after paying me the rental fee. I want to offer a good rate and also want to grow my business. I think a lot about people looking for availability on our website only to find me and my partner’s very limited schedule. I want more people in the door and want the space to be used but am nervous about taking this plunge. Also, my partner isn’t really into the idea because she thinks it’ll be too much work. Help please!!!!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lesleyg11\"> /u/Lesleyg11 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv2hmt/hire_my_first_employee/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv2hmt/hire_my_first_employee/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking advice on how to improve business operations and hire first employee"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Alarm clock with separate off button and no snooze",
+    "link": "https://www.reddit.com/r/Doesthisexist/comments/1mmb9oi/alarm_clock_with_separate_off_button_and_no_snooze/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I have a really hard time waking up, like will turn off the alarm in my sleep, wake up exhausted, tried every app hard. Does anything like the title exist? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unhappy_Reality_2695\"> /u/Unhappy_Reality_2695 </a> <br /> <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mmb9oi/alarm_clock_with_separate_off_button_and_no_snooze/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Doesthisexist/comments/1mmb9oi/alarm_clock_with_separate_off_button_and_no_snooze/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 4,
+    "comment_analysis": {
+      "found": true,
+      "example": "<ul><li>you have to solve math problems (you can choose difficulty)</li> <li>you must type into the input field the letters shown by the app</li> <li>you must shake your phone</li> <li>you must press power button</li> <li>you must press the volume up or down button</li> <li>tap a button on the screen</li></ul>"
+    }
+  },
+  {
+    "title": "Been cooking up something simple but meaningful",
+    "link": "https://www.reddit.com/r/apps/comments/1mv1tvk/been_cooking_up_something_simple_but_meaningful/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I recently built <strong>Habstick</strong> — a very minimal habit tracker. The idea was simple: most habit apps today feel like social media platforms. Too many ads, logins, data collection, leaderboards, and endless distractions.</p> <p>I just wanted a <strong>clean space to track habits and stay consistent</strong> — without giving away my privacy. So Habstick doesn’t need logins, doesn’t show ads, and doesn’t track your data.</p> <p>Google Play Link : <a href=\"https://play.google.com/store/apps/details?id=com.habit.habstick\">https://play.google.com/store/apps/details?id=com.habit.habstick</a><br /> Medium post about the journey : <a href=\"https://medium.com/@rishad2002/why-i-built-habstick-a-simple-habit-tracker-that-respects-your-privacy-72c1ef545e1a\">https://medium.com/@rishad2002/why-i-built-habstick-a-simple-habit-tracker-that-respects-your-privacy-72c1ef545e1a</a></p> <p>Would love some honest feedback from people here. If you’ve ever felt like habit apps were more about engagement metrics than actually helping you improve, this might resonate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rishad2002\"> /u/Rishad2002 </a> <br /> <span><a href=\"https://i.redd.it/lmmexzf4y2kf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv1tvk/been_cooking_up_something_simple_but_meaningful/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for feedback on an existing app"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "[Lifetime $9.99 -> $1.99] I built an app that counts basic workouts and has a Pomodoro timer",
+    "link": "https://www.reddit.com/r/apps/comments/1mv3mmk/lifetime_999_199_i_built_an_app_that_counts_basic/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I built this app to solve my own problems — being overweight and struggling with focus. It combines a Pomodoro timer with a counter for basic workouts. A special twist is that if you leave the app while the Pomodoro is running, you’ll face an exercise penalty when you come back.</p> <p>I decided to lower the lifetime plan price for a short time so more people can try it out.</p> <p>Hopefully, it can help solve your problems too.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Praline1660\"> /u/Ok-Praline1660 </a> <br /> <span><a href=\"https://i.redd.it/zwlk2f9mc3kf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv3mmk/lifetime_999_199_i_built_an_app_that_counts_basic/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a price reduction to make the app more accessible"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Could you recommend apps to make a quick 10-25 dollars",
+    "link": "https://www.reddit.com/r/apps/comments/1muzogn/could_you_recommend_apps_to_make_a_quick_1025/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Embarrassed_Cap2553\"> /u/Embarrassed_Cap2553 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1muzogn/could_you_recommend_apps_to_make_a_quick_1025/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muzogn/could_you_recommend_apps_to_make_a_quick_1025/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to make money quickly"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "for all app owners (ios & android)",
+    "link": "https://www.reddit.com/r/apps/comments/1mulu92/for_all_app_owners_ios_android/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey (;</p> <p>Built a tool for small and medium app teams who don’t have time &amp; budget for ASO.</p> <p>You just paste your App Store or Google Play URL and it instantly gives you clear improvements for your keywords, titles, screenshots, and more. No need to spend 20+ hours researching ASO and playing with keywords.</p> <p>So far results have been insane with 3 beta tester apps (both on android &amp; ios). Need to fix a few things, once it's done I'm launching it to the public.</p> <p>Sign up here:</p> <p><a href=\"https://forms.gle/DgezmSzQ3qfe68SP9\">https://forms.gle/DgezmSzQ3qfe68SP9</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/appixir\"> /u/appixir </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mulu92\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mulu92/for_all_app_owners_ios_android/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking improvement on an existing ASO tool"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Would anyone be interested in a Bump/Find My Friends app where you can also talk to them walkie talkie style (like Ten Ten). I was thinking of building one for a fun project",
+    "link": "https://www.reddit.com/r/apps/comments/1muslhe/would_anyone_be_interested_in_a_bumpfind_my/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/reccehour\"> /u/reccehour </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1muslhe/would_anyone_be_interested_in_a_bumpfind_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muslhe/would_anyone_be_interested_in_a_bumpfind_my/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a new app idea"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "[Android] I built an HD compression and video auto-split app - offering three months free",
+    "link": "https://www.reddit.com/r/apps/comments/1muipy1/android_i_built_an_hd_compression_and_video/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://preview.redd.it/wd1f2akbjzjf1.jpg?width=4746&amp;format=pjpg&amp;auto=webp&amp;s=7408c8b4853217f54b35fcd25010a1e468adb736\">Some new features in the app</a></p> <p>Hi everyone. </p> <p>I’m an indie Android developer, and I built <strong>All Status Saver</strong>, an easy-to-use app for HD compression and auto video splitting.</p> <p>If that sounds useful, I’d love for you to try it. I’m offering <strong>3 months of Pro for free</strong> (normally $2.97/month).</p> <p><strong>How to redeem</strong></p> <ol> <li>Download the app: 👉 <a href=\"https://play.google.com/store/apps/details?id=downloadstatussaver.saver.storydownloader.savewhatsappstory.whatsapp_story\">https://play.google.com/store/apps/details?id=downloadstatussaver.saver.storydownloader.savewhatsappstory.whatsapp_story</a></li> <li>Promo codes:👉 UAYJNHSHS1LGVPZMU9Z1LWD | 68DQE0G4A4HH0PE7S89EJL5 | PM2EUW538YU8NMRQ4YLKMD6 | ZKBDL4V7P9D36PP0ZBN9E0H</li> <li>If the above promo codes have all been redeemed, kindly let me know. </li> </ol> <p>A short review would mean a lot. I’m happy to answer questions or walk through features.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Heavy-Imagination102\"> /u/Heavy-Imagination102 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1muipy1/android_i_built_an_hd_compression_and_video/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muipy1/android_i_built_an_hd_compression_and_video/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Hello there, neck pain warriors! CTRL-Neck App Is Released!",
+    "link": "https://www.reddit.com/r/apps/comments/1mumfcc/hello_there_neck_pain_warriors_ctrlneck_app_is/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi! Just dropped Ctrl+Neck - a simple tracker for desk workers dealing with neck pain from too much screen time.</p> <p>4 recovery phases, daily exercises, posture reminders with personality (sarcastic, funny, chill, motivational). 100% offline because your neck shouldn't need WiFi to feel better.</p> <p>I've built it for developers, designers, gamers - anyone who knows the &quot;why does my neck hurt&quot; struggle. Personally, I'm doing some of those exercises regularly, because my neck is in pain. Feeling better.</p> <p>I'll update app with more features and bugfixes, as my tracker apps are finished I think. It is a fresh release, so, need to work on it. So, stay tuned for updates / fixes!</p> <p>iOS: <a href=\"https://apps.apple.com/us/app/ctrl-neck-fix-neck-pain/id6748936785\">https://apps.apple.com/us/app/ctrl-neck-fix-neck-pain/id6748936785</a><br /> Android: <a href=\"https://play.google.com/store/apps/details?id=com.trifoiltrailblazer.ctrl_neck\">https://play.google.com/store/apps/details?id=com.trifoiltrailblazer.ctrl_neck</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JEulerius\"> /u/JEulerius </a> <br /> <span><a href=\"https://i.redd.it/97oaq46d00kf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mumfcc/hello_there_neck_pain_warriors_ctrlneck_app_is/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for updates and bugfixes on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "app",
+    "link": "https://www.reddit.com/r/apps/comments/1mum6o8/app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Can you recommend a earning app that really pay a money. App that can pay in just one week just badly need it for my fur baby medicine.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Medical-Jackfruit61\"> /u/Medical-Jackfruit61 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mum6o8/app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mum6o8/app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to improve existing earning app experience"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "earning app",
+    "link": "https://www.reddit.com/r/apps/comments/1mum4w6/earning_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Can you recommend a earning app that really pay a money. App that can pay in just one week just badly need it for my fur baby medicine.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Medical-Jackfruit61\"> /u/Medical-Jackfruit61 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mum4w6/earning_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mum4w6/earning_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to improve an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Ultimate App for Making Beautiful Screenshots & Device Mockups",
+    "link": "https://www.reddit.com/r/apps/comments/1muix8i/ultimate_app_for_making_beautiful_screenshots/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I made an app that makes it incredibly easy to create stunning mockups and screenshots - perfect for showing off your app, website, product designs, or social media posts.</p> <p>✨ <strong>Features</strong></p> <ul> <li><strong>Website Screenshots:</strong> Instantly grab a screenshot by entering any URL.</li> <li><strong>30+ Mockup Devices &amp; Browser Frames:</strong> Showcase your website/app on phones, tablets, laptops, desktop browsers, and more.</li> <li><strong>Fully Customizable:</strong> Change backgrounds, add overlay shadows, tweak layouts, apply 3D transforms, use multi-image templates, and a ton more.</li> <li><strong>Annotation Tool:</strong> Add text, stickers, arrows, highlights, steps, and other markup.</li> <li><strong>Social Media Screenshots:</strong> Capture and style posts from X - great for testimonials.</li> <li><strong>Chrome Extension:</strong> Snap selected areas, specific elements, or full-page screenshots right from your browser.</li> </ul> <p><strong>Try it out:</strong> Editor: <a href=\"https://postspark.app/\">https://postspark.app</a><br /> Extension: <a href=\"https://chromewebstore.google.com/detail/postspark-create-nice-scr/glpanohoedaffcnogfenhacnofnlggfc\">Chrome Web Store</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/world1dan\"> /u/world1dan </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1muix8i\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muix8i/ultimate_app_for_making_beautiful_screenshots/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Intersta - Community based App",
+    "link": "https://www.reddit.com/r/apps/comments/1muinlk/intersta_community_based_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’ve built a social media app that connects people who share similar interests through social clubs.</p> <p>Im testing the app and currently only on iOS Let me know what you think of the experience </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GhassanJaber\"> /u/GhassanJaber </a> <br /> <span><a href=\"https://apps.apple.com/app/id6748322551\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1muinlk/intersta_community_based_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback on an existing app"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I made the Duolingo of Travelling! Its called Travy. [$89.99 to FREE Lifetime for 48H]",
+    "link": "https://www.reddit.com/r/apps/comments/1mue1iu/i_made_the_duolingo_of_travelling_its_called/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><strong>About Travy:</strong></p> <p>Just launched <strong>Travy,</strong> a one-of-a-kind travel app that instantly creates detailed itineraries based on your time frame and budget. Whether you want the cheapest option or a luxury experience, Travy finds flights, hotels, restaurants, car rentals, events, and more.</p> <p>Go through the paywall at the end, select the subscription, and it will show as <strong>$0</strong> for the next 48 hours. Lock in lifetime access while it’s free.</p> <p><strong>Looking for feedback 🙌</strong></p> <ul> <li>Any feedback on <strong>app usability, design, or anything that doesn’t feel quite right</strong>.</li> <li>Suggestions for <strong>new features or improvements</strong>.</li> <li>General thoughts on your <strong>experience using the app</strong>.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Truffleboi25\"> /u/Truffleboi25 </a> <br /> <span><a href=\"https://apps.apple.com/us/app/travy-plan-trips-itinerary/id6748553357\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mue1iu/i_made_the_duolingo_of_travelling_its_called/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking feedback and suggestions for new features or improvements on an existing app"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Special Free trial for MealSnap – AI-powered food logging app",
+    "link": "https://www.reddit.com/r/apps/comments/1mucobh/special_free_trial_for_mealsnap_aipowered_food/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/phenrys\"> /u/phenrys </a> <br /> <span><a href=\"https://apps.apple.com/app/mealsnap-ai-food-log-tracker/id6475162854\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mucobh/special_free_trial_for_mealsnap_aipowered_food/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "requesting a free trial and feedback on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Announcing the release of Presently. It is completely free to use.",
+    "link": "https://www.reddit.com/r/apps/comments/1mu3bqy/announcing_the_release_of_presently_it_is/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Build a compelling on‑screen experience by combining your media, timed segments, and music—then project it to an external display with beautifully scaled typography and smooth transitions.Bring order and energy to any session: welcome your audience, run slideshows, keep segments on time, and set the vibe with Apple Music—directly from your iPhone or iPad. (Download here)[<a href=\"https://apps.apple.com/app/id6748536230%5C\">https://apps.apple.com/app/id6748536230\\</a>]</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KarrySodhi007\"> /u/KarrySodhi007 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mu3bqy/announcing_the_release_of_presently_it_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mu3bqy/announcing_the_release_of_presently_it_is/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I almost bought a one-way ticket back to Europe… then something wild happened in SF",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mud0mi/i_almost_bought_a_oneway_ticket_back_to_europe/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>When I was 25 I moved to San Francisco with 2 friends to build a startup.</p> <p>We had no money, no network, no nothing. At one point we were literally sleeping on the floor of a co-working space and waking up before the cleaning staff came in. (Yes… kinda shameful, but also kinda funny looking back).</p> <p>Our tiny accelerator gave us 50k. We stretched it for a year. At the end there was only $2k left in the company account. My cofounder and I met with our mentor and told him: “that’s it, we’re done.”</p> <p>He looked at us and said: “2k is enough for 2 plane tickets back to Europe. Or it’s enough to do something bold. Up to you.”</p> <p>I was 99% sure I was going home.</p> <p>The next day, out of nowhere, a top VC partner tweeted she was looking for “the TikTok of jobs.” That was exactly what we were building.</p> <p>Through a random intro, we got a meeting with her.</p> <p>We went to their office (first time in my life sitting across from people whose names I’d only seen in TechCrunch).</p> <p>The meeting went “meh.” No big fireworks. She gave us a copy of Ben Horowitz’s book and said the classic “we’ll be in touch.”</p> <p>Two days later I’m in an elevator and another VC casually says: “Congrats guys, heard the news.”</p> <p>I’m like… what news??</p> <p>He smiles: “you’ll see, check your email.”</p> <p>Turns out the big fund had scheduled us for a full partner meeting. Ten partners around the table. We even crossed paths with Marc Andreessen and Ben Horowitz in the hallway.</p> <p>We pitched. Crickets. Almost no questions.</p> <p>Next day: rejection.</p> <p>But here’s the wild thing: apparently when a huge fund like that meets a tiny unknown startup, every other VC in town finds out instantly.</p> <p>Even though we got a “no,” it created a FOMO wave. Suddenly doors opened everywhere. Within 6 months we raised $1.5M, and a bit later another $6M.</p> <p>Lesson: never give up until the very last minute. The “no” that crushes you today can be the domino that makes others say yes tomorrow.</p> <p>That experience bought me a few extra years in SF until COVID hit and I moved to NY.</p> <p>Fast forward to today: I’m building again. Different space this time. We help businesses get organic traffic for free and rank high on LLMs (think ChatGPT answers).</p> <p>It’s self-serve, B2B, and somehow in less than a year more than 1,000 companies are already using it. Multi-millions in revenue, growing crazy fast.</p> <p>Funny enough, I can now email those same VCs directly, and the convo is completely different. They don’t invest in tools like this anymore (“no defensible moat,” “distribution &gt; product,” etc.). Which I actually kinda agree with… but still ironic after everything.</p> <p>Anyway, just wanted to share because 25-year-old me almost gave up with $2k left and a plane ticket home.</p> <p>Sometimes the biggest turning point comes the day after you think it’s over.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tiln7\"> /u/tiln7 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mud0mi/i_almost_bought_a_oneway_ticket_back_to_europe/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mud0mi/i_almost_bought_a_oneway_ticket_back_to_europe/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for a software solution to help businesses get organic traffic and rank high on LLMs, improving upon the experience of the author's startup."
+    },
+    "comments_checked": 34,
+    "comment_analysis": {
+      "comments": [
+        {
+          "author": "username1",
+          "text": "These posts aren't about advice, it's about promoting their current business."
+        },
+        {
+          "author": "username2",
+          "text": "If you're not willing to share details publicly, this story is just more noise."
+        },
+        {
+          "author": "username3",
+          "text": "Obviously the key question is what the outcome of this business was?"
+        },
+        {
+          "author": "username4",
+          "text": "Uh, you went from last $2k to six months later with a check. That diligence period is about right but either you shut down in the interim or you begged, borrowed, cheated for more money? Not sure bridge debt would've gotten you there if you were on your last week and at the very start of other meetings (not even diligence). So, which is it?"
+        },
+        {
+          "author": "username5",
+          "text": "Yup, small businesses are CONSTANTLY pitching VCs. It's clear you know your audience."
+        },
+        {
+          "author": "username6",
+          "text": "I think you confused Reddit with LinkedIn."
+        },
+        {
+          "author": "username7",
+          "text": "😂"
+        },
+        {
+          "author": "username8",
+          "text": "Ahahaha reading this is so funny, i have slept on the floor for the last 2 weeks, and had to wake up at 6 a clock not because i am an early person but because the cleaning lady came. Feel you"
+        },
+        {
+          "author": "username9",
+          "text": "it will all pay off!"
+        },
+        {
+          "author": "username10",
+          "text": "How do these accelerators find out about your startup? What did you have for them to invest 50k?"
+        },
+        {
+          "author": "username11",
+          "text": "I have a buddy who does this as a hobby/job. Knows all the big VCs."
+        },
+        {
+          "author": "username12",
+          "text": "He has built a ton of stuff, maybe he’s on his 10th pivot, it’s hard to know which of those things he built were actually successful."
+        },
+        {
+          "author": "username13",
+          "text": "For anyone else out there keep in mind that you can be successful without being successful. The big boys are willing to buy you just to kill competition before it gets off the ground."
+        },
+        {
+          "author": "username14",
+          "text": "They are willing to buy you just for the idea of a single useful feature that they implement in their own software, but they just want to IP so that no one else can do it. They will throw $5m at a project that only has a one in 1000 chance of being a unicorn, because the unicorn payoff is so big."
+        },
+        {
+          "author": "username15",
+          "text": "Pretty inspiring story, how much time did it take from the first rejection to the first profitable year?"
+        },
+        {
+          "author": "username16",
+          "text": "What is your new company?"
+        },
+        {
+          "author": "username17",
+          "text": "What is the name of your current company and website?"
+        },
+        {
+          "author": "username18",
+          "text": "DMed"
+        },
+        {
+          "author": "username19",
+          "text": "I know this story is not true, because I’ve slept in quite a few Silicon Valley offices, and the cleaners always come in at around 2am. So nobody here “got up before the cleaners”!"
+        },
+        {
+          "author": "username20",
+          "text": "Are/were you in the country without authorization?"
+        },
+        {
+          "author": "username21",
+          "text": "Want to hire me?"
+        }
+      ]
+    }
+  },
+  {
+    "title": "used a website for a logo but changed it up, do i still need to purchase copyright?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1muu9wg/used_a_website_for_a_logo_but_changed_it_up_do_i/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>hi guys, recently starting up my small business. im rlly worried abt trademarks and copyrights etc.. i had a logo <a href=\"http://design.com\">design.com</a> made. i didnt purchase anything regarding to ownership, i took the general idea of the logo and changed it up on my ipad (cut out certain things, added my own) does <a href=\"http://design.com\">design.com</a> still hold ownership to it? or since ive changed things is it an own original thing? thank u! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nervous_Bat8710\"> /u/Nervous_Bat8710 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1muu9wg/used_a_website_for_a_logo_but_changed_it_up_do_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1muu9wg/used_a_website_for_a_logo_but_changed_it_up_do_i/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 16,
+    "comment_analysis": {
+      "found": [
+        {
+          "found": true,
+          "example": "<a href=\"https://www.design.com/maker/legals/termsofuse#:%7E:text=8%20Intellectual%20Property%20Rights\">Terms of Service</a> for any products like logos and graphics that you might use to generate revenue."
+        },
+        {
+          "found": true,
+          "example": "<a href=\"https://www.design.com/maker/legals/termsofuse#:%7E:text=8%20Intellectual%20Property%20Rights\">Terms of Service</a> for any products like logos and graphics that you might use to generate revenue."
+        },
+        {
+          "found": true,
+          "example": "<a href=\"https://www.design.com/maker/legals/termsofuse#:%7E:text=8%20Intellectual%20Property%20Rights\">Terms of Service</a> for any products like logos and graphics that you might use to generate revenue."
+        },
+        {
+          "found": true,
+          "example": "<a href=\"https://www.design.com/maker/legals/termsofuse#:%7E:text=8%20Intellectual%20Property%20Rights\">Terms of Service</a> for any products like logos and graphics that you might use to generate revenue."
+        }
+      ]
     }
   }
 ]

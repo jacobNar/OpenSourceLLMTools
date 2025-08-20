@@ -32,11 +32,16 @@ def call_ollama(prompt: str, max_tokens: int = 2048) -> str:
 
 
 CLASSIFY_PROMPT = """You are an assistant. Given the following Reddit post content, decide whether the post is:
-- a user asking for a Software-as-a-Service (SaaS),
-- asking for an improved software/tool compared to what they use,
+- a user asking for a recommendation for software, a website, or an app.
+- asking for an improved software/tool compared to what they use.
 - or describing a business pain point that could be solved by software.
 
-if it can be solved by software, mark match as True. If it is not related to software or tools, mark match as False.
+If the post is a request for a software, website, or app solution, whether it's for a new recommendation or an improvement on an existing one, mark "match" as True.
+
+Mark "match" as False if:
+- The post is discussing a tool, website, or app that has already been built, regardless of who created it (e.g., sharing a new app, asking for feedback on an app, promoting a product).
+- The post is not related to software, websites, or apps.
+- The post is a general discussion about a problem without explicitly seeking a software solution.
 
 Answer in strict JSON with keys:
 {{"match": true|false, "category": "saas|improve|pain|other", "reason": "<one-line reason>"}}
@@ -139,12 +144,9 @@ def fetch_feed(url: str, timeout: int = 10, max_retries: int = 5):
         f"Failed to fetch {url} after {max_retries} attempts")
 
 
-def main():
-    results = []
+def scan_subreddits(subreddits: List[str]) -> List[Dict]:
+    """Fetches and classifies posts from the specified subreddits."""
     candidates = []
-    # candidates = json.load(
-    #     open("reddit_saas_candidates.json", "r", encoding="utf-8"))
-
     for feed_url in subreddits:
         print("Fetching", feed_url)
         feed = fetch_feed(feed_url)
@@ -166,53 +168,83 @@ def main():
                     "content": content,
                     "classification": classification,
                 })
-    # with open("reddit_saas_candidates.json", "w", encoding="utf-8") as f:
-    #     json.dump(candidates, f, indent=2, ensure_ascii=False)
-    # For each candidate, fetch comments by adding .rss to the post link and scanning comments
-    final_list = []
+    return candidates
+
+
+def fetch_comments_and_analyze(candidate: Dict) -> Dict:
+    """Fetches comments for a candidate post and analyzes them for solutions."""
+    link = candidate["link"]
+    comments_rss = link + ".rss"
+    print("Checking comments for", candidate["title"], comments_rss)
+    feed = fetch_feed(comments_rss)
+    comments = []
+
+    if feed and getattr(feed, "entries", None):
+        for e in feed.entries:
+            # skip the submission itself if present
+            if getattr(e, "link", "") == candidate["link"]:
+                continue
+
+            comment_content = getattr(e, "content", "")
+            if isinstance(comment_content, list):
+                comment_content = comment_content[0].get("value", "")
+            comments.append(comment_content)
+
+    print(comments)
+    if len(comments) == 0:
+        print("No comments found for", candidate["title"])
+        return {
+            "title": candidate["title"],
+            "link": candidate["link"],
+            "content": candidate["content"],
+            "classification": candidate["classification"],
+            "comments_checked": len(comments),
+        }
+
+    analysis = comments_have_solution(comments)
+    return {
+        "title": candidate["title"],
+        "link": candidate["link"],
+        "content": candidate["content"],
+        "classification": candidate["classification"],
+        "comments_checked": len(comments),
+        "comment_analysis": analysis,
+    } if not analysis.get("found") else {
+        "title": candidate["title"],
+        "link": candidate["link"],
+        "content": candidate["content"],
+        "classification": candidate["classification"],
+        "comments_checked": len(comments),
+        "comment_analysis": analysis,
+    }
+
+
+def main():
+    out_path = "reddit_saas_candidates.json"
+    try:
+        with open(out_path, "r", encoding="utf-8") as f:
+            final_list = json.load(f)
+    except FileNotFoundError:
+        final_list = []
+
+    existing_links = {item["link"] for item in final_list}
+
+    candidates = scan_subreddits(subreddits)
+
+    # loop through candidates, analyze them and update if exists or add new one
     for c in candidates:
-        link = c["link"]
-        comments_rss = link + ".rss"
-        print("Checking comments for", c["title"], comments_rss)
-        feed = fetch_feed(comments_rss)
-        comments = []
-
-        if feed and getattr(feed, "entries", None):
-            for e in feed.entries:
-                # skip the submission itself if present
-                if getattr(e, "link", "") == c["link"]:
-                    continue
-
-                comment_content = getattr(e, "content", "")
-                if isinstance(comment_content, list):
-                    comment_content = comment_content[0].get("value", "")
-                comments.append(comment_content)
-
-        print(comments)
-        if len(comments) == 0:
-            print("No comments found for", c["title"])
-            final_list.append({
-                "title": c["title"],
-                "link": c["link"],
-                "content": c["content"],
-                "classification": c["classification"],
-                "comments_checked": len(comments),
-            })
-            continue
-
-        analysis = comments_have_solution(comments)
-        if not analysis.get("found"):
-            final_list.append({
-                "title": c["title"],
-                "link": c["link"],
-                "content": c["content"],
-                "classification": c["classification"],
-                "comments_checked": len(comments),
-                "comment_analysis": analysis,
-            })
+        analyzed_post = fetch_comments_and_analyze(c)
+        if analyzed_post["link"] in existing_links:
+            # Update existing post
+            for i, item in enumerate(final_list):
+                if item["link"] == analyzed_post["link"]:
+                    final_list[i] = analyzed_post
+                    break
+        else:
+            # Append new post
+            final_list.append(analyzed_post)
         time.sleep(0.5)
 
-    out_path = "reddit_saas_candidates.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(final_list, f, indent=2, ensure_ascii=False)
 
