@@ -13,7 +13,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a software recommendation for improvement on an existing one"
+      "reason": "seeking a software recommendation for an existing problem"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -35,7 +35,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an alternative to existing music management software"
+      "reason": "seeking an alternative to existing music management tools"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -57,7 +57,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for an improved solution compared to existing Bluetooth FM transmitter devices"
+      "reason": "seeking an improvement on existing Bluetooth solution"
     },
     "comments_checked": 2,
     "comment_analysis": {
@@ -79,7 +79,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is looking for an improved version of a product they like but have issues with"
+      "reason": "User is looking for a software or tool improvement on an existing product"
     },
     "comments_checked": 3,
     "comment_analysis": {
@@ -101,7 +101,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a website recommendation for collaboration on music projects"
+      "reason": "seeking a website like aggie.io but for music"
     },
     "comments_checked": 0
   },
@@ -119,11 +119,42 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an existing solution with a specific feature improvement"
+      "reason": "seeking a specific feature or improvement in an existing technology"
     },
     "comments_checked": 31,
     "comment_analysis": {
-      "result": "<a href=\"https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J\">Prox PRD</a>, <a href=\"https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J\">Home Assistant and ESP32s as Bluetooth transponders, Tile system, Find My iPhone system with wallet integrations</a>"
+      "result": {
+        "found": [
+          {
+            "text": "Prox PRD",
+            "link": "https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J"
+          },
+          {
+            "text": "Tile system",
+            "link": null
+          },
+          {
+            "text": "Find My iPhone system",
+            "link": null
+          },
+          {
+            "text": "ESP32 can measure WiFi signal strength",
+            "link": null
+          },
+          {
+            "text": "UWB",
+            "link": null
+          },
+          {
+            "text": "Retracting keychains",
+            "link": null
+          },
+          {
+            "text": "f-droid",
+            "link": null
+          }
+        ]
+      }
     }
   },
   {
@@ -140,7 +171,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a simpler solution to an existing problem with a standard kitchen scale"
+      "reason": "asking for an improved solution to a problem they are currently experiencing with their current method"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -164,7 +195,7 @@
       "category": "improve",
       "reason": "asking for an improved software/tool compared to what they use"
     },
-    "comments_checked": 1,
+    "comments_checked": 2,
     "comment_analysis": {
       "found": false,
       "example": ""
@@ -184,7 +215,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a high-quality desktop wallpaper site without AI or poor image scaling"
+      "reason": "seeking a better alternative to existing options"
     },
     "comments_checked": 9,
     "comment_analysis": {
@@ -258,7 +289,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The user is seeking feedback and suggestions for improvement on their app Synchro"
     },
@@ -280,7 +311,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "user is seeking feedback and suggestions for improvements on their existing app"
     },
@@ -320,7 +351,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The user is seeking feedback and improvements for their existing software."
     },
@@ -338,7 +369,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The user is seeking feedback on their new app and asking for users to try it out."
     },
@@ -360,7 +391,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The user is asking for feedback and improvement suggestions to enhance the AI mental health companion app."
     },
@@ -378,7 +409,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The user is giving away premium codes to celebrate the launch of their app and asking for reviews, indicating they want to improve their app's visibility."
     },
@@ -442,7 +473,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "request for improvement on an existing app or tool"
+      "reason": "asking for an improved software solution"
     },
     "comments_checked": 0
   },
@@ -615,7 +646,7 @@
     "comments_checked": 4,
     "comment_analysis": {
       "found": true,
-      "example": "<ul><li>you have to solve math problems (you can choose difficulty)</li> <li>you must type into the input field the letters shown by the app</li> <li>you must shake your phone</li> <li>you must press power button</li> <li>you must press the volume up or down button</li> <li>tap a button on the screen</li></ul>"
+      "example": "Alarm Clock Xtreme has a gentle alarm mode with customizable sounds and radio station options"
     }
   },
   {
@@ -630,7 +661,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "request for feedback on an existing app"
     },
@@ -654,7 +685,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for a price reduction to make the app more accessible"
+      "reason": "asking for a price reduction on an existing app"
     },
     "comments_checked": 0
   },
@@ -674,7 +705,7 @@
       "category": "improve",
       "reason": "asking for a software solution to make money quickly"
     },
-    "comments_checked": 3,
+    "comments_checked": 6,
     "comment_analysis": {
       "found": false,
       "example": ""
@@ -712,7 +743,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for a new app idea"
+      "reason": "asking for a new software solution"
     },
     "comments_checked": 0
   },
@@ -748,7 +779,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "request for updates and bugfixes on an existing app"
+      "reason": "requesting updates and bugfixes for an existing app"
     },
     "comments_checked": 0
   },
@@ -800,7 +831,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "asking for an improved software/tool compared to what they use"
     },
@@ -818,7 +849,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "asking for feedback on an existing app"
     },
@@ -840,7 +871,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "seeking feedback and suggestions for new features or improvements on an existing app"
     },
@@ -880,7 +911,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "asking for an improved software/tool compared to what they use"
     },
@@ -898,7 +929,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "The post is asking for a software solution to help businesses get organic traffic and rank high on LLMs, improving upon the experience of the author's startup."
     },
@@ -1028,6 +1059,564 @@
           "example": "<a href=\"https://www.design.com/maker/legals/termsofuse#:%7E:text=8%20Intellectual%20Property%20Rights\">Terms of Service</a> for any products like logos and graphics that you might use to generate revenue."
         }
       ]
+    }
+  },
+  {
+    "title": "Looking for sketch app?",
+    "link": "https://www.reddit.com/r/apps/comments/1mvp67z/looking_for_sketch_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>To be clearer (cause I didn’t know how to say this in a condensed title), I’m an artist and I was hoping to find an app that is on in the background that can produce sketch/marker/pen/crayon etc sounds when my Apple Pencil touches the screen?</p> <p>I know there’s an actual cover I can apply to my tablet that will always produce a sketch noise. But what I seen was incredibly expensive and limited to just sketch sounds.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hydrastxrk\"> /u/hydrastxrk </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mvp67z/looking_for_sketch_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvp67z/looking_for_sketch_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking an alternative to a specific feature or functionality in an existing tool"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Looking for a Technical Co-Founder",
+    "link": "https://www.reddit.com/r/apps/comments/1mvp1nn/looking_for_a_technical_cofounder/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m working on an early-stage startup (pre-seed / idea stage) — we’re building decision intelligence software for enterprise institutions.</p> <p>Right now I’m looking for a co-founder who: - Has experience with Data engineering. - Actually enjoys building from scratch (0 →1 phase).</p> <p>You’d be leading engineering as the team grows. You won’t need to touch finance, sales, or business ops -I’ve got that covered. Your lane is tech + product.</p> <p>What’s in it for you: - Co-founder role + equity (not a “hire”) - ownership over the tech vision and architecture from day one. - Working on tough problems with real enterprise impact</p> <p>If this sounds like you ( or someone who'd think would be a fit ) - DMS are open</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RequirementBeginning\"> /u/RequirementBeginning </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mvp1nn/looking_for_a_technical_cofounder/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvp1nn/looking_for_a_technical_cofounder/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a co-founder to improve the technical vision and architecture of their startup's decision intelligence software"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Stealthy Writing Tool for Keyboard Lovers!",
+    "link": "https://www.reddit.com/r/apps/comments/1mvod92/stealthy_writing_tool_for_keyboard_lovers/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I built a desktop app that can allow you to call chatGPT and get response directly pasted onto your text editing field without having to constantly switch back and forth between windows. No browser plug-in, no app integration required.</p> <ul> <li>you can use it in literally in any app on windows</li> <li>treat anywhere you are typing as chatGPT and you can write your prompt</li> <li>you can add your own context for AI to take into consideration</li> <li>you can DIY re-usable prompt short cut</li> </ul> <p>Opening this app for preview release, sign up here if you are interested: <a href=\"https://alacrify-ai.com/\">https://alacrify-ai.com/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Similar-Let-1981\"> /u/Similar-Let-1981 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mvod92\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvod92/stealthy_writing_tool_for_keyboard_lovers/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "asking for an improved software solution"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Simple Retool Assignment Help!!",
+    "link": "https://www.reddit.com/r/apps/comments/1mvjysd/simple_retool_assignment_help/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I have an assignment to create a specific Retool app, and I'm very lost! I'm a complete novice, and learning has been a bit overwhelming. If anyone has experience with Retool (low/no code online app builder) and is looking for a little $$ DM me and i'd LOVE set up a call today</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BagDiscombobulated32\"> /u/BagDiscombobulated32 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mvjysd/simple_retool_assignment_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvjysd/simple_retool_assignment_help/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "Seeking help and guidance on improving their skills with Retool app builder"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Just launched Flag Quiz Master on App Store - 100% free - Looking for feedback - Reviews greatly appreciated! 😊",
+    "link": "https://www.reddit.com/r/apps/comments/1mvd47k/just_launched_flag_quiz_master_on_app_store_100/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>I'm excited to share that Flag Quiz Master is now live on App Store!</p> <p>If you love geography, trivia, or just want to learn more about the world's flags, this app is for you. I built it as a fun way to test and improve your knowledge of country flags from around the globe.</p> <p>App features:</p> <p>- Multiple game modes (Classic, Time Attack, Daily Challenges)</p> <p>- Different difficulty levels to match your skill</p> <p>- Track your progress and achievements (work in progress lol)</p> <p>- Learn flags from 195+ countries</p> <p>It's <strong>100% free</strong>!</p> <p>Here's the app link: <a href=\"https://apps.apple.com/ca/app/geography-flag-quiz-master/id6751133182\">Flag Quiz Master on App Store</a></p> <p>Would really appreciate if you could check it out and leave some feedback! As an indie developer, every download and review helps tremendously 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ProgrammingNobody\"> /u/ProgrammingNobody </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mvd47k/just_launched_flag_quiz_master_on_app_store_100/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvd47k/just_launched_flag_quiz_master_on_app_store_100/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "asking for feedback and reviews to improve the app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Do you use a blocker",
+    "link": "https://www.reddit.com/r/apps/comments/1mv9q91/do_you_use_a_blocker/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Do you use a blocker, to stop your apps snooping on you got your details ? Any other good ones out there ? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HoobleDoobles\"> /u/HoobleDoobles </a> <br /> <span><a href=\"https://i.redd.it/tk5t73m255kf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv9q91/do_you_use_a_blocker/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Constitution app?",
+    "link": "https://www.reddit.com/r/apps/comments/1mvh0qw/constitution_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Edit— that stupid auto correct lol it’s supposed to say construction app 😂 Hey, I’m going to be tackling a hand full of home repairs and I’m looking for an app that is free or cheap that I can basically use to plane out step by step what I need to do. Also having an area that has. Shooing list that I can add the supplies I need and keep track of multiple projects. I always end up forgetting something. I looked in the App Store and most of the apps are more advanced construction management apps for someone who manages a construction site. Any ideas? </p> <p>And yes I know I can just write it down or make a spreadsheet but I would really like something user friendly for made for DIYers. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xcaseyxjonesx26\"> /u/xcaseyxjonesx26 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mvh0qw/constitution_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mvh0qw/constitution_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a user-friendly app for DIYers to plan and track home repairs"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Lock your favourite doomscrolling app till you hit your daily step goal.",
+    "link": "https://www.reddit.com/r/apps/comments/1mv80jv/lock_your_favourite_doomscrolling_app_till_you/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://apps.apple.com/in/app/stridegate-walk-to-unlock/id6749471895\">https://apps.apple.com/in/app/stridegate-walk-to-unlock/id6749471895</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sid_Dai\"> /u/Sid_Dai </a> <br /> <span><a href=\"https://i.redd.it/tn0up43ll4kf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv80jv/lock_your_favourite_doomscrolling_app_till_you/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "My quest to recapture novelty with my image discovery app: Photo Pilot",
+    "link": "https://www.reddit.com/r/apps/comments/1mv6ge3/my_quest_to_recapture_novelty_with_my_image/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I don't know how well you remember how you felt when you discovered the internet for the first time.</p> <p>Or when you got your first smartphone and went to the app store to download a hundred different apps and games.</p> <p>Or how it felt when you found something online that was niche but beautiful and meaningful to you. Something that felt personal. Something that forged a connection with you.</p> <p>I've felt a lack of this emotion / feeling of novelty / discovery over time. As the internet became more larger, commodified, and corporatised, these tiny, personal corners of the internet slowly disappeared in obscurity. Eclipsed, so to speak.</p> <p>It's a problem of scale. Of algorithms. How do you penetrate deep into the internet to find something niche anymore when your only gateways are search engines and algorithms that promote only the most visited and popular places first? &quot;Relevance&quot; they call it. But what's relevant to you?</p> <p>So there was this one problem as mentioned above, and there were other problems too. The problem of privacy. The problem of pinterest going down the drain. Banning users en masse. </p> <p>Around the time all this was happening, we also experienced, with dismay, the failure of the game &quot;No man's sky&quot; which promised to help recapture this familar feeling of discovery / novelty. What went wrong there?</p> <p>I thought hard about all of this. I formulated some hypotheses of how a search engine can be used to facilitate the discovery of something truly novel and niche and interesting and beautiful. I mean it has to be through a search engine after all. Those are the ultimate gateways to the internet.</p> <p>And et voilà! Something clicked. </p> <p>The following were my observations: - whatever it was had to have a huge aspect of randomneess associated with it - it had to be related to images, not words - it had to be recursive. Like entering rabbit holes. You should be able to &quot;go deeper&quot; into any given niche.</p> <p>That is how Photo Pilot was born. It's not so much an app but a tool with a variety of different applications.</p> <p>This is how it works: It samples a random set of images from the internet. Each image leads to more images. And so on.</p> <p>This is how it's meant to be used: - A user executes a random search and recieves a sampling of images from the internet. - Images that evoke interest or imply a presence of something interesting on the source web page are &quot;collected&quot;. After being collected they can be tagged and organised and users can visit the source webpage. - Then, these images can be clicked on to receive a new set of images that go &quot;deeper&quot; into a given niche. - Repeat </p> <p>The results have been stunning. Yes, there is a learning curve. But there's also a lot of potential. There's so much development that can be done based on this one concept.</p> <p>So far I'm glad to report 1.3k users on Google Play alone. The ios app store also has around half that amount of downloads.</p> <p>I've made the app in a way that respects all users' privacy. There are no user accounts or analytics. Everything is stored on an offline sqlite database.</p> <p>I'd love it if some of you can try it and provide some feedback. Like I said, there is a learning curve so I'll be here for support. </p> <p>Thoughts? :)</p> <p>And thank you for your time!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KeyRaise\"> /u/KeyRaise </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mv6ge3/my_quest_to_recapture_novelty_with_my_image/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv6ge3/my_quest_to_recapture_novelty_with_my_image/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "User is seeking feedback and improvement suggestions for their existing software tool, Photo Pilot"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "✨ Vitamin 2.0 is live! Tracking your vitamins and supplements is now simpler than ever.",
+    "link": "https://www.reddit.com/r/apps/comments/1mv56bb/vitamin_20_is_live_tracking_your_vitamins_and/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>We’ve just rolled out a major update to help you stay on top of your vitamins, minerals, supplements, and pills more easily than ever.</p> <h1>What’s new in v2.0:</h1> <p>📝 New input system — keyboard entry or toggles.</p> <p>⌚ Apple Watch widgets rewritten for smoother performance.</p> <p>⏰ Redesigned Watch scheduler for easier daily planning.</p> <p>➕ Higher item limits so you can track more supplements.</p> <p>🔔 Custom notification sounds to keep you motivated your way.</p> <p>👨‍👩‍👧 Family Annual Plan now available.</p> <p>🎟️ Promo code redemption added.</p> <p>💡 Tutorials with Apple TipKit to guide you step by step.</p> <p>⚙️ Completely redesigned settings for a cleaner experience.</p> <p>This is our biggest release yet — crafted to make your wellness journey simpler, smarter, and more personalized.</p> <p><strong>👉 On the Apple App Store</strong></p> <p><a href=\"https://apple.co/42OdSEx\">https://apple.co/42OdSEx</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Antique_Way_3813\"> /u/Antique_Way_3813 </a> <br /> <span><a href=\"https://i.redd.it/pfa3drtlr3kf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv56bb/vitamin_20_is_live_tracking_your_vitamins_and/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "describing a new update to an existing software"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "[4.99$ to FREE for 48H] QRForge - Scanner & Generator",
+    "link": "https://www.reddit.com/r/apps/comments/1mv436i/499_to_free_for_48h_qrforge_scanner_generator/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello<br /> Just updated: <strong>QRForge – the powerful QR Scanner &amp; Custom QR Code Generator for iOS!</strong><br /> I built this app as an indie dev to give people a fast, private, and stylish way to scan and create QR codes — without clutter or data tracking.</p> <p>To celebrate the transition from subscription model to one-time purchase, I’m running a <strong>promo offer — grab the Pro version for FREE for the next 2 days!</strong> 🎉</p> <p>Why QRForge?<br /> 📸 <strong>Scan instantly</strong> – Fast and reliable QR code scanning with smart content recognition<br /> 🎨 <strong>Create custom QR codes</strong> – Add your own foreground &amp; background colors<br /> ⚡ <strong>Smart adaptive UI</strong> – Quick actions for Wi-Fi, links, contacts, text &amp; more<br /> 📂 <strong>Organized history</strong> – Keep all scanned codes neatly categorized<br /> 📤 <strong>One-tap sharing</strong> – Save or share QR codes with ease<br /> 🔒 <strong>Private by design</strong> – Clean interface &amp; zero data tracking</p> <p>What I’m Looking For:</p> <ul> <li>Feedback on usability, design, or anything that feels off</li> <li>Suggestions for new features or improvements</li> <li>Your thoughts on how it compares to other QR code apps</li> </ul> <p>📲 <a href=\"https://apps.apple.com/us/app/qrforge-scanner-generator/id6744676395\"><strong>Download on the App Store</strong></a><br /> Regular price: <strong>FREE</strong><br /> <strong>IAP - 4.99$ Pro version</strong> now its <strong>FREE for 2 DAYS</strong></p> <p>Every bit of feedback means the world to a solo indie dev — thanks for helping me improve QRForge! 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MefjuEditor\"> /u/MefjuEditor </a> <br /> <span><a href=\"https://i.redd.it/inwgcjfjh3kf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mv436i/499_to_free_for_48h_qrforge_scanner_generator/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback and suggestions on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Easy to use website builder? Squarespace vs Wix vs Weebly for contractors",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvpbn9/easy_to_use_website_builder_squarespace_vs_wix_vs/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Setting up a basic website for a small construction business and looking for an easy to use website builder that includes domain registration, templates, and ideally scheduling features. I’ve tried Wix and Weebly in the past for other projects, and I’m considering Squarespace since a few people I know like it for simple sites. Budget is limited, so all-in-one solutions are preferred—I don’t want to mess with third-party domain setups. For contractors, does Squarespace have a real advantage over Wix or Weebly? Which builder handles scheduling and mobile optimization best?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PlateAdventurous4583\"> /u/PlateAdventurous4583 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvpbn9/easy_to_use_website_builder_squarespace_vs_wix_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvpbn9/easy_to_use_website_builder_squarespace_vs_wix_vs/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a comparison of website builders for specific needs and preferences"
+    },
+    "comments_checked": 13,
+    "comment_analysis": {
+      "found": [
+        {
+          "found": true,
+          "example": "<a href=\"https://grok.com/share/bGVnYWN5LWNvcHk%3D_480eba44-2b5f-4856-9b2d-e96051fa58a9\">https://grok.com/share/bGVnYWN5LWNvcHk%3D_480eba44-2b5f-4856-9b2d-e96051fa58a9</a>"
+        },
+        {
+          "found": true,
+          "example": "<a href=\"http://lovable.dev\">lovable.dev</a>"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Is there any platform that helps scale your digital persona?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvkhqg/is_there_any_platform_that_helps_scale_your/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Ive been hearing about these native platforms that supposedly let u engage with people in a really personalized way but without actually sitting there replying to everyone manually. Like they kinda take your voice or digital persona or whatever and scale it up so you can talk to way more ppl at once. Idk if that’s just marketing fluff or if there are actually tools that feel natural like I mean I get so many random chatbots in my DMs that just sound fake or generic and i can’t imagine ppl really engaging with that long term. But if something could actually respond in a way that feels like me that could be crazy useful. Basically its like expanding your digital self so you can have convos at scale I guess imagine running a small brand or a side hustle and being able to keep up with hundreds of messages without losing your mind. Has anyone actually tried this yet or is it still kinda hyped?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ObsidianWolf140\"> /u/ObsidianWolf140 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvkhqg/is_there_any_platform_that_helps_scale_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvkhqg/is_there_any_platform_that_helps_scale_your/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to improve an existing experience"
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Why do some clients think “urgent” means “do it for free”?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mv7nse/why_do_some_clients_think_urgent_means_do_it_for/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Got an email from a client at 10 PM yesterday demanding a full website redesign by Monday, but they “can’t pay extra” because it’s “such a quick job.” I spent 20 minutes explaining it’s a week’s worth of work, and they still acted shocked. Do your clients pull this “urgent but cheap” nonsense? How do you shut it down politely?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jinnapat397\"> /u/Jinnapat397 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv7nse/why_do_some_clients_think_urgent_means_do_it_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mv7nse/why_do_some_clients_think_urgent_means_do_it_for/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "client behavior is a business pain point that could be solved by software or service"
+    },
+    "comments_checked": 96,
+    "comment_analysis": {
+      "comments": [
+        {
+          "id": 1,
+          "text": "Usually urgent means more expensive. You would be moving them to the front of the line so that should cost more, not less."
+        },
+        {
+          "id": 2,
+          "text": "Express service costs more wherever you go. Express mail costs more. Express train or flight no connections? Costs more."
+        },
+        {
+          "id": 3,
+          "text": "Personally, I think the best approach is to highlight that their request is extraordinary and therefore requires extraordinary compensation."
+        },
+        {
+          "id": 4,
+          "text": "I have some customers that will argue and complain over 5 bucks, some will try to return products from 2 years ago and others will write a check for thousands of dollars without batting an eye and never complain, they just want things done properly..... it all depends who you are dealing with, and the thing about business is that it involves people, and well... when it comes to people you get all sorts of different types of things happening."
+        },
+        {
+          "id": 5,
+          "text": "Express service costs more wherever you go. Express mail costs more. Express train or flight no connections? Costs more."
+        }
+      ]
+    }
+  },
+  {
+    "title": "Best way to sell small online business without time wasters and scam?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvbsfv/best_way_to_sell_small_online_business_without/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have a few onlibe business projects, but due to the lack of time for all businesses, I'm looking to sell some my projects.</p> <p>Its own turnkey software business developed from scratch. I have clients worldwide, own site, admin panel, unique software, clients panel, etc.</p> <p>Need advice on how to sell my projects as sefely as possible. Without scammers, time wasters, and brokers. </p> <p>Thank you in advance for advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Outrageous_Silver428\"> /u/Outrageous_Silver428 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvbsfv/best_way_to_sell_small_online_business_without/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvbsfv/best_way_to_sell_small_online_business_without/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking advice on how to improve the selling process of their software business"
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "My small business client is getting bamboozled by a \"fractional\" CMO - what would you do?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvn2aa/my_small_business_client_is_getting_bamboozled_by/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm consulting for a small business on some operations things and he hired a &quot;fractional CMO&quot; who is providing services. As best I can tell, this CMO doesn't have any contracted deliverables, and describes herself as doing &quot;high-level strategy&quot; related to marketing. (I don't know what differentiates high-level strategy from low-level strategy.)</p> <p>Here's the problem: I think this fractional might be full of shit. As best I can tell, she's just feeding prompts into some ChatGPT-type platform and uncritically serving up the results. I'm not a marketer, but I've worked on enough marketing projects to tell good work from bad, and this is <em>bad</em>. The brand strategy is generic and indistinguishable from our direct competition; the audience segmentation isn't based on any data; there are dozens of untracked marketing performance metrics that are never discussed in leadership meetings. Just today, our agency emailed her (and CC'd me for reasons) with a simple question, and she gave two wrong answers before she gave the right one - all of which were <em>clearly</em> generated by a chatbot.</p> <p>On top of it all, she recommended and hired an agency to rebuild the company website, but without doing any prior work on audience, product, brand, or conversion strategy. It was an enormous investment and the output has been exceptional only in its mediocrity.</p> <p>I've noticed this really obvious deficiency, but she papers over it with a deluge of ChatGPT-generated reports, analysis, and summaries. I think she's taking the client for a ride (and charges a lot for it). How would you approach flagging this for the client without creating animosity or conflict? If the client ultimately doesn't decide to terminate this fractional, I don't want to be left having to navigate an adversarial relationship for the rest of <em>my</em> contract.</p> <p>Thoughts?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NuncProFunc\"> /u/NuncProFunc </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvn2aa/my_small_business_client_is_getting_bamboozled_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvn2aa/my_small_business_client_is_getting_bamboozled_by/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "client is getting bamboozled by a service and wants to know how to approach the client without conflict"
+    },
+    "comments_checked": 23,
+    "comment_analysis": {
+      "found": [
+        {
+          "comment": "The starting point with your client is <br>How much trust do they have in your feedback<br>Can you quantify the monetary value you can provide the client by sharing your concerns.<br>Are you able to back up your findings with data?",
+          "example": ""
+        },
+        {
+          "comment": "If her whole strategy could be replaced by ChatGPT prompts, your client’s paying for vibes. That’s it",
+          "example": ""
+        }
+      ]
+    }
+  },
+  {
+    "title": "Embroidery vs printing, the things I wish I knew before selling both",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvr6bw/embroidery_vs_printing_the_things_i_wish_i_knew/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>When I first added embroidery to my store, I treated it like a side quest. You know, “Throw a logo on a cap and see what happens.” I wasn’t ready for it to actually outsell some of my printed stuff.</p> <p>Embroidery has this built-in premium feel you just can’t fake. People will happily pay more for something that feels like it’ll survive the washing machine for years instead of cracking or fading. Even the simplest designs, a letter, a small icon, somehow feel more intentional when they’re stitched.</p> <p>But here’s the part nobody warned me about:</p> <ul> <li><strong>Production costs</strong> are higher, and you can’t always pass the entire bump to customers without making them flinch.</li> <li><strong>Digitization fees</strong> are the silent killer. My first month, I ordered 7 new designs through different suppliers and didn’t even notice I was paying $10–$15 each just to turn them into stitch files. By the end of the month, I’d spent more on setup than the products themselves.</li> <li><strong>Design limitations</strong> are real. Fine details that look gorgeous in print often turn into a fuzzy blob in embroidery. Gradients? Just… no.</li> <li><strong>Skipping samples</strong>, my rookie mistake. I once launched a hoodie with a super detailed mandala embroidery from a supplier I’d never tested. On the mockup it looked stunning. The real version? It looked like someone sneezed mid-stitch.</li> </ul> <p>Now I’m a lot more strategic:</p> <ul> <li>Keep embroidery for bold, simple designs, chunky text, initials, clean logos.</li> <li>Stick with printing for anything detailed or full-color where I want the art preserved exactly.</li> <li>Batch my digitization work to avoid paying fees every other week.</li> </ul> <p>And here’s a tip from my trial-and-error phase: order from a couple of different POD companies before you commit. I grabbed samples from Printify, Apliiq, and Printful, lined them up on my desk, and compared stitching quality, thread colors, and fabric feel. The differences were bigger than I expected, and it made it clear which ones I’d actually trust for customer orders.</p> <p>If you’re thinking about offering both embroidery and printing, I’d say go for it, but start small. Test a couple of embroidery pieces next to your printed ones and see how your audience reacts. For me, embroidery went from “nice extra” to one of my best upsells.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Own-Alternative-504\"> /u/Own-Alternative-504 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvr6bw/embroidery_vs_printing_the_things_i_wish_i_knew/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvr6bw/embroidery_vs_printing_the_things_i_wish_i_knew/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "The post is asking for an improved approach to offering both embroidery and printing services after the author's initial mistakes and lessons learned."
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Growing on instagram",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvw4ch/growing_on_instagram/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hii! Im soon going to open my small business on etsy, however im struggling to gain traction on instagram. I usually do a lot better on tiktok than instagram and im not too sure why. Ive tried posting at different times and everything but nothing has really worked. The few likes that I get are all from mutuals and not from other people so im wondering how can I grow more?</p> <p>Im open to suggestions but please dont be too mean 😭🫶</p> <p>If it helps my username on both tiktok and insta is fishie.studios</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Gullible-Cat8968\"> /u/Gullible-Cat8968 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvw4ch/growing_on_instagram/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvw4ch/growing_on_instagram/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for suggestions to improve Instagram growth"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "How do solo business owners handle repeating tasks and procedures?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvx3me/how_do_solo_business_owners_handle_repeating/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m just starting out as a solo founder and I keep noticing that even small businesses need some kind of “procedures” — like sending the same type of client email, following the same checklist before a job, or chasing payments.</p> <p>If you’re working alone, how do you usually handle this?</p> <p>Do you write your own templates?</p> <p>Keep everything in your head?</p> <p>Or just recreate things each time from scratch?</p> <p>Curious to hear what works for you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Mastodon541\"> /u/No_Mastodon541 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvx3me/how_do_solo_business_owners_handle_repeating/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvx3me/how_do_solo_business_owners_handle_repeating/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved process or workflow compared to what they use"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "small business bank account recommendation",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvqulh/small_business_bank_account_recommendation/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi All - </p> <p>I'm looking for a recommendation for bank account for my llc with no monthly fees. I use BoA for my personal but want to explore other options, thanks. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Status-Collection833\"> /u/Status-Collection833 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvqulh/small_business_bank_account_recommendation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvqulh/small_business_bank_account_recommendation/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a recommendation for an alternative to existing bank account"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Free Developer Tools - Professional Grade, Zero Cost, Maximum Privacy",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvwc6p/free_developer_tools_professional_grade_zero_cost/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Wanted to share with the community some of the professional developer tools completely free I use every day like; CSS Gradient Generator, Image Compressor Converter, Enhanced Color Palette Generator, Secure Password Generator, CSS/HTML/JS Minifier, JSON Formatter &amp; Validator, Hash Generator, Lorem Ipsum Generator and many many more</p> <ul> <li>100% Free - No freemium BS, everything's included</li> <li>Privacy First - All processing happens in your browser</li> <li>No Registration - Just bookmark and use</li> <li>Mobile Optimized - Works perfectly on phones</li> <li>Professional Quality - Used by agencies and startups</li> </ul> <p><a href=\"https://creativebrain.ca/tools\">https://creativebrain.ca/tools</a></p> <p>What other free tools you use?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/andy-creative-brain\"> /u/andy-creative-brain </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvwc6p/free_developer_tools_professional_grade_zero_cost/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvwc6p/free_developer_tools_professional_grade_zero_cost/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "The post is asking users to share their favorite free developer tools and the author is also sharing their own favorites, indicating a request for recommendations or an improvement on existing tools."
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Looking for ways to contact phone sellers in Shenzhen remotely",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvw1fp/looking_for_ways_to_contact_phone_sellers_in/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I’m trying to find a way to get in touch with sellers of <strong>brand new mobile phones</strong> in Shenzhen, but I’m currently outside of China and can’t visit in person.</p> <p>More specifically, I’m interested in the <strong>Yuanwang Digital Mall</strong>, especially the <strong>3rd floor</strong>, where I heard there are many mobile phone shops.</p> <p>Does anyone know a way to reach them, for example:</p> <ul> <li>If the sellers have <strong>WeChat, websites, or online platforms</strong> where they list their products?</li> <li>If there is a <strong>directory or contact info</strong> available for the shops in that mall?</li> <li>Or if anyone who has been there recently could share <strong>phone numbers or WeChat IDs</strong> of sellers?</li> </ul> <p>Any tips or leads would be super helpful. Thanks in advance!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/balqasima\"> /u/balqasima </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvw1fp/looking_for_ways_to_contact_phone_sellers_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvw1fp/looking_for_ways_to_contact_phone_sellers_in/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a way to contact phone sellers in Shenzhen remotely, implying an existing solution is needed for improvement"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Wise has enabled issuing debit cards for U.S. business accounts",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvmn8k/wise_has_enabled_issuing_debit_cards_for_us/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Wise has enabled issuing debit cards for U.S. business accounts.</p> <p>i.imgur .com/FCnn9e7.png</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MaznLLC\"> /u/MaznLLC </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvmn8k/wise_has_enabled_issuing_debit_cards_for_us/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvmn8k/wise_has_enabled_issuing_debit_cards_for_us/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "requesting an improvement on an existing software solution"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Looking for suggestions for an app",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvvune/looking_for_suggestions_for_an_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys! I’ve been coding an appointment system application to help small and medium-sized businesses for a while now. One day, when I needed it the most, I couldn't find the right program for my small business, and that's how my adventure began. When I started this search, I realized I needed to use different programs for everything. Tracking inventory, managing simple accounting, tracking customers, and tracking appointments meant paying high monthly fees, and I also had to deal with the setup and maintenance of these things. So, I decided to create a program that would track and manage everything. When I came across this subreddit, I thought I could get the best idea from you. Long story short, I'd be very happy if you could share your thoughts on what you're looking for in a business program, what you see as missing, what would make you happy, or what feature would make you subscribe to a program. PS: I'm keeping myself anonymous to avoid advertising. Writing from a fresh Reddit account and won't reveal the name of the program. I'm new to the subreddit, so I hope I'm not violating any rules. If so, please just let me know so I can edit the certain part or delete the post completely. Any thoughts are pretty valuable to me, and thank you guys so much. Love!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dgczdmr\"> /u/dgczdmr </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvvune/looking_for_suggestions_for_an_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvvune/looking_for_suggestions_for_an_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking suggestions for an existing app to improve its features and functionality."
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Getting my side hustle more “settled in”",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mvm2u9/getting_my_side_hustle_more_settled_in/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Im selling colognes/perfumes, but i want to make a catalog that people can just go on my link and see all the products i have available and order them from me. Like a big market place. But ive already used depop/fb mp/etc. But i want to make it like a strict catalog. Were for example you want _____ fragrance, you go on my catalog and see what all I can source/get it for you. </p> <p>TLDR; i want to make a “place order” type catalog. </p> <p>I couldnt add attachements…… so i got coerced into making a imgur account to add a image. </p> <p><a href=\"https://imgur.com/a/r09rbTI\">https://imgur.com/a/r09rbTI</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bugyourparents-\"> /u/bugyourparents- </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvm2u9/getting_my_side_hustle_more_settled_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mvm2u9/getting_my_side_hustle_more_settled_in/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user wants to improve an existing platform (Depop/FB MP) with a new feature (strict catalog)"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
     }
   }
 ]
