@@ -9,6 +9,7 @@ def clean_html(raw_html):
 
     clean_text = re.sub(r'submitted by.*?comments\]', '', clean_text)
     clean_text = re.sub(r'&#32;', ' ', clean_text)
+    clean_text = ''.join(char for char in clean_text if ord(char) < 128)
 
     return clean_text.strip()
 
@@ -37,7 +38,7 @@ def format_data(json_file_path: str) -> list:
                         candidate['content'][0].get('value', ''))
                     target = candidate['classification']['category']
                     formatted_list.append(
-                        {"text": content_value, "target": target})
+                        {"text": content_value, "target": "positive"})
             else:
                 if 'content' in candidate and isinstance(candidate['content'], list) and len(candidate['content']) > 0:
                     content_value = clean_html(

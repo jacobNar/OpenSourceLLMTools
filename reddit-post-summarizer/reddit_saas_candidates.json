@@ -13,7 +13,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a software recommendation for an existing problem"
+      "reason": "seeking a free software with simple GUI and easy to use"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -35,7 +35,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an alternative to existing music management tools"
+      "reason": "seeking an alternative to existing software"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -79,7 +79,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "User is looking for a software or tool improvement on an existing product"
+      "reason": "user is asking for an improved version of a product they like but have issues with"
     },
     "comments_checked": 3,
     "comment_analysis": {
@@ -101,7 +101,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a website like aggie.io but for music"
+      "reason": "seeking a website with similar functionality to aggie.io for music collaboration"
     },
     "comments_checked": 0
   },
@@ -119,40 +119,14 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a specific feature or improvement in an existing technology"
+      "reason": "seeking an alternative to existing Bluetooth-based solutions with a hair trigger and immediacy of reaction"
     },
     "comments_checked": 31,
     "comment_analysis": {
       "result": {
         "found": [
-          {
-            "text": "Prox PRD",
-            "link": "https://www.amazon.com/Prox-Forgetting-Anti-Loss-Separation-Technology/dp/B09FYL6P9J"
-          },
-          {
-            "text": "Tile system",
-            "link": null
-          },
-          {
-            "text": "Find My iPhone system",
-            "link": null
-          },
-          {
-            "text": "ESP32 can measure WiFi signal strength",
-            "link": null
-          },
-          {
-            "text": "UWB",
-            "link": null
-          },
-          {
-            "text": "Retracting keychains",
-            "link": null
-          },
-          {
-            "text": "f-droid",
-            "link": null
-          }
+          "Prox PRD",
+          "ESP32 can measure WiFi signal strength"
         ]
       }
     }
@@ -171,7 +145,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for an improved solution to a problem they are currently experiencing with their current method"
+      "reason": "asking for an improved software/tool compared to what they use"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -215,7 +189,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a better alternative to existing options"
+      "reason": "seeking a better alternative to existing wallpaper websites"
     },
     "comments_checked": 9,
     "comment_analysis": {
@@ -646,7 +620,7 @@
     "comments_checked": 4,
     "comment_analysis": {
       "found": true,
-      "example": "Alarm Clock Xtreme has a gentle alarm mode with customizable sounds and radio station options"
+      "example": "Alarm Clock Xtreme has a gentle alarm mode with bird sounds and customizable radio stations"
     }
   },
   {
@@ -661,11 +635,11 @@
       }
     ],
     "classification": {
-      "match": false,
+      "match": true,
       "category": "improve",
-      "reason": "request for feedback on an existing app"
+      "reason": "user is seeking feedback on an existing app to improve its functionality and user experience"
     },
-    "comments_checked": 3,
+    "comments_checked": 11,
     "comment_analysis": {
       "found": false,
       "example": ""
@@ -705,7 +679,7 @@
       "category": "improve",
       "reason": "asking for a software solution to make money quickly"
     },
-    "comments_checked": 6,
+    "comments_checked": 8,
     "comment_analysis": {
       "found": false,
       "example": ""
@@ -1075,7 +1049,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "Seeking an alternative to a specific feature or functionality in an existing tool"
+      "reason": "seeking a software solution to enhance an existing experience"
     },
     "comments_checked": 0
   },
@@ -1093,7 +1067,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "Seeking a co-founder to improve the technical vision and architecture of their startup's decision intelligence software"
+      "reason": "Seeking a co-founder to improve the technical direction of their startup"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -1113,9 +1087,9 @@
       }
     ],
     "classification": {
-      "match": false,
+      "match": true,
       "category": "improve",
-      "reason": "asking for an improved software solution"
+      "reason": "request for improvement on an existing tool"
     },
     "comments_checked": 0
   },
@@ -1131,9 +1105,9 @@
       }
     ],
     "classification": {
-      "match": false,
+      "match": true,
       "category": "improve",
-      "reason": "Seeking help and guidance on improving their skills with Retool app builder"
+      "reason": "Seeking guidance on improving their skills with Retool app builder"
     },
     "comments_checked": 0
   },
@@ -1149,7 +1123,7 @@
       }
     ],
     "classification": {
-      "match": false,
+      "match": true,
       "category": "improve",
       "reason": "asking for feedback and reviews to improve the app"
     },
@@ -1191,9 +1165,9 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a user-friendly app for DIYers to plan and track home repairs"
+      "reason": "asking for a user-friendly software solution to replace existing methods"
     },
-    "comments_checked": 2,
+    "comments_checked": 5,
     "comment_analysis": {
       "found": false,
       "example": ""
@@ -1211,7 +1185,7 @@
       }
     ],
     "classification": {
-      "match": true,
+      "match": false,
       "category": "improve",
       "reason": "asking for an improved software/tool compared to what they use"
     },
@@ -1231,7 +1205,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "User is seeking feedback and improvement suggestions for their existing software tool, Photo Pilot"
+      "reason": "User is seeking feedback and support to improve their existing software tool, Photo Pilot"
     },
     "comments_checked": 0
   },
@@ -1249,7 +1223,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "describing a new update to an existing software"
+      "reason": "Upgrading to a new version of an existing software"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -1271,7 +1245,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for feedback and suggestions on an existing app"
+      "reason": "asking for feedback and suggestions on how to improve the existing app"
     },
     "comments_checked": 0
   },
@@ -1614,6 +1588,276 @@
       "reason": "user wants to improve an existing platform (Depop/FB MP) with a new feature (strict catalog)"
     },
     "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Please, suggest me an app, that would help me to transfer a large amount of photos and audios from Android 10 tablet to Windows 10 laptop via USB.",
+    "link": "https://www.reddit.com/r/apps/comments/1mwq7fg/please_suggest_me_an_app_that_would_help_me_to/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Using default options doesn't work, the process stops halfway. I want something more full proof, preferably open source and offline. Maybe something akin an advanced file manager.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/umimop\"> /u/umimop </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mwq7fg/please_suggest_me_an_app_that_would_help_me_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mwq7fg/please_suggest_me_an_app_that_would_help_me_to/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a software solution to improve an existing process"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "[4.99$ to FREE for 48H] OCRForge - Text Scanner",
+    "link": "https://www.reddit.com/r/apps/comments/1mwkl07/499_to_free_for_48h_ocrforge_text_scanner/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello<br /> Just updated: <strong>OCRForge – the lightweight, powerful Text Scanner for iOS!</strong><br /> I built this app as an indie dev to make text extraction simple, accurate, and fast — without ads or unnecessary clutter.</p> <p>To celebrate the transition from subscription to one-time purchase, I’m running a promo offer — grab the Pro version for <strong>FREE for the next 2 days!</strong> 🎉</p> <p><strong>Why OCRForge?</strong><br /> 📸 <strong>Scan with Camera</strong> – Instantly capture and extract text from paper, signs, or handwritten notes<br /> 🖼️ <strong>Import from Photos</strong> – Select any image and convert it to text in seconds<br /> ⚡ <strong>Smart OCR Engine</strong> – Accurate and fast text recognition powered by advanced processing<br /> 📂 <strong>History View</strong> – All scanned text saved for later, easy to copy or share anytime<br /> 🔒 <strong>No Ads, No Tracking</strong> – Clean and distraction-free experience</p> <p><strong>What I’m Looking For:</strong></p> <ul> <li>Feedback on usability, design, or anything that feels off</li> <li>Suggestions for new features or improvements</li> <li>Your thoughts on how it compares to other OCR apps</li> </ul> <p>📲 <a href=\"https://apps.apple.com/us/app/ocrforge-text-scanner/id6748552382\"><strong>Download on the App Store</strong></a><br /> Regular price: <strong>FREE</strong><br /> <strong>IAP - 4.99$ Pro version</strong> now its <strong>FREE for 2 DAYS</strong></p> <p>Every bit of feedback means the world to a solo indie dev — thanks for helping me improve OCRForge! 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MefjuEditor\"> /u/MefjuEditor </a> <br /> <span><a href=\"https://i.redd.it/4ls4zbpdbfkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mwkl07/499_to_free_for_48h_ocrforge_text_scanner/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "seeking feedback and suggestions for new features or improvements on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "free MD Vinyl",
+    "link": "https://www.reddit.com/r/apps/comments/1mwkha8/free_md_vinyl/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>someone knows any apps similar to MD vinyl but for free? I would like the appearence of a vinyl record playing on my iPad. </p> <p>I've even researched for videos of screen recording of MD Vinyl on youtube, but it was unsucessful ):</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Annual_Trouble_4530\"> /u/Annual_Trouble_4530 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mwkha8/free_md_vinyl/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mwkha8/free_md_vinyl/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a free alternative to MD Vinyl"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Which is the suitable ai model for image generation given i am a student with no money and need to create 450 images daily?",
+    "link": "https://www.reddit.com/r/apps/comments/1mwaz1f/which_is_the_suitable_ai_model_for_image/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello people,<br /> I am building a project for which i will need to generate simple 2d images for a given context per day i need to generate around 450 images daily which monthly will be around 14kto 15k images.Which image generation model api is best for this given i am just a student and have no to very little money atm</p> <p>i need cost effective,mid pace, simple 2d image generation<br /> Please help</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UDIK69\"> /u/UDIK69 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mwaz1f/which_is_the_suitable_ai_model_for_image/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mwaz1f/which_is_the_suitable_ai_model_for_image/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking cost-effective and simple 2D image generation model"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Free sound amplifier app",
+    "link": "https://www.reddit.com/r/apps/comments/1mw6sjh/free_sound_amplifier_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I want a amplifier app without ads. I just need the Volume (1-1000%)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AnthonyGuy__\"> /u/AnthonyGuy__ </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mw6sjh/free_sound_amplifier_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mw6sjh/free_sound_amplifier_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "requesting an improvement on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I'm a little stupid can someone help me with an app idea I had",
+    "link": "https://www.reddit.com/r/apps/comments/1mw0nzc/im_a_little_stupid_can_someone_help_me_with_an/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Okay so I'm not exactly the greatest at coding, well, in fact I can't code at all but I had a rlly good idea for an app and wanted to create it. So the ides is an app designed like indeed but just for regular ppl to find professionals or semi decent ppl in their area for small jobs like plumbing, moving things, dog watching, etc. . I mean we all know companies like to overcharge and sometimes for simple projects its an arm and a dang leg to get stuff done. But ppl closer to you like a neighbor would be far more understanding and mauluble with prices and time frame. I know it may seem kinda stupid; i mean i did say i am lol; but i just want to help ppl and i have ideas i just dont know how to create them. So I started looking at different sites that I could use and I stumbled upon an app called &quot;Replit&quot;. I used it and it did somewhat decent but it's fr like 3 kids in a trench coat. It looks good from the outside like it looks nice but the actual functionality is iffy and very bad at best. I can't get the ai to do what I need it to and I need someone to help finish the coding process but I wouldn't know who or where I could find someone. So pls be nice I know I'm kinda dumb but I could rlly use the help. =)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dry-Ad7393\"> /u/Dry-Ad7393 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mw0nzc/im_a_little_stupid_can_someone_help_me_with_an/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mw0nzc/im_a_little_stupid_can_someone_help_me_with_an/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking improvement on existing app functionality"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": true,
+      "example": "There are lot of apps like that like airtasker.."
+    }
+  },
+  {
+    "title": "Google Workspace/Outlook is quite expensive for my small business. Any suggestions for a low cost business email alternative?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwg364/google_workspaceoutlook_is_quite_expensive_for_my/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m a plumber, and I’m tired of paying more and more every year for email. $130/year for one email is ridiculous, but I want to still keep a professional business email. It helps with new clients. Just curious if there are any good cheaper options.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hghst1244\"> /u/hghst1244 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwg364/google_workspaceoutlook_is_quite_expensive_for_my/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwg364/google_workspaceoutlook_is_quite_expensive_for_my/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a cheaper alternative to existing email service"
+    },
+    "comments_checked": 10,
+    "comment_analysis": {
+      "found": true,
+      "example": "You can use namecheap or cloudflare to forward the email to a regular gmail. </p> <p>But honestly what you are paying for in gsuites is inbox guaranteed and local service ads boost. That should already make up for $130 per year. If you don’t get business customers through your gsuite account that way you aren’t using it to its potential."
+    }
+  },
+  {
+    "title": "Agencies charging $10k for AI chatbots are straight up scamming people. It's literally a 10 minute job",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwrahf/agencies_charging_10k_for_ai_chatbots_are/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>A friend told me he was looking for someone to build an AI chatbot for his ecommerce business. The quotes he got were INSANE:</p> <ul> <li>Agency 1: $10,000 + $500/month maintenance</li> <li>Agency 2: $8,500 &quot;introductory price&quot;</li> <li>Upwork &quot;expert&quot;: $4,000 minimum flat fee</li> </ul> <p>For a pretty BASIC customer service chatbot. Not AGI. Not some complex system. Just a chatbot that answers questions from uploaded documents(with generic design).</p> <p>I'm also a developer and this pissed me off enough to record myself building the EXACT same thing. Took barely 8 minutes. Cost: $0 to build (hosting is like $20/month if you need it).</p> <p>Here's literally all you need:</p> <ol> <li>Any chatbot builder platform with built in RAG.</li> <li>Your business docs (FAQs, policies, product info)</li> <li>A basic (system)prompt telling it how to behave</li> </ol> <p>The &quot;complex AI integration&quot; these agencies sell is literally:</p> <ul> <li>Drag and drop your files</li> <li>Write a prompt like &quot;be a helpful customer service agent&quot;</li> <li>Click generate</li> </ul> <p>That's it. That's the $10k service.</p> <p>I'm not saying all AI dev work is simple.. custom integrations, complex workflows, actual development work deserve it's price. But charging small businesses $10k for a 10 minute drag &amp; drop setup? That's predatory.</p> <p>If anyone wants the screen recording showing the exact process, I'll post it. Just tired of seeing people get ripped off.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Excellent_Top_9172\"> /u/Excellent_Top_9172 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwrahf/agencies_charging_10k_for_ai_chatbots_are/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwrahf/agencies_charging_10k_for_ai_chatbots_are/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "user is asking for an improved software solution compared to what they use"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "GSuite/Squarespace email has become ridiculously expensive. Any free business email suggestions for a small business operator?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwg3xb/gsuitesquarespace_email_has_become_ridiculously/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m a plumber, and I’m tired of paying more and more every year for email. $130/year for one email is ridiculous, but I want to still keep a professional business email. It helps with new clients. Just curious if there are any good cheaper options.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rajloveleil\"> /u/rajloveleil </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwg3xb/gsuitesquarespace_email_has_become_ridiculously/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwg3xb/gsuitesquarespace_email_has_become_ridiculously/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking cheaper alternatives to existing email service"
+    },
+    "comments_checked": 10,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Those with physical stores, how do you handle cameras/prevent theft?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwpk6g/those_with_physical_stores_how_do_you_handle/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Basically title.</p> <p>Are you actively monitoring the cameras? How do you handle repeat thieves? Do you use AI shoplifting software? etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Any_Mountain1293\"> /u/Any_Mountain1293 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwpk6g/those_with_physical_stores_how_do_you_handle/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwpk6g/those_with_physical_stores_how_do_you_handle/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "pain",
+      "reason": "describing a business pain point that could be solved by software"
+    },
+    "comments_checked": 8,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Clover systems and afterpay",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwp10m/clover_systems_and_afterpay/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello I am a small business owner, and I have had clients asking about financing my product. I know it is possible, I have seen other businesses in my area advertise affirm afterpay klarna etc. However i called my bank where i have my clover card reader system set from they have no answers on setting up this system for me and directed me to clover support which was equally unhelpful. I was signing up for affirm and it had asked me about a platform and no one on clover or the bank could answer. (Had a lot of options like shopify and a bunch of something-commerce style stuff) </p> <p>I was just wondering if anyone has experience or knows somewhere to go to use this system. (Clover with affirm or in store affirm types)Honestly im okay with getting an entire new system away from clover if i need to but I think a buy now pay later system can really help my business. Feel free to ask questions if i was unclear</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Mysterious-Hotel8040\"> /u/Mysterious-Hotel8040 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwp10m/clover_systems_and_afterpay/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mwp10m/clover_systems_and_afterpay/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking an improvement on existing software (Clover system) for a specific feature (afterpay integration)"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Got asked to do a deep clean, did the job, now the owner is halving the agreed rate after the fact",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mwqdrz/got_asked_to_do_a_deep_clean_did_the_job_now_the/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<span>I was asked last-minute to do a deep clean of an apartment for someone hosting a special event. The place was in rough shape including a lot of mould and I was encouraged to do as much as I could to get it looking right. I brought my own supplies, worked thoroughly, and postponed other things to fit it in because I was told the rate upfront and agreed on that basis. After the job was done, the owner told me she had “made a mistake” offering that rate and is now only willing to pay me half. This wasn’t discussed beforehand it only came up after I’d completed everything. I’ve tried to handle it calmly and professionally, but I feel really disrespected. I’m torn because she’s in my building and connected to people I know but I also don’t think it’s okay to change terms retroactively. Would love to hear how others would handle this or what you’d say in my shoes. Edit: it’s in writing and verbal, sent her a screenshot of her telling me the rate and she’s claiming it’s a mistake!</span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "pain",
+      "reason": "Seeking an improvement on existing software (Clover system) for a specific feature (afterpay integration)"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "News Widgets are now available in Your News",
+    "link": "https://www.reddit.com/r/apps/comments/1mw2h9u/news_widgets_are_now_available_in_your_news/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><strong>Your News</strong> is an <strong>RSS Feed Reader</strong> with built-in support for <strong>Reddit</strong> and <strong>YouTube.</strong> It now includes <strong>RSS Widgets</strong> in <strong>medium and large sizes</strong>, so you can keep up with your favorite feeds right from your home screen.</p> <p>The widgets let you pick which sources to follow, adjust font sizes, change colors, and more.</p> <p>Other highlights include:</p> <ul> <li>Automatic refresh with an optional manual refresh button</li> <li>Navigation buttons to scroll through articles</li> </ul> <p>You can see the widgets in action here: <a href=\"https://www.reddit.com/r/YourNewsApp/comments/1mtddz0/sneak_peek_rss_home_widgets_for_ios/\">Sneak peek of RSS home widgets</a></p> <p>Keep in mind that widgets are a <strong>premium feature</strong>.</p> <p>iOS: <a href=\"https://apps.apple.com/us/app/your-news-rss-feed-reader/id6744372214?platform=iphone\">Your News – RSS Feed Reader</a>Android: <a href=\"https://play.google.com/store/apps/details?id=com.your_news&amp;hl=en\">Your News - RSS Feed Reader</a><br /> Learn more: <a href=\"https://www.yournews.app/\">yournews.app</a><br /> Join: <a href=\"https://www.reddit.com/r/yournewsapp/\">r/yournewsapp</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TijnvandenEijnde\"> /u/TijnvandenEijnde </a> <br /> <span><a href=\"https://i.redd.it/ijarcfjf6bkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mw2h9u/news_widgets_are_now_available_in_your_news/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": false,
+      "category": "improve",
+      "reason": "describing an existing product with a new feature or improvement"
+    },
+    "comments_checked": 2,
     "comment_analysis": {
       "found": false,
       "example": ""

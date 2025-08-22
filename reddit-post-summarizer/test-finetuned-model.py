@@ -2,9 +2,9 @@
 from transformers import pipeline
 
 pipe = pipeline("text-classification",
-                model="jacobNar/bert-reddit-classifier-v2")
+                model="jacobNar/bert-reddit-classifier-v3")
 
-example = "Hi everyone! I'm excited to share that Flag Quiz Master is now live on App Store! If you love geography, trivia, or just want to learn more about the world's flags, this app is for you. I built it as a fun way to test and improve your knowledge of country flags from around the globe. App features: - Multiple game modes (Classic, Time Attack, Daily Challenges) - Different difficulty levels to match your skill - Track your progress and achievements (work in progress lol) - Learn flags from 195+ countries It's 100% free! Here's the app link: Flag Quiz Master on App Store Would really appreciate if you could check it out and leave some feedback! As an indie developer, every download and review helps tremendously "
+example = "On a recent flight, my husband and I booked E+ seats (aisle for him, window for me). As we were approaching our seating row, a very young child was sitting in the middle seat and a woman (on the opposite side of the plane in that same row) sitting in the middle seat was discussing a “seat swap” with a passenger standing in the aisle of that row. Well, it turns out the passenger she was talking with was assigned the window seat next to her. She had asked if he wouldn’t mind switching seats so that her daughter (the young child that was seated in the middle on the opposite side) could be seated next to her. (It was a completely full flight so I’m assuming they must’ve been standby passengers and is possibly why they were not seated together.) This guy was kind in that he agreed to let the child take his window seat. "
 
 result = pipe(example)
 
