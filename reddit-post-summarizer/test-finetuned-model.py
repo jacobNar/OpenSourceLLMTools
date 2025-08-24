@@ -2,13 +2,18 @@
 from transformers import pipeline
 
 pipe = pipeline("text-classification",
-                model="jacobNar/bert-reddit-classifier-v6", device="cuda")
+                model="jacobNar/autotrain-vtwei-2s4ra", device="cuda")
 
 examples = [
     "8 months ago I launched this database that analyzes real user problems from G2 reviews, App Store feedback, and Reddit threads to help founders find their next profitable SaaS idea. It went on to make $21,000 which is kinda insane for me to think about.I was very new to this whole marketing thing when launching it (because I failed 8 times, with all of them getting <50 users and 0 dollars from a product hunt launch lmao). The main channels I picked for this product where I would change it all were X, Reddit, and some founder communities (discord/slack). So I just started building a following together with my app as it grew. This is what every founder should imo as long as you build a good or at least interesting product (for an audience. dw no one is going to steal your idea if you start posting if you are done 50% of your mvp). As my product grew so did my following. It was like a self-feeding cycle.Here are my stats so far:1,700+ total signups66 active paying subscribers$21,000 total revenue$5,300 in just the last 2 months24,000+ unique website visitors in the past 2 months ",
-    "Title says it all. See a lot of bs posts across reddit about 10x this or went to 100k MRR in a month that. So I dropped a link with a screenshot for proof on how we've built our content engine and 7x'd our impressions and scaled our LLM visibility in under 90 days. Drop your company info and I can share some strategy for how you could scale as well"
+    "I once said to myself: \"What if I solved a problem I'm experiencing myself?\" When you start from there, you're unlikely to go wrong. In 1 month: $3k in MRR, real positive feedback... and that's just the beginning! The problem?  For coders, all sites end up looking the same. Design is hard to manage with prompts alone. My solution:  A library of ready-to-use UI components, each with its associated prompt. You copy, paste, and you have a site that stands out from the crowd. That's how https://skilfut.com was born. It's a V1 (so it's not perfect), but it's a great start, and I think we're onto something",
+    "I’m a college student and solo founder who recently launched Revast, an AI-powered app aimed at simplifying how students and lifelong learners study. The app lets users upload PDFs, PowerPoint presentations, or link YouTube videos, and instantly transforms them into organized notes, flashcards, quizzes, and summaries. We’ve also integrated an AI Chat feature that allows users to ask questions and get instant help based on their study materials. Creating Revast has been a challenging but incredibly rewarding 1.5-month journey. Balancing schoolwork and building the app meant many late nights debugging and refining features. The most important lesson I’ve learned is focusing on simplicity—building something that solves real pain points without overwhelming users. Right now, I’m eager to hear from this community on a few things: What features would make you use a study app like this daily? Any UX/UI tips to make learning smoother and more engaging? Have you faced hurdles building apps on your own? How did you overcome them? Suggestions for growth or marketing focused specifically on student users? Building an app that genuinely helps learners is my mission, and I’d love your insights to make it better. Thanks for reading!",
+    "Is there an app where we can learn programming but with fun Mabye using tiktok interface for scrolling to learn",
+    "As the title above says domains are so costly,not able to get .com domain.ai seems out of budget(i am broke) does .io or .in be a problem from any aspect like target market,seo,aso for in app thing. first time builder can anyone help here",
+    "Reddit user is seeking information on a product that combines a kitchen scale with dishware, allowing users to track calories consumed from meals without having to weigh food multiple times. The desired product would be a plastic bowl-shaped shell with a built-in scale and display screen or app connectivity. This concept aims to simplify meal tracking for individuals monitoring their calorie intake for health reasons."
 ]
 
-result = pipe(examples[1])
-
+result = pipe(examples[5])
+# result2 = pipe(examples[1])
 print(result)
+# print(result2)

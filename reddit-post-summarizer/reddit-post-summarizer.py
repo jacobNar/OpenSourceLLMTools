@@ -6,7 +6,7 @@ import time
 from langchain_ollama import ChatOllama
 subreddits = ["https://www.reddit.com/r/Doesthisexist/.rss",
               "https://www.reddit.com/r/apps/.rss", "https://www.reddit.com/r/smallbusiness/.rss",
-              "https://www.reddit.com/r/ProductManagement/.rss", "https://www.reddit.com/r/SideProject/.rss", "https://www.reddit.com/r/SaaS/.rss"
+              "https://www.reddit.com/r/ProductManagement/.rss", "https://www.reddit.com/r/SideProject/.rss", "https://www.reddit.com/r/SaaS/.rss",
               "https://www.reddit.com/r/Solopreneur/.rss"]
 
 
@@ -62,6 +62,14 @@ Comments:
 {comments}
 ---
 Only output valid JSON.
+"""
+
+SUMMARIZE_PROMPT = """You are an assistant. Summarize the following Reddit post in 2-3 sentences, focusing on the main point and any context that would help a reader understand the post.
+Post content:
+---
+{content}
+---
+Only output the summary text.
 """
 
 
@@ -151,7 +159,11 @@ def scan_subreddits(subreddits: List[str]) -> List[Dict]:
     candidates = []
     for feed_url in subreddits:
         print("Fetching", feed_url)
-        feed = fetch_feed(feed_url)
+        try:
+            feed = fetch_feed(feed_url)
+        except Exception as e:
+            print(f"Failed to fetch {feed_url}: {e}")
+            continue
         print("Feed fetched:", feed_url, "entries:",
               len(feed.entries) if feed else 0)
         if not feed:
@@ -221,37 +233,58 @@ def fetch_comments_and_analyze(candidate: Dict) -> Dict:
     }
 
 
+def summarize_post_text(text: str) -> str:
+    prompt = SUMMARIZE_PROMPT.format(content=text)
+    resp = call_ollama(prompt)
+    return resp.strip()
+
+
+def scan_subreddits_for_summaries(subreddits: List[str]) -> List[Dict]:
+    """Fetches and summarizes posts from the specified subreddits."""
+    posts = []
+    for feed_url in subreddits:
+        print("Fetching", feed_url)
+        try:
+            feed = fetch_feed(feed_url)
+        except Exception as e:
+            print(f"Failed to fetch {feed_url}: {e}")
+            continue
+        print("Feed fetched:", feed_url, "entries:",
+              len(feed.entries) if feed else 0)
+        if not feed:
+            continue
+        for entry in feed.entries:
+            title = getattr(entry, "title", "")
+            link = getattr(entry, "link", "")
+            content = getattr(entry, "content")
+            full_text = f"Title: {title}\n\n{content}"
+            summary = summarize_post_text(full_text)
+            print("Summarized:", title)
+            posts.append({
+                "title": title,
+                "full_text": full_text,
+                "summary": summary,
+                "link": link,
+            })
+    return posts
+
+
 def main():
-    out_path = "reddit_saas_candidates.json"
+    out_path = "posts.json"
     try:
         with open(out_path, "r", encoding="utf-8") as f:
             final_list = json.load(f)
     except FileNotFoundError:
         final_list = []
 
-    existing_links = {item["link"] for item in final_list}
-
-    candidates = scan_subreddits(subreddits)
-
-    # loop through candidates, analyze them and update if exists or add new one
-    for c in candidates:
-        analyzed_post = fetch_comments_and_analyze(c)
-        if analyzed_post["link"] in existing_links:
-            # Update existing post
-            for i, item in enumerate(final_list):
-                if item["link"] == analyzed_post["link"]:
-                    final_list[i] = analyzed_post
-                    break
-        else:
-            # Append new post
-            final_list.append(analyzed_post)
-        time.sleep(0.5)
+    # Only change: use new summarization flow
+    posts = scan_subreddits_for_summaries(subreddits)
+    final_list.extend(posts)
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(final_list, f, indent=2, ensure_ascii=False)
 
     print(f"Done. {len(final_list)} items saved to {out_path}")
-    # minimal output
     for i, item in enumerate(final_list, 1):
         print(i, item["title"], item["link"])
 

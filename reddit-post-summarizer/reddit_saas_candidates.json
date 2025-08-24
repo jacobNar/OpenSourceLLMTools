@@ -13,7 +13,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a free software with simple GUI and easy to use"
+      "reason": "seeking a free software with specific features and requirements"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -35,7 +35,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an alternative to existing software"
+      "reason": "asking for an improved software/tool compared to what they use"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -57,7 +57,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an improvement on existing Bluetooth solution"
+      "reason": "seeking an existing solution to be improved or replaced"
     },
     "comments_checked": 2,
     "comment_analysis": {
@@ -79,7 +79,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "user is asking for an improved version of a product they like but have issues with"
+      "reason": "user is asking for an improved version of a product they like but don't want due to its limitations"
     },
     "comments_checked": 3,
     "comment_analysis": {
@@ -101,7 +101,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a website with similar functionality to aggie.io for music collaboration"
+      "reason": "seeking a website recommendation for collaboration on music projects"
     },
     "comments_checked": 0
   },
@@ -119,16 +119,12 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking an alternative to existing Bluetooth-based solutions with a hair trigger and immediacy of reaction"
+      "reason": "seeking an alternative to existing Bluetooth-based tracking systems with a focus on immediate separation notification"
     },
     "comments_checked": 31,
     "comment_analysis": {
-      "result": {
-        "found": [
-          "Prox PRD",
-          "ESP32 can measure WiFi signal strength"
-        ]
-      }
+      "found": false,
+      "example": "could not parse LLM response"
     }
   },
   {
@@ -145,7 +141,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "asking for an improved software/tool compared to what they use"
+      "reason": "user is seeking a simpler solution to an existing problem with their current method"
     },
     "comments_checked": 1,
     "comment_analysis": {
@@ -189,7 +185,7 @@
     "classification": {
       "match": true,
       "category": "improve",
-      "reason": "seeking a better alternative to existing wallpaper websites"
+      "reason": "seeking a high-quality wallpaper site without AI-generated images"
     },
     "comments_checked": 9,
     "comment_analysis": {
@@ -620,7 +616,7 @@
     "comments_checked": 4,
     "comment_analysis": {
       "found": true,
-      "example": "Alarm Clock Xtreme has a gentle alarm mode with bird sounds and customizable radio stations"
+      "example": "<ul><li>you have to solve math problems (you can choose difficulty)</li><li>you must type into the input field the letters shown by the app</li><li>you must shake your phone</li><li>you must press power button</li><li>you must press the volume up or down button</li><li>tap a button on the screen</li></ul>"
     }
   },
   {
@@ -1856,6 +1852,1717 @@
       "match": false,
       "category": "improve",
       "reason": "describing an existing product with a new feature or improvement"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Domains are so fucking costly,not getting .com domain.ai seems out of budget(i am broke) does .io or .in be a problem",
+    "link": "https://www.reddit.com/r/apps/comments/1mygx21/domains_are_so_fucking_costlynot_getting_com/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>As the title above says domains are so costly,not able to get .com domain.ai seems out of budget(i am broke) does .io or .in be a problem from any aspect like target market,seo,aso for in app thing. first time builder can anyone help here</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UDIK69\"> /u/UDIK69 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mygx21/domains_are_so_fucking_costlynot_getting_com/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mygx21/domains_are_so_fucking_costlynot_getting_com/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "SPOTIFY WEB COM PROBLEMAS",
+    "link": "https://www.reddit.com/r/apps/comments/1myg8bz/spotify_web_com_problemas/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Meu spotify premium web não roda nenhuma música: coloco a playlist para rodar e o site começa a pular todas as músicas até chegar em uma e tocar apenas 10 segundos dela. O que pode estar acontecendo?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Firm-Advertising4616\"> /u/Firm-Advertising4616 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1myg8bz/spotify_web_com_problemas/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1myg8bz/spotify_web_com_problemas/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is experiencing issues with a specific software (Spotify web) and seeking improvement or solution"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Building Revast - An AI Study App That Turns PDFs, PPTs & YouTube Lectures into Notes & Quizzes — Lessons Learned & Feedback Wanted",
+    "link": "https://www.reddit.com/r/apps/comments/1mych87/building_revast_an_ai_study_app_that_turns_pdfs/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m a college student and solo founder who recently launched <strong>Revast</strong>, an AI-powered app aimed at simplifying how students and lifelong learners study.</p> <p>The app lets users upload PDFs, PowerPoint presentations, or link YouTube videos, and instantly transforms them into organized notes, flashcards, quizzes, and summaries. We’ve also integrated an <strong>AI Chat feature</strong> that allows users to ask questions and get instant help based on their study materials.</p> <p>Creating Revast has been a challenging but incredibly rewarding 1.5-month journey. Balancing schoolwork and building the app meant many late nights debugging and refining features. The most important lesson I’ve learned is focusing on simplicity—building something that solves real pain points without overwhelming users.</p> <p>Right now, I’m eager to hear from this community on a few things:</p> <ul> <li>What features would make you use a study app like this daily?</li> <li>Any UX/UI tips to make learning smoother and more engaging?</li> <li>Have you faced hurdles building apps on your own? How did you overcome them?</li> <li>Suggestions for growth or marketing focused specifically on student users?</li> </ul> <p>Building an app that genuinely helps learners is my mission, and I’d love your insights to make it better. Thanks for reading!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VisualStation9515\"> /u/VisualStation9515 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mych87/building_revast_an_ai_study_app_that_turns_pdfs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mych87/building_revast_an_ai_study_app_that_turns_pdfs/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for feedback and suggestions to improve an existing app"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "App for knowing friends orders",
+    "link": "https://www.reddit.com/r/apps/comments/1my6bgj/app_for_knowing_friends_orders/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey yall, made this app so you can follow your friends and see what their fave orders are- so you could not text them &quot;what do you want from ___&quot; and just know and pick it up. -- would love any feedback and you can search myordr on the app store- thanks!</p> <p><a href=\"https://preview.redd.it/r3mqxe6qsskf1.png?width=710&amp;format=png&amp;auto=webp&amp;s=374c31817aa61128d893d445fd1b1c571e5b20ff\">https://preview.redd.it/r3mqxe6qsskf1.png?width=710&amp;format=png&amp;auto=webp&amp;s=374c31817aa61128d893d445fd1b1c571e5b20ff</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Upbeat-Library-4737\"> /u/Upbeat-Library-4737 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1my6bgj/app_for_knowing_friends_orders/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1my6bgj/app_for_knowing_friends_orders/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback and improvement on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "What app do you use to save useful posts from different social media platforms?",
+    "link": "https://www.reddit.com/r/apps/comments/1my3sy4/what_app_do_you_use_to_save_useful_posts_from/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I know you can usually save and organize posts in the app itself but I use multiple social media platforms and my favorites are saved across different apps e.g YouTube, TikTok, X and LinkedIn. Is there an app where I can save and organize all these posts in one place?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Strange_Ad2699\"> /u/Strange_Ad2699 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1my3sy4/what_app_do_you_use_to_save_useful_posts_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1my3sy4/what_app_do_you_use_to_save_useful_posts_from/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to save and organize posts from multiple social media platforms"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Is there an app where we can learn programming but with fun",
+    "link": "https://www.reddit.com/r/apps/comments/1mxyn0m/is_there_an_app_where_we_can_learn_programming/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Mabye using tiktok interface for scrolling to learn </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Icy_Nectarine9300\"> /u/Icy_Nectarine9300 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxyn0m/is_there_an_app_where_we_can_learn_programming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxyn0m/is_there_an_app_where_we_can_learn_programming/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a software solution to learn programming with fun features"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I made JigSwap - photo jigsaw puzzles that you can play offline",
+    "link": "https://www.reddit.com/r/apps/comments/1my3dgc/i_made_jigswap_photo_jigsaw_puzzles_that_you_can/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks 👋<br /> I’m thrilled to share <a href=\"https://apps.apple.com/us/app/jigswap-photo-puzzles/id6748055853\">JigSwap – Photo Puzzles</a>, my newest game for anyone who loves puzzles and beautiful imagery.</p> <ul> <li>🖼 Over <strong>1,000 stunning HD puzzles</strong> across themes like nature, art, travel, animals...</li> <li><strong>No timers or gimmicks</strong>—just pure, peaceful puzzling fun</li> <li><strong>Works offline</strong>, so you can relax your mind anywhere—even when you’re offline</li> <li><strong>Difficulty levels</strong> from easy to legendary; plus helpful hints, smart saving</li> </ul> <p>Let me know what you think—bugs, feature ideas, anything at all.<br /> Enjoy the calm!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Superb-Shirt-1908\"> /u/Superb-Shirt-1908 </a> <br /> <span><a href=\"https://i.redd.it/3033xydv7skf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1my3dgc/i_made_jigswap_photo_jigsaw_puzzles_that_you_can/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for feedback and suggestions on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Just launched an app called HUE – culture-first dating & friendship!",
+    "link": "https://www.reddit.com/r/apps/comments/1my2491/just_launched_an_app_called_hue_culturefirst/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I just finished building an app called HUE and I’d love for you to check it out!</p> <p><strong>What is it?</strong> HUE is a dating &amp; friendship app built around culture. Instead of swiping endlessly on people with no context, HUE helps you meet, date, and make friends with others who share (or are curious about) your cultural background. You can connect with people from 20+ different ethnicities, explore prompts that highlight identity &amp; interests, and join group chats to build real communities.</p> <p><strong>Why did I build this?</strong> As a Nigerian American in the diaspora, I’ve always loved Nigerian culture - Afrobeats, Nollywood, and everything in between - but I realized I didn’t have a big enough community around me to share that love with. That gap inspired me to create HUE. I wanted a space where people could celebrate who they are, meet others who share their interests, and form relationships rooted in authenticity.</p> <p><strong>Why HUE is different:</strong></p> <ul> <li>Culture-first profiles (show who you are &amp; where you’re from)<br /></li> <li>Meet people for friendship, dating, or networking<br /></li> <li>Group chats to easily form communities with the people you’ve connected with<br /></li> <li>Built-in icebreakers so conversations flow naturally<br /></li> </ul> <p><strong>Download link (iOS):</strong> 👉<a href=\"https://apps.apple.com/us/app/hue-dating-friends-culture/id6473274994\"> HUE on the App Store</a></p> <p>This is still early, so any feedback is super appreciated. If this sounds like something you’d use, please give it a try - and if you’ve got feature ideas, I’d love to hear them.</p> <p>Thanks for reading 🙏🏾</p> <p><a href=\"https://preview.redd.it/hpillu4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=37fb0f269d978c446270426bce15275570b00cf6\">https://preview.redd.it/hpillu4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=37fb0f269d978c446270426bce15275570b00cf6</a></p> <p><a href=\"https://preview.redd.it/d8ruhy4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=2a3c6e3d6e00e1dae6b03c9e649ae242405835dc\">https://preview.redd.it/d8ruhy4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=2a3c6e3d6e00e1dae6b03c9e649ae242405835dc</a></p> <p><a href=\"https://preview.redd.it/241fou4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=a5c94b3de933ef6a87ccf31c90fc62190c74e795\">https://preview.redd.it/241fou4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=a5c94b3de933ef6a87ccf31c90fc62190c74e795</a></p> <p><a href=\"https://preview.redd.it/0fcasu4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=5fc0742513be67529944417f839118280a360923\">https://preview.redd.it/0fcasu4pyrkf1.png?width=1290&amp;format=png&amp;auto=webp&amp;s=5fc0742513be67529944417f839118280a360923</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bLNRE5586\"> /u/bLNRE5586 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1my2491/just_launched_an_app_called_hue_culturefirst/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1my2491/just_launched_an_app_called_hue_culturefirst/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for feedback and feature ideas to improve the existing app HUE."
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "[4.99$ to FREE for 48H] Mindcast – Self-Talk Journal",
+    "link": "https://www.reddit.com/r/apps/comments/1my19y3/499_to_free_for_48h_mindcast_selftalk_journal/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><strong>Hey Reddit!</strong><br /> I just released <strong>Mindcast – Self-Talk Journal</strong>, an app that helps you understand yourself better through the power of voice journaling.</p> <p>Instead of typing, you just <strong>speak your thoughts</strong> — the app instantly transcribes, analyzes your mood, and organizes everything for clarity and growth.</p> <p>✨ <strong>Key features:</strong><br /> 🎙️ Voice journaling &amp; transcription – Speak your mind, let the app write it down<br /> 🧠 Mood analysis – Detect emotional tone and patterns from your words<br /> 🏷️ Categories &amp; tags – Organize your thoughts with ease<br /> 📊 Mood charts &amp; insights – Track emotional trends over time<br /> 🎯 Milestone tracker – Celebrate growth and progress<br /> 🎧 Export audio – Turn multiple entries into podcast-like episodes</p> <p><strong>Mindcast is built for people who want to self-reflect, track emotional well-being, and grow without the hassle of complicated journaling apps.</strong></p> <p>What I’d love from you:</p> <ul> <li>Feedback on the design and usability</li> <li>Suggestions for features or improvements</li> <li>General thoughts on voice-first journaling</li> </ul> <p>📲 <a href=\"https://apps.apple.com/us/app/mindcast-self-talk-journal/id6749766353\"><strong>Download on the App Store</strong></a><br /> Regular price: <strong>FREE</strong><br /> <strong>IAP - 4.99$ Pro version</strong> now its <strong>FREE for 2 DAYS</strong><br /> <strong>Actually working on translation, soon app will have 10 additional languages.</strong></p> <p>Would love to hear your feedback, bug reports, or ideas — and if you try it out, let me know how voice journaling feels compared to traditional journaling! 📝🎙️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MefjuEditor\"> /u/MefjuEditor </a> <br /> <span><a href=\"https://i.redd.it/t5jyg7wvrrkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1my19y3/499_to_free_for_48h_mindcast_selftalk_journal/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback and suggestions on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Any free autoclicker apps for ios?",
+    "link": "https://www.reddit.com/r/apps/comments/1mxwz12/any_free_autoclicker_apps_for_ios/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hopefully something that doesnt require 16.0+? Desperately in need</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fast_Ad7203\"> /u/Fast_Ad7203 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxwz12/any_free_autoclicker_apps_for_ios/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxwz12/any_free_autoclicker_apps_for_ios/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a free autoclicker app improvement"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "[Giveaway][$69.99->Free lifetime]100 FREE Lifetime Codes - Image Converter & Photo to PDF - Compress Photos & Image Size",
+    "link": "https://www.reddit.com/r/apps/comments/1mxzla6/giveaway6999free_lifetime100_free_lifetime_codes/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m an indie iOS developer and I just launched a new app called <strong>Image Converter &amp; Photo to PDF</strong>.<br /> Like many of you, I often needed to quickly turn images into PDFs — for work, school, or sharing online — but most tools were either clunky, had watermarks, or required a computer.</p> <p>So I built an app that makes it super simple to:</p> <p>🖼️ Convert images (JPG, PNG, HEIC, etc.) to <strong>high-quality PDFs</strong> in seconds</p> <p>📑 Merge multiple photos into a <strong>single PDF document</strong></p> <p>📐 Adjust page size, margins, and orientation before saving</p> <p>⚡ Batch convert multiple files at once (no need to repeat manually)</p> <p>☁️ Easily share or store PDFs on iCloud, Mail, or any app you use</p> <p>Normally, the premium version costs $69.99/year — but I want to give back to the community here.</p> <p>👉 I’m giving away <strong>free lifetime promo codes</strong> (limited supply).</p> <p>How to get one:<br /> Just leave a comment below saying you’d like a code, and I’ll reply to you with one.</p> <p>All I ask in return is: if you enjoy the app, please leave a 5⭐️ rating and a short review. This really helps me as a solo developer 🙏</p> <p>⚠️ Note: Apple only allows me to generate 100 codes per year per product, so it’s first come, first served.</p> <p>App Store link:<br /> <a href=\"https://apps.apple.com/us/app/image-converter-photo-to-pdf/id6751422130\">https://apps.apple.com/us/app/image-converter-photo-to-pdf/id6751422130</a></p> <p>Thanks for reading — I hope this app makes converting images to PDF faster and easier for you 🚀</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Repulsive_Care_390\"> /u/Repulsive_Care_390 </a> <br /> <span><a href=\"https://i.redd.it/h2ykjfiaerkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxzla6/giveaway6999free_lifetime100_free_lifetime_codes/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "App advice needid",
+    "link": "https://www.reddit.com/r/apps/comments/1mxy48a/app_advice_needid/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I downloaded rocket money app a few years ago and told myself I would use it to help get my finances in order , but that never happend. Today though I am very tempted to do just that get me finances in order. As I sign up for rocket money I realize that there may be better apps to do this, hell there may be an app that came out in the few years I sat on rocket money that does a better job. So redditors which personal financial app is best? Here’s my requirements for said app</p> <p>Keep track of money Make or help with making budgets Trim the fat, this could be canceling Subscriptions, or showing unnecessary spending, or something else Preferably free, but I’ll settle for reasably priced. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Itlhitman\"> /u/Itlhitman </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxy48a/app_advice_needid/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxy48a/app_advice_needid/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a better alternative to an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I built an app but reddit banned the account of it",
+    "link": "https://www.reddit.com/r/apps/comments/1mxrz4q/i_built_an_app_but_reddit_banned_the_account_of_it/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I built an app called Kindnessensender and tried to promote it by creating an account and a subreddit where I posted daily content. however, reddit banned it and I haven’t received a response to my appeal. what could be the reason?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/john_smith1365\"> /u/john_smith1365 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxrz4q/i_built_an_app_but_reddit_banned_the_account_of_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxrz4q/i_built_an_app_but_reddit_banned_the_account_of_it/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I built a free AI “second brain” app to capture notes & reminders (beta)",
+    "link": "https://www.reddit.com/r/apps/comments/1mxto0i/i_built_a_free_ai_second_brain_app_to_capture/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have been working on a small side project that I finally feel ready to share, I know it’s another productivity app, but give it a try, you won’t regret :)</p> <p>It’s a simple AI-powered “second brain”: you type anything (a note, task, idea, or reminder), and it automatically classifies it, extracts due dates, and shows you a Today view with upcoming reminders.</p> <p>Some things you can try: - “Remind me to call John tomorrow at 3pm” - “Meeting with Sarah Friday at 10am about invoices” - “Idea: start a blog on coffee brewing tips”</p> <p>It’s free to use, I would love a few testers to try it and tell me what feels useful or bad.</p> <p><a href=\"https://cortiva.vercel.app\">https://cortiva.vercel.app</a></p> <p>Thanks in advance! Any feedback is welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/haisenberg93\"> /u/haisenberg93 </a> <br /> <span><a href=\"https://i.redd.it/1t4724ysmpkf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxto0i/i_built_a_free_ai_second_brain_app_to_capture/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback and improvement on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Windows Note Taking apps",
+    "link": "https://www.reddit.com/r/apps/comments/1mxrbtd/windows_note_taking_apps/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>What are good note taking apps on windows similar to good notes and notability?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical_Ad8775\"> /u/Electrical_Ad8775 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxrbtd/windows_note_taking_apps/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxrbtd/windows_note_taking_apps/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a recommendation for an alternative to existing note-taking apps"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": true,
+      "example": "<https://www.upnote.com/>"
+    }
+  },
+  {
+    "title": "Sponge iOS app video deletion",
+    "link": "https://www.reddit.com/r/apps/comments/1mxo137/sponge_ios_app_video_deletion/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Loving sponge for iOS so far @prismtree_official. I signed up for premium hoping to use to delete videos, however video isn’t an option in the “media types” menu. Is this a feature that will be coming in future updates? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Flat-Cantaloupe-5775\"> /u/Flat-Cantaloupe-5775 </a> <br /> <span><a href=\"https://www.reddit.com/r/apps/comments/1mxo137/sponge_ios_app_video_deletion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxo137/sponge_ios_app_video_deletion/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is asking for a feature to be added to an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Catspace — a free AI cat breed identifier (my first iOS app!)",
+    "link": "https://www.reddit.com/r/apps/comments/1mxiyk1/catspace_a_free_ai_cat_breed_identifier_my_first/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I built Catspace for fellow cat lovers! Snap your kitty (or upload a pic) and you’ll see likely breeds and fur patterns with clear confidence levels and a cute kitty profile to peek at or share.</p> <p>I made the app because a bunch of my cat-lover friends kept asking if there was an iOS app that’s only about cats. So I built one with a simple, cute interface that stays out of the way. And Catspace isn’t just a breed identifier—the plan is to keep adding fun tools that help cat lovers learn about their cats and share them with the world. Although core features are free, you can still support the journey by subscribing <strong>Catspace Pro</strong> that gives you an ad-free experience, higher daily scan limits, and early access to new features—it genuinely helps me keep improving the app.</p> <p>This is my first iOS app, so I’d really love honest feedback—accuracy, UI, features you’d like, anything. Feel free to tell me your cat’s breed and what it guessed—I’m all ears (and whiskers). 🐱🐾</p> <p>App Store: <a href=\"https://apps.apple.com/ca/app/catspace/id6748916843\">https://apps.apple.com/ca/app/catspace/id6748916843</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JoeyJoey1022\"> /u/JoeyJoey1022 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mxiyk1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxiyk1/catspace_a_free_ai_cat_breed_identifier_my_first/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback on an existing app to improve its features and accuracy"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Mappx is out and is total my free!.",
+    "link": "https://www.reddit.com/r/apps/comments/1mxi42t/mappx_is_out_and_is_total_my_free/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Finally, excited to share my app that just went live on the App Store!! After two years of development, you can finally explore it: MappX is a digital social média designed for everybody. You can pin every destination on an interactive world map with photos, notes, and stories—and instantly see your travel stats.</p> <p>What makes Mappx unique? You can do all this with friends and connect with other travelers around the world!</p> <p>Mappx is completely free to download and use. No paywalls, no limited access, just pure discovery! There are no in-app purchases or promo codes required.</p> <p>Check it out, and if you have a moment, please leave feedback; It would really mean a lot :)</p> <p>ProductHunt: <a href=\"https://www.producthunt.com/posts/mappx-2?utm_source=other&amp;utm_medium=social\"><strong>https://www.producthunt.com/posts/mappx-2?utm_source=other&amp;utm_medium=social</strong></a></p> <p>Appstore: <a href=\"https://apps.apple.com/us/app/mappx/id6743347413\"><strong>https://apps.apple.com/us/app/mappx/id6743347413</strong></a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Necessary-Sky3898\"> /u/Necessary-Sky3898 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mxi42t\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxi42t/mappx_is_out_and_is_total_my_free/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is sharing their own app and asking for feedback"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "My minimalistic workout tracker app made got 1000 downloads in 10 days",
+    "link": "https://www.reddit.com/r/apps/comments/1mx7yoj/my_minimalistic_workout_tracker_app_made_got_1000/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey,</p> <p>Excited to share my recent project, Just Log, a simple workout tracker I developed this following build in public method in twitter</p> <p>Key details:</p> <p>- Launched about 10 days ago on iOS</p> <p>- Over 1,000 downloads so far</p> <p>- Features a freemium model with a $1.99/month premium subscription</p> <p>- Generated $40+ in revenue from premium subscriptions</p> <p>- Built using Swift/SwiftUI</p> <p>The app is designed for straightforward workout tracking, skipping extras like social features, meal planners, or AI coaches. The affordable $1.99/month pricing (compared to the usual $9.99) is proving effective.</p> <p>I reached out directly to the first 100 users via email to ask about their interest in the premium version and gather feedback. This led to some conversions and provided super helpful insights for refining the app.</p> <p>I’m thrilled with the early momentum and the connection with users. Sharing the journey publicly on Twitter really helped spark interest before launch.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Selection9848\"> /u/No_Selection9848 </a> <br /> <span><a href=\"https://i.redd.it/dcpe77jyykkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mx7yoj/my_minimalistic_workout_tracker_app_made_got_1000/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for feedback and insights to refine the app"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": true,
+      "example": "<https://justlog.app>"
+    }
+  },
+  {
+    "title": "Try this mind mapping tool",
+    "link": "https://www.reddit.com/r/apps/comments/1mxg8gm/try_this_mind_mapping_tool/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://pathmind.app\">Pathmind</a> is a web-based mind mapping tool which allows you to make interactive mind maps to organise your thoughts.</p> <p>It gives you so much control over your maps you don’t even end up using half of it’s capabilities, tho if you just tried you would get the hang of it immideately.</p> <p>You’re welcome to use it and leave any feeback you want, i’m open for any feature suggestions i’ll try to implement them as soon as possible ;)</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Trix5Dev\"> /u/Trix5Dev </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mxg8gm\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/apps/comments/1mxg8gm/try_this_mind_mapping_tool/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "What's the best web hosting for a website that can have under 20,000 visitors?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mxzqhp/whats_the_best_web_hosting_for_a_website_that_can/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey there,</p> <p>I'm planning to start a small business where I am going to promote some digital products and ebooks. When I was researching about web hosting and stuff, I found out that there are multiple types of web hosting and this is kinda confusing for me tbh.</p> <p>When I googled, I found &quot;Top 5 web hosting providers for small businesses&quot; but every blog had the same 5 web hosting services and now I was more confused. I found this hostingbattle website as well where they had 30+ web hosting providers listed according to different types of hosting and they had detailed info about web hosting services but then the problem is that I am noob in terms of web hosting and I don't know if I should go with shared web hosting or dedicated web hosting lol.</p> <p>Can you guys help me understand what kind of the web hosting should I choose if I have digital products like ebooks.</p> <p>Thank you in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/The_Default_Guyxxo\"> /u/The_Default_Guyxxo </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mxzqhp/whats_the_best_web_hosting_for_a_website_that_can/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mxzqhp/whats_the_best_web_hosting_for_a_website_that_can/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a recommendation to improve an existing web hosting service"
+    },
+    "comments_checked": 19,
+    "comment_analysis": {
+      "found": [
+        {
+          "comment": "First: buy your domain independently of your hosting service. That way you have no issues in the future if you want to change hosting - your domain registration is free-standing.",
+          "example": ""
+        },
+        {
+          "comment": "For under 20,000 visitors you don’t need anything heavy like dedicated hosting, shared or managed WordPress hosting will cover you just fine as long as the provider has decent uptime and support.",
+          "example": ""
+        },
+        {
+          "comment": "TopSyde, Kinsta, WPEngine.",
+          "example": ""
+        },
+        {
+          "comment": "I have used hostmatters.com in Jacksonville Florida for about 25 years now. They just merged/got bought with another provider but service is just as good.",
+          "example": ""
+        },
+        {
+          "comment": "for under 20k visitors, shared hosting is plenty...hostinger if you want cheap and fast, siteground if you want stronger support and security. if you’re in india, milesweb is solid for local payments and data centers.",
+          "example": ""
+        },
+        {
+          "comment": "Just go Cloudflare, it's free hosting forever! Best CDN, best domain register. I can show you how to do it if you are interested.",
+          "example": ""
+        },
+        {
+          "comment": "Sorry, free hosting forever for static website, if you have backend etc.., that will be different, but still very affordable!",
+          "example": ""
+        },
+        {
+          "comment": "What's a good service to build a quick and dirty site that can be hosted by CF",
+          "example": "Vercel."
+        },
+        {
+          "comment": "Duda.co hands down.",
+          "example": ""
+        },
+        {
+          "comment": "Hey You can check out Ionos server for vps hosting , It just start to provide the hosting for $2 USD a month. And something great about it is It gives plan also for a single month also. You could try it , if you like you can upgrade to a better plan later.",
+          "example": ""
+        }
+      ]
+    }
+  },
+  {
+    "title": "How do you guys keep your restaurants smelling fresh (esp. basement seating)?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1my1sb4/how_do_you_guys_keep_your_restaurants_smelling/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks, My dad runs a restaurant in Faridabad and our seating is in the basement of approximately 30 seating , so sometimes the air feels heavy or stale. We’re looking for something to keep the place smelling nice without it being too artificial or overpowering (don’t want it to clash with food).</p> <p>I’ve been looking at diffusers, auto sprays, gels, etc. but before buying, I wanted to ask: • What do you use in your restaurant/café? • What’s worked well (or not worked) for you? • Any brands/products you’d recommend (or avoid)?</p> <p>Basically just trying to figure out the best way to keep the air fresh and comfortable for guests. Would love to hear your experiences!</p> <p>Thanks 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Charming-Place6610\"> /u/Charming-Place6610 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my1sb4/how_do_you_guys_keep_your_restaurants_smelling/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my1sb4/how_do_you_guys_keep_your_restaurants_smelling/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking recommendations for improving air freshness in a restaurant setting"
+    },
+    "comments_checked": 17,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "upholstery cleaning business",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1my6b64/upholstery_cleaning_business/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I have some money im willing to invest, so I thought of buying a spray extraction machine and try running some ads . and is it a scalable business, I can't think of a way to manage the employees.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/The-Grandmaster321\"> /u/The-Grandmaster321 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my6b64/upholstery_cleaning_business/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my6b64/upholstery_cleaning_business/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking improvement on an existing business idea"
+    },
+    "comments_checked": 14,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I built a simple tool to help with reviews, would love some feedback",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mydwba/i_built_a_simple_tool_to_help_with_reviews_would/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,<br /> I’ve noticed one of the biggest challenges for small businesses and freelancers is collecting and managing customer reviews. Most people forget to leave reviews, and when they do, they usually go to Google or Facebook, which you can’t fully control.</p> <p>So I recently built a small SaaS project called <strong>AskReview</strong>. It lets you:</p> <ul> <li>Send review requests to customers by email</li> <li>Collect testimonials in one place</li> <li>Showcase reviews on your website with a simple widget</li> <li>Use a QR code to make it easier for offline businesses</li> </ul> <p>Right now, it’s super early (just an MVP), but I’d really love feedback:</p> <ul> <li>Do you think this is useful?</li> <li>If you run a business, would you use something like this?</li> <li>What’s missing that would make it more valuable?</li> </ul> <p>Not trying to sell here, just want honest thoughts from people who’ve been in the trenches. 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Just-Mail-8204\"> /u/Just-Mail-8204 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mydwba/i_built_a_simple_tool_to_help_with_reviews_would/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mydwba/i_built_a_simple_tool_to_help_with_reviews_would/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback on an existing tool to improve it"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Plastic Gift Cards",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1my75o7/plastic_gift_cards/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, I own a holistic wellness spa and currently use Square gift cards (and ecards). We’re transitioning away from Square and moving to Stripe through our scheduling software (HelmBot) going forward. We’ll be migrating gift card data from square into our new system but we’re unsure of what vendor to use for the plastic cards themselves. Does anyone have recommendations for custom cards and (if you’re a little nerdy) know of a card that scans only the card number through the magnetic strip reader? Our Square cards have additional characters that our clients wouldn’t see when manually inputting when booking with us. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chadster1979\"> /u/chadster1979 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my75o7/plastic_gift_cards/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my75o7/plastic_gift_cards/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a custom card solution for plastic gift cards with specific requirements"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "🛑 The Hidden Cost of Turning Off Ads Too Early (That No One Tells You)",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1myg7x4/the_hidden_cost_of_turning_off_ads_too_early_that/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>One of the biggest mistakes I see business owners make (after managing tens of millions in spend for ecommerce brands) is turning off ads too quickly when they look unprofitable.</p> <p>Here’s the reality: 🚀 Ads are the spark, not the fire. They don’t just drive direct sales they start the journey that fuels your entire revenue ecosystem.</p> <p>A quick example: We worked with a brand that thought Facebook ads “weren’t working” because their dashboard showed a weaker ROAS. They pulled the plug. </p> <p>Within 2 weeks: • Google search traffic fell by 30%!! (fewer people searching the brand after first seeing an ad). • Amazon sales dipped 25% (shoppers weren’t being introduced to the brand in the first place). • Email revenue slowed (no new leads coming in to nurture). On the surface, ads looked unprofitable. But when you zoom out, they were the gasoline keeping the whole engine running. Why this happens: • Attribution delay → Platforms rarely show you the full picture of how long people take to buy. • Channel crossover → Most buyers don’t buy where they first see you. They jump between Meta, Google, Amazon, TikTok, email, etc. • First-touch vs. last-touch → Ads often create the demand, but other channels capture the sale.</p> <p>The takeaway: Before you kill ads, ask: • What happens to my organic, Amazon, or Google sales without them? • Am I measuring only last-click ROAS, or am I looking at contribution to the whole business? New customer acquisition etc. • Do I have a testing window long enough to see lifetime value, not just week-one sales?</p> <p>Feel like you can relate? Share your story, I would love to hear or help out. Ps- that brand I mentioned winded up rehiring us</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Lauren0514\"> /u/Lauren0514 </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1myg7x4/the_hidden_cost_of_turning_off_ads_too_early_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1myg7x4/the_hidden_cost_of_turning_off_ads_too_early_that/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for an improved approach to managing ads without explicitly seeking a new software solution"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Corporate Structure - holding company, subsidiary, tax filing, & liability protection",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1mya9io/corporate_structure_holding_company_subsidiary/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I have a company (S-corp) that performs service X. Currently, I am the sole performer in this company. This company is my day job and provides for my family.</p> <p>I have a proposed business deal wherein I would add employees to perform the same services on other projects. If I accept this offer, I will be taking on a partner. If I do that, I need to separate the income from my current &quot;day job&quot; work so that the only income split with the partner is the new income from added employee service providers.</p> <p>I think pretty clearly that I need to create a new company for my personal work (since that's easy to switch over), leaving the old company only receiving income from this new business deal and allowing the earnings to be properly split with the partner.</p> <p>The part that isn't clear is the ideal structure. The goal is tax filing simplicity and liability protection. Specifically, if new partner business gets sued, I don't want the personal company at risk, and vice versa. </p> <p>Create a holding company (S-corp) that owns LLC A (which handles personal work) and owns LLC B (which handles partner business)?</p> <p>The rub there is, based on my basic understanding, all companies need to operate as independent companies in order to preserve the liability protection. People speak of management/consulting fees paid to the holding company, but in this case, I would need the LLC A to push ALL earnings to the holding company. A fee of 100% of the subsidiary's profit doesn't seem &quot;reasonable&quot; and would surely be considered unreasonable in a court of law.</p> <p>Anyone want to share some insight on how to set this up where neither subsidiary is at risk due to a suit against the other and still allows for a single tax return?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ibsmart\"> /u/ibsmart </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mya9io/corporate_structure_holding_company_subsidiary/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1mya9io/corporate_structure_holding_company_subsidiary/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking an improved corporate structure setup for tax filing simplicity and liability protection"
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Are there mid-range machines for filling tincture bottles with oil?",
+    "link": "https://www.reddit.com/r/smallbusiness/comments/1my8pu3/are_there_midrange_machines_for_filling_tincture/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm scaling my production of cannabis-infused MCT oil tinctures to about 150 30mL bottles per batch. Every product I've seen to do this is either a cheap Chinese piston filler or a $6K+ pro-grade system. Is there a reliable mid-tier solution? It's okay if it's only semi-automatic or used. I just can't scale up doing this all by hand.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheGrandPoohBear\"> /u/TheGrandPoohBear </a> <br /> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my8pu3/are_there_midrange_machines_for_filling_tincture/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1my8pu3/are_there_midrange_machines_for_filling_tincture/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking a mid-range machine for filling tincture bottles"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "How was your experience dealing conflicts in workplace? conflicts, not disagreements, like a uncooperative coworker/dev or tough stakeholder in your job?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1my9g4t/how_was_your_experience_dealing_conflicts_in/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Here's my experience: Dev Lead was always talking down any suggestions I make, I involve devs early as it gives shared ownership and quick buy-in, and when i tried asking their opinion during discovery on inputs we have about a potential feature, here's what i got from dev &quot;This is something you should tell not us&quot;, which technically is true but i think it set a tone in the room and didn't know how to handle it; i knew if i said something in the moment it would end up becoming bigger than what it should be; I stopped asking open ended questions for sure and stopped involving dev in discovery as they felt that its waste of time and although i tried to tell benefits in retrospective meeting, nothing worked</p> <p>how would you handle such situations? i tried looking up web and tired of bookish answers, not just this scenario but how to handle such situations say with stakeholders and others?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Saitama_B_Class_Hero\"> /u/Saitama_B_Class_Hero </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1my9g4t/how_was_your_experience_dealing_conflicts_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1my9g4t/how_was_your_experience_dealing_conflicts_in/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved approach to handling conflicts in the workplace"
+    },
+    "comments_checked": 13,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Customer health dashboards lie, what early warning actually earns sprint time?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mxg5o4/customer_health_dashboards_lie_what_early_warning/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Quick sanity check from the CS trenches. </p> <p>I’ve been living in health-score dashboards with a bunch of CSMs, and we’re deep in data but still getting blindsided by churn. The patterns that are too consistent </p> <p>- Validation grind, testing every potential churn trigger one-by-one is a month-long process to get right.<br /> - Context black hole: a 30% usage drop might mean “champion left” or the feature is fully automated. data never tells the story.<br /> - Scaling wall: The &quot;just talk to customers&quot; isnt a strategy past a certain number of accounts. </p> <p>All these make it incredibly challenging to give the product clear, actionable signals on what to focus on to prevent churn proactively. </p> <p>What signal has earned a spot on your roadmap and beat a shiny new feature in prioritization?<br /> How do you convince your leadership? </p> <p>Have my own thoughts from the CS side, but I'm here to learn yours first. What worked?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zestyclose-Lynx-1796\"> /u/Zestyclose-Lynx-1796 </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mxg5o4/customer_health_dashboards_lie_what_early_warning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mxg5o4/customer_health_dashboards_lie_what_early_warning/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 14,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "Getting a product designed, anyone worked with a product development team like Product Innov?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mxef6m/getting_a_product_designed_anyone_worked_with_a/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p> I am in the early stages of developing a new product and recently reached out to a local design agency. They had a solid portfolio and seemed genuinely excited about the idea, but the quote they gave me was much higher than I expected.</p> <p>I have also tried going the freelancer route online before, but the experience was not great. Communication was patchy and the final design did not really match what I envisioned.</p> <p>Now I am exploring options like Product Innov, where the team can handle the whole process from design through prototyping. For anyone who has gone that route, did you find working with a dedicated product development team worth the cost compared to piecing it together with different contractors? Did you work locally so you could meet in person, or was remote collaboration just as effective?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Luis_KZM\"> /u/Luis_KZM </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mxef6m/getting_a_product_designed_anyone_worked_with_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mxef6m/getting_a_product_designed_anyone_worked_with_a/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a comparison of different options to improve an existing experience"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": false
+    }
+  },
+  {
+    "title": "Startup help",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mwtyt3/startup_help/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Company is less than 5 years old and has a team of two full time engineers that include the technical cofounder. Leadership has decided we need product management and I’m leading the charge. I feel overwhelmed going through the backlog in jira trying to rate and scope feature requests while bugs just pour in. We have such limited technical resources that prioritization is so important. What frameworks should I be using? How far out is reasonable to plan? What should I be thinking about that I’m not!? For further context, leadership all just agreed on what our ICP is about a month ago. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ledill\"> /u/ledill </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwtyt3/startup_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwtyt3/startup_help/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking advice on frameworks and planning methodologies to improve product management process"
+    },
+    "comments_checked": 16,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "Who actually takes care of your transactional emails?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mwgbb8/who_actually_takes_care_of_your_transactional/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>We’ve been discussing this in our team recently and realized we’re not even sure how other companies handle it.</p> <p>I’m not talking about the usual marketing emails or password resets, but the in-product notification emails — the ones triggered by real events in the product (process done, process failed, new comment, confirmation, etc.).</p> <p>Who in your company actually owns those? – Engineers? – Product managers? – Ops/Support? – Or… no one really?</p> <p>And how are they usually managed? Do you have a proper workflow/tool for editing them, or is it more of a “just update the template in the codebase when someone screams”?</p> <p>We’re curious because these emails are super important for users, but it feels like they often fall into a grey area where no one clearly takes responsibility.</p> <p>Would love to hear how your team deals with it 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gregoirepat\"> /u/gregoirepat </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwgbb8/who_actually_takes_care_of_your_transactional/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwgbb8/who_actually_takes_care_of_your_transactional/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved process or tool compared to what they use"
+    },
+    "comments_checked": 33,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "Head of Product: drowning in Linear + Slack + Figma + HubSpot… how do you keep a single thread of truth?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mwirag/head_of_product_drowning_in_linear_slack_figma/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m <strong>HoP</strong> at a startup (early but funded).</p> <p>Our context is atomized:</p> <ul> <li><strong>Linear</strong> for eng (source of truth… in theory)</li> <li><strong>Slack</strong> for cross-team decisions/drive-bys</li> <li><strong>Figma</strong> for design comments + approvals</li> <li><strong>Attio/HubSpot</strong> for sales asks where design/product gets pulled in (“design as sales”)</li> </ul> <p>Result.... important decisions and next steps are scattered. I lose latency between signal → decision → follow-through. Half my day is “did I miss something critical?”</p> <p>What has actually worked for you to centralize context without introducing yet another inbox?</p> <p>Examples I’d love to copy:</p> <ul> <li>opinionated Slack conventions (e.g., #project-x-decisions with required message format)</li> <li>Linear issue templates/automations that hoover up Slack/Figma links</li> <li>Zapier/Make routes that turn specific Slack reactions into Linear updates</li> <li>Weekly “state of decision log” ritual that isn’t busywork</li> </ul> <p>Happy to share back anything that sticks. Just need something that reduces coordination tax, not adds more.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Swimming_Hunt9739\"> /u/Swimming_Hunt9739 </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwirag/head_of_product_drowning_in_linear_slack_figma/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mwirag/head_of_product_drowning_in_linear_slack_figma/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 26,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "Magic Patterns alternatives out there?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mw3bpa/magic_patterns_alternatives_out_there/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Coworker sent me Magic Patterns, and it's solid but I'm looking to see if similar tools exist that are faster? More powerful visual editing would also be great. Any good call-outs?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Correct_Ad_292\"> /u/Correct_Ad_292 </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mw3bpa/magic_patterns_alternatives_out_there/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mw3bpa/magic_patterns_alternatives_out_there/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking alternatives to an existing tool with the goal of improving its functionality"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Product Leaders - Starting a new job. Tips for Taking Over 8+ PMs?",
+    "link": "https://www.reddit.com/r/ProductManagement/comments/1mvrx2j/product_leaders_starting_a_new_job_tips_for/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’m starting a new role where I’ll be taking over an existing team of 8+ Product Managers across various verticals and features.</p> <p>When I’ve had to do this before I’ve always just did it on my own based on my experiences but never thought to ask this sub for tips and advice they have seen on successfully acquiring a PM team that’s already in place. </p> <p>Key areas important to me: • Building trust and rapport with a team that already has established dynamics</p> <pre><code>• Understanding existing processes, priorities, and product strategies quickly • Showing I’m here to support them, not completely overhaul everything • Figuring out what’s working well vs. what needs improvement </code></pre> <p>I want the team to feel like I’m on their side as I come onboard to this role / organization. </p> <p>What has worked well for other product leaders who’ve taken over existing PM teams? Any best practices for the first few weeks/months in this situation?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ramo954\"> /u/Ramo954 </a> <br /> <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mvrx2j/product_leaders_starting_a_new_job_tips_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ProductManagement/comments/1mvrx2j/product_leaders_starting_a_new_job_tips_for/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking advice on best practices for taking over an existing PM team and improving the transition process"
+    },
+    "comments_checked": 10,
+    "comment_analysis": {
+      "found": false
+    }
+  },
+  {
+    "title": "After 2 years, and my extension for designers which I created for myself has finally reached $300 MRR, no more tab-hopping and screenshotting while designing anymore",
+    "link": "https://www.reddit.com/r/SideProject/comments/1myav2n/after_2_years_and_my_extension_for_designers/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1myav2n/after_2_years_and_my_extension_for_designers/\"> <img alt=\"After 2 years, and my extension for designers which I created for myself has finally reached $300 MRR, no more tab-hopping and screenshotting while designing anymore\" src=\"https://external-preview.redd.it/cWJpNjh0aDludGtmMd0mnknTPqNH158ePQ0zFr87xXA4gvb2eVdIMfBsgIFM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3b9cce3feda9a0e25953405fea4930cd11d16e47\" title=\"After 2 years, and my extension for designers which I created for myself has finally reached $300 MRR, no more tab-hopping and screenshotting while designing anymore\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>If you're a designer who lives in Figma and constantly hunts for web inspiration, <a href=\"http://www.bookmarkify.io/\">Bookmarkify</a> might save your sanity.</p> <p>You probably know the drill: 20+ tabs open, screenshots everywhere, bouncing between Figma and Chrome, and then somehow losing all that inspo when starting a new project.<br /> Been there. That’s why I built <a href=\"https://bookmarkify.io/\"><strong>Bookmarkify</strong></a> — a browser extension to help you save, organize, and explore design inspiration <em>without</em> the chaos.</p> <h1>Here's what it does:</h1> <ul> <li><strong>Grid &amp; device view modes</strong> – preview saved sites in desktop, tablet, or mobile sizes</li> <li><strong>Tags</strong> – organize and filter your saved sites easily</li> <li><strong>Design Analyze</strong> – grab fonts and colors from any site instantly</li> <li><strong>Dark mode</strong> – obviously.</li> <li><strong>Daily Inspiration</strong> – 6 new curated sites delivered every day</li> <li><strong>Saving images/videos</strong> – Even save videos and images as part of your inspiration</li> </ul> <p>No more screenshots. No more endless tab hopping. Just a clean, focused space for your web design inspo.</p> <p>Would love to hear what you think / or what features you'd want added</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ivano1990\"> /u/ivano1990 </a> <br /> <span><a href=\"https://v.redd.it/n84exsh9ntkf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1myav2n/after_2_years_and_my_extension_for_designers/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for feedback and suggestions on an existing extension to improve its features."
+    },
+    "comments_checked": 12,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I’m building a Smart iPhone keyboard",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mxxxtu/im_building_a_smart_iphone_keyboard/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mxxxtu/im_building_a_smart_iphone_keyboard/\"> <img alt=\"I’m building a Smart iPhone keyboard\" src=\"https://preview.redd.it/boxt6sa3yqkf1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ee139f8e9d359ff9efea53e7541d569ec947029e\" title=\"I’m building a Smart iPhone keyboard\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>For the past few weeks, me and my team have been working on something we’re really excited about: a Smart iPhone Keyboard.</p> <p>I’ve always believed the keyboard is the command center of a phone — everything you do on the device starts there. So we wanted to rethink it and bring in some advanced, interesting tech to make the keyboard smarter and more helpful.</p> <p>We’re aiming to launch the app by the end of next month, but before we finalize things, I thought it’d be a great idea to hear directly from real users.</p> <p>If you could add one feature to your iPhone keyboard, what would it be?</p> <p>Would love to hear your ideas — whether it’s something small that makes typing easier or a big crazy feature you’ve always wished Apple had added.</p> <p>Thanks in advance for your thoughts!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/reddtimes101\"> /u/reddtimes101 </a> <br /> <span><a href=\"https://i.redd.it/boxt6sa3yqkf1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mxxxtu/im_building_a_smart_iphone_keyboard/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 14,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I built an AI app that helps me actually learn from YouTube videos instead of just binge-watching",
+    "link": "https://www.reddit.com/r/SideProject/comments/1my046c/i_built_an_ai_app_that_helps_me_actually_learn/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm a CSE grad who basically learned everything from YouTube because my college curriculum was stuck in 2018(BTW im a 2025 Graduate). Couldn’t afford courses, so I lived on free tutorials Abdul Bari for data structures, random channels for algorithms, anything I could find.</p> <p><strong>Here’s the painful part</strong>: I’d binge-watch tutorials all weekend, feel like I finally “got it,” and then two days later… complete blank. Like my brain treated it as entertainment, not learning.</p> <p><strong>My cycle became</strong>:</p> <p>watch → feel enlightened → forget → screenshot slides → throw them at ChatGPT → get half-baked answers → feel dumb → repeat.</p> <p>By January, I snapped. I was tired of pretending I was learning when I wasn’t , felt like I was fooling myself into thinking I was studying when I was just... watching.</p> <p><strong>So I built Haash-LM out of frustration</strong>.</p> <p>Started with Gemini’s free API (student budget = broke).</p> <p><strong>Problem</strong>: it only handled local videos.</p> <p><strong>Solution:</strong> hacked together yt-dlp + frame sampling so I could feed YouTube videos into the model without burning tokens.</p> <p>Then April hit. <strong>Google AI Studio</strong> launched official YouTube support. My heart sank months of work gone.</p> <p><strong>But plot twist:</strong> their method burns 700–800k tokens for a 40-min video. My “desperate engineering” approach? ~150k tokens for 90 minutes can understand full visual context with less token counts ( i.e,. can ask about anything visually around the whole video ). Turns out constraints made me design something leaner. </p> <p><strong>But here's what makes it truly different</strong> - after Google's launch, I realized I needed something unique. I brainstormed about my other core problem: people like me who learn CS concepts through YouTube tutorials don't actually practice what they watch.</p> <p>I researched online code execution APIs and discovered <strong>Judge0 through RapidAPI</strong>. </p> <p>That's when it clicked - the real problem wasn't just understanding videos, it was never practicing what I learned.</p> <p>The platform works with any YouTube video from any domain, but I added special features for coding tutorials:</p> <ul> <li>AI-powered coding exercises generated from actual video content</li> <li>Live code execution environment built right in</li> <li>Custom practice problems that match what you're watching</li> <li>Immediate hands-on coding without switching platforms</li> </ul> <p><strong>The result?</strong> I finally broke the binge-watch cycle:</p> <p>Instead of passively watching → actively practicing</p> <p>Instead of forgetting everything → actually retaining concepts</p> <p>Instead of feeling smart then stupid → building real confidence through coding</p> <p>It's like <strong>NotebookLM</strong> but designed to turn YouTube binge-watching into real learning.</p> <p>Try it yourself: Here's a demo video showing it in action: <a href=\"https://www.youtube.com/watch?v=msM2Nej8m_M\">https://www.youtube.com/watch?v=msM2Nej8m_M</a></p> <p>(First time making videos - used ElevenLabs for AI voiceover since I didn't have proper audio setup, so ignore any watermarks!)</p> <p>You can run it locally with Docker:</p> <p>GitHub: <a href=\"https://github.com/Imhari14/Haash-LM\">https://github.com/Imhari14/Haash-LM</a></p> <p>Docker Hub: <a href=\"https://hub.docker.com/r/imhari14/haash-lm/tags\">https://hub.docker.com/r/imhari14/haash-lm/tags</a></p> <p>I have a bigger vision for this space and want to turn this into a real product. Would love to connect with mentors, founders, or anyone interested in taking this forward. If you try it out, I'd really appreciate feedback through this form: <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSek_2hkcVyvUhSlnFPQO1H3P-ZK5RviKDQyuHsRoTJObV8q7g/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSek_2hkcVyvUhSlnFPQO1H3P-ZK5RviKDQyuHsRoTJObV8q7g/viewform</a></p> <p>Open sourced it because I know too many of us are stuck in that &quot;watch everything, remember nothing&quot; trap.</p> <p>GitHub: <a href=\"https://github.com/Imhari14/Haash-LM\">https://github.com/Imhari14/Haash-LM</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Slow-Animator-9111\"> /u/Slow-Animator-9111 </a> <br /> <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my046c/i_built_an_ai_app_that_helps_me_actually_learn/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my046c/i_built_an_ai_app_that_helps_me_actually_learn/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is asking for feedback and improvement suggestions on their existing AI app to make it more effective in helping users learn from YouTube videos."
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I Built a Music Sharing App That Helps You Share The Best Part of the Song",
+    "link": "https://www.reddit.com/r/SideProject/comments/1myd8h3/i_built_a_music_sharing_app_that_helps_you_share/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1myd8h3/i_built_a_music_sharing_app_that_helps_you_share/\"> <img alt=\"I Built a Music Sharing App That Helps You Share The Best Part of the Song\" src=\"https://preview.redd.it/5pvb25rt4ukf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b6f852bdd806e2384d9cbeb9474168e589877d9a\" title=\"I Built a Music Sharing App That Helps You Share The Best Part of the Song\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built an app that allows you to share the portion of the song that you like the most and give context to why you like the song. I believe this can help others on the app find new music.</p> <p>In the app, you can like the post, and send and accept friend requests, message friends or share songs that you find with friends.</p> <p>You share the song by clicking upload, and then pasting in the Youtube link you get when you click share under a Youtube video and then you enter what the start time and end time for the song you want to share is.</p> <p>I would love feedback. I love music and build this because I love coming across new music. I also believe social connection and context is key to making us fall in love with music.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PrestigiousDot5374\"> /u/PrestigiousDot5374 </a> <br /> <span><a href=\"https://i.redd.it/5pvb25rt4ukf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1myd8h3/i_built_a_music_sharing_app_that_helps_you_share/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for feedback and improvement on an existing app"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I built an always on top productivity companion to reduce context switching",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mycbjm/i_built_an_always_on_top_productivity_companion/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mycbjm/i_built_an_always_on_top_productivity_companion/\"> <img alt=\"I built an always on top productivity companion to reduce context switching\" src=\"https://external-preview.redd.it/bzNod21ja3p3dGtmMctkelqBOs-oyaZOzgfgoZOg7aRY2is2vo96gBkn_uC3.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9e16c9f8ee814b4447225854f7a3d676613019f8\" title=\"I built an always on top productivity companion to reduce context switching\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey everyone! I made an app to reduce context switching and if switching between multiple apps and tabs is driving you nuts, this post is for you</p> <p>The problem i faced - i'm in a meeting and someone shares a link. I need to jot down notes, check my calendar, and maybe grab that screenshot from yesterday. That's like 4-5 app switches minimum, and by the time i was back, the conversation moved on.</p> <p>My solution i came up with - a floating productivity companion that stays accessible but gets out of the way when not needed. I am calling it Berri and here is what Berri does:</p> <ul> <li>Smart floating interface - appears as a tiny pill on your screen, expands when you hover. Has an &quot;incognito mode&quot; that auto-hides during screen shares </li> <li>AI-power where needed - generate notes from prompts, extract text from any screenshot via OCR</li> <li>Clipboard superpowers - Remembers everything you've copied with full search, favourites, and bulk actions.</li> <li>Gmail without Gmail - Read, compose emails without opening your browser</li> <li>Calendar at a glance - Check meetings, create events, join Google Meets with one click</li> <li>Universal search - One search box for notes, emails, clipboard history, and files.</li> </ul> <p>Why I think you'll like it:</p> <ul> <li>Always there but never annoying - provides some important tools and stays out of your way until needed</li> <li>Privacy focused - Everything is saved locally. No data collection</li> <li>Global shortcuts - all the tools you need at your fingertips</li> </ul> <p>I'm thinking of launching it soon and thought I'd garner some reviews before that. I am actively working on it and trying to improve it. I'm sure many people have faced the same problems as me and I thought this app is worth sharing, so let me know how you guys feel about it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnluckyFee4725\"> /u/UnluckyFee4725 </a> <br /> <span><a href=\"https://v.redd.it/2p9scbkzwtkf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mycbjm/i_built_an_always_on_top_productivity_companion/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for feedback and improvement on an existing solution"
+    },
+    "comments_checked": 4,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "My offline receipt scanner app just hit 19K downloads in 3 days and made its first $275",
+    "link": "https://www.reddit.com/r/SideProject/comments/1myfym9/my_offline_receipt_scanner_app_just_hit_19k/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1myfym9/my_offline_receipt_scanner_app_just_hit_19k/\"> <img alt=\"My offline receipt scanner app just hit 19K downloads in 3 days and made its first $275\" src=\"https://preview.redd.it/wf2luc56pukf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=78e1a744babe5f77a0d7e6586d160d4b920f6c3e\" title=\"My offline receipt scanner app just hit 19K downloads in 3 days and made its first $275\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I launched a simple receipt scanning app called <strong>Receipto</strong> back in May — it was a chill weekend build, meant to work completely offline. No cloud, no fancy AI, just scan and organize receipts locally.</p> <p>I honestly forgot about it for a few months while focusing on another project.</p> <p>A while ago, I posted about Receipto here on Reddit, even though the app wasn’t in the best shape back then. But I got some super helpful and constructive feedback from the community, which motivated me to improve it and push a much better version.</p> <p>Fast forward to last week: I won a free promo spot on Indie App Santa (shoutout to them), and as I was prepping for the launch, I dropped the price to free for a few hours.</p> <p>Somehow, AppRaven (and maybe AppAdvice, too?) picked it up. In just <strong>3 days</strong>, Receipto hit <strong>19,000 downloads</strong>, mostly from Asia. The promo ended, the price went back up, and… people actually started subscribing. It made <strong>$275</strong>, which is more than what my main app did recently 😅</p> <p>That gave me the push to properly update it — I added AI-powered scanning (OpenAI &amp; Gemini), optional cloud sync, export/import, recurring transactions, and fixed a bunch of bugs.</p> <p>If you’re building something and feel it’s not perfect yet — just ship it. Talk about it. Reddit helped me a lot.</p> <p>👉 <strong>Try it and give me your feedback</strong>:</p> <p><a href=\"https://apps.apple.com/us/app/smart-receipt-app-receipto/id6745450337\">https://apps.apple.com/us/app/smart-receipt-app-receipto/id6745450337</a></p> <p>Happy to answer any questions about what worked, what didn’t, or anything related to the tech side.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OwnFix1582\"> /u/OwnFix1582 </a> <br /> <span><a href=\"https://i.redd.it/wf2luc56pukf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1myfym9/my_offline_receipt_scanner_app_just_hit_19k/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is sharing their success story and asking for feedback on an existing app they built."
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "3 years, 63k MAU, -$900 profit",
+    "link": "https://www.reddit.com/r/SideProject/comments/1myb1w1/3_years_63k_mau_900_profit/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1myb1w1/3_years_63k_mau_900_profit/\"> <img alt=\"3 years, 63k MAU, -$900 profit\" src=\"https://b.thumbs.redditmedia.com/sOrFGNYfULIWo5r4COgsqCt9MxZ4l3VVqX1dZ-BOsNQ.jpg\" title=\"3 years, 63k MAU, -$900 profit\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I built one of the only free “swipe” photo cleaning apps. Over the past 3 years, it acquired 63k monthly active users, and has a 4.9 rating.</p> <p>Never made money from it though! After many failed apps, it just makes me happy to see people using something I built.</p> <p>Like many of you, I love building and hate marketing. So, in solidarity, here’s what I learned about user acquisition.</p> <h1>1. Competitors running ads</h1> <p>Yep, this is where I got most of my users. Luck! The #1 swipe photo deleting app ran a TikTok campaign, had a video go viral, and one of the top comments was &quot;Not free. Download &lt;my\\_app&gt; instead&quot;. 1000+ downloads in 1 day.</p> <p>This helped my ASO too, because now my app ranks #2 when searching for the competitor app.</p> <h1>2. ASO for niche keywords</h1> <p>3 years ago, I noticed searching &quot;delete photos&quot; didn't return many photo deleting apps. So I added &quot;&lt;my\\_app&gt; - Delete Photos&quot;. My app ranked top 20 for &quot;delete photos&quot; for a while, and got 1-2 downloads per day.</p> <h1>3. ASO stickiness</h1> <p>After a year of giving up, I started to actually rank higher for &quot;delete photos&quot; (top 5). So in an attempt to get even more users, I changed my title to &quot;&lt;my\\_app&gt; - Clean Photos&quot;, a more competitive keyword. After ~1 more year, it now ranks top 5 for &quot;clean photos&quot;.</p> <p>Even after my app's title changed to have &quot;Clean Photos&quot;, I continue to rank top 2 for &quot;delete photos&quot;. Combined with #1 (my app ranking for my competitor app's name), this suggests app store search 'remembers' which apps are relevant for specific keywords, even if the strings change. </p> <p>So changing your app's title every few months to rank higher for specific keywords might be a good strategy.</p> <h1>4. Keywords</h1> <p>Updating the keywords in App Store Connect never up-ranked my app for any of the listed keywords. No idea how Apple uses this list.</p> <p>The title of the app is the only thing that's changed my app's ranking. And even the title doesn't reliably change it (I currently have &quot;Photo Cleaner&quot; in the title, and it ranks anywhere from 30 to 50th, without pattern).</p> <h1>5. Facebook ads</h1> <p>Spent $500. None of these converted (the downloads graph barely changed). My creative probably sucked though. Best part was finally deleting the Facebook SDK to reduce binary size by 2MB.</p> <h1>6. Google ads</h1> <p>Same here. I spent $100. Nothing noticeable. Creative probably sucked again. Also don’t know how targeting works, so just targeted all iOS users.</p> <h1>7. Ads do work though..</h1> <p>A <a href=\"https://www.linkedin.com/posts/jack-rogers-b8677655_june-was-our-best-month-ever-at-picnic-activity-7346535909854523393-2JDV\">competitor</a> spends over $3M in ads every year and recently became profitable. <a href=\"https://techcrunch.com/2024/06/25/gen-z-photos-app-swipewipe-sells-to-french-publisher-mwm-in-its-largest-acquisition-to-date/\">Another competitor</a> went viral from a TikTok campaign, and eventually got acquired. </p> <h1>8. Media outlet</h1> <p>A French website wrote an <a href=\"https://www.competencemac.com/iOS-Slider-une-application-pour-supprimer-plus-rapidement-vos-photos_a3834.html\">article</a> about my app. 15 downloads from this web referrer. Thanks Christophe Schmitt!</p> <h1>9. Product Hunt</h1> <p>I <a href=\"https://www.producthunt.com/products/vacuum\">posted</a> on PH when I first launched. 5 downloads.</p> <h1>10. Forcing Users to Share the App</h1> <p>In a bold update, after 150 swipes, I forced users to share the app with ONE friend to continue. Once shared, the forced alert would not show up again. Even this tiny ask resulted in over a dozen 1 star ratings. Downloads did not noticeably go up, so I reverted the change.</p> <h1>11. Fixing crashes</h1> <p>I had a 5% crash rate for about 1 week (oops!). I also fixed every other crash in the app later (0.5% -&gt; 5% -&gt; 0% crash rate). Somehow this didn't affect downloads at all, even during the 5% crash rate period.</p> <h1>12. App preview images</h1> <p>I know these are supposed to be important. But even after changing my simple 1 horizontal picture image to 3 vertical images, downloads did not change.</p> <h1>13. In-App Events</h1> <p>Apple has this thing called In-App Events. A big preview image of the event appears in the app store when it's live. I tried one running an In-App Event for ~2 weeks about a new feature I built. Downloads did not change. Usage did not go up.</p> <h1>14. Translations</h1> <p>I spent a day translating the entire app into 9 languages. Did not noticeably increase downloads.</p> <h1>Conclusions</h1> <ul> <li>Marketing trumps all. My competitors run effective ads on TikTok and IG. Their ratings are lower and filled with &quot;ads&quot;, “predatory pricing”, “money grab scam” reviews. But… they rank higher and are profitable.</li> <li>Photo cleanup is a very competitive niche. 5 of the top 50 &quot;Utilities&quot; apps help people delete photos.</li> <li>Building a quality product helps with word-of-mouth marketing. The TikTok comment translating into 1000+ downloads is a good example.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DevelopmentSad4798\"> /u/DevelopmentSad4798 </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1myb1w1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1myb1w1/3_years_63k_mau_900_profit/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is looking for ways to improve their app's performance and increase downloads despite already having a product."
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "My first SaaS just earned its first dollar!",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mxqc45/my_first_saas_just_earned_its_first_dollar/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mxqc45/my_first_saas_just_earned_its_first_dollar/\"> <img alt=\"My first SaaS just earned its first dollar!\" src=\"https://b.thumbs.redditmedia.com/wtshIr-cVwMKhcdiq7hWoCZvsAFDxPz0vEyBYkGRBJQ.jpg\" title=\"My first SaaS just earned its first dollar!\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey Builders,</p> <p>Hey builders 🚀</p> <p>I’m super excited to share that my first app,limepolicy, made its very first dollar 🎉. It happened right after I put it behind a small paywall — I mainly wanted to see if this SaaS model could actually work in the real world. Turns out… it can!</p> <p><strong>What I built:</strong><br /> Limepolicy is a <strong>privacy policy generator</strong> that gives you a full policy in just a few clicks. I built it out of frustration: most existing tools hide necessary sections behind massive paywalls (some go over $200 once you add GDPR, AdSense, analytics, etc.). On the flip side, using ChatGPT to draft policies felt repetitive and boring. So I made something simple:</p> <ul> <li>$2 flat price</li> <li>No tiers, no upsells</li> <li>Full policy including GDPR, AdSense, analytics, etc.</li> </ul> <p>If anyone needs to try 👉 <a href=\"https://www.limepolicy.com/\">https://www.limepolicy.com/</a></p> <p><strong>Journey so far:</strong></p> <ul> <li>~100 users when it was free</li> <li>3 paid users since adding the $2 price (about 1 user a day)</li> <li>Learned a ton, especially around <strong>payments integration</strong> and how real users react to pricing</li> </ul> <p>This is just the start — I’m more excited about what’s ahead than the $2 itself. Balancing product building with a full-time job/studies is tough, but if you enjoy the ride, it’s totally worth it.</p> <p>To everyone building (or thinking of starting): <strong>don’t give up. Just start, stay consistent, and move forward slowly.</strong> You’ll learn way more by shipping something than by waiting for the perfect idea.</p> <p>I’m also planning to start a small community in the future where I’ll share more about what I’ve learned as a full-time software engineer trying to build products on the side.</p> <p>Would love your feedback, critiques, or even brutal honesty.</p> <p>Thanks for reading 🙏</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/scoutlabs\"> /u/scoutlabs </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1mxqc45\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mxqc45/my_first_saas_just_earned_its_first_dollar/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for feedback, critiques, or brutal honesty on the author's first SaaS product to improve it."
+    },
+    "comments_checked": 29,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "It ain’t much but it’s a work in progress",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mygs1l/it_aint_much_but_its_a_work_in_progress/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mygs1l/it_aint_much_but_its_a_work_in_progress/\"> <img alt=\"It ain’t much but it’s a work in progress\" src=\"https://external-preview.redd.it/NmxwZ2hlNTJ3dWtmMebQljIcYYNWVdeqECug3QsMLZU7bEjJ_kre06rlhLZt.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=67bd150cb4937a97ea25e38d6cf3651788f4c970\" title=\"It ain’t much but it’s a work in progress\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I’m building an AI tool to generate Reels and TikToks programmatically. Just wanted to share my current progress. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/a__side_of_fries\"> /u/a__side_of_fries </a> <br /> <span><a href=\"https://v.redd.it/4wpqed72wukf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mygs1l/it_aint_much_but_its_a_work_in_progress/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Building Nest Pod, 100% private and free podcast client",
+    "link": "https://www.reddit.com/r/SideProject/comments/1myaaoc/building_nest_pod_100_private_and_free_podcast/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1myaaoc/building_nest_pod_100_private_and_free_podcast/\"> <img alt=\"Building Nest Pod, 100% private and free podcast client\" src=\"https://preview.redd.it/hpuhfbcmjtkf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=02897c2732ff23a0e130cdca446eebcea4473268\" title=\"Building Nest Pod, 100% private and free podcast client\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Features:</p> <ul> <li>100% local/private listening experience</li> <li>Import from AntennaPod</li> <li>Analytics for your listening habits</li> <li>Many more features coming soon</li> </ul> <p>Why Nest Pod?</p> <ul> <li>You shouldn't be locked to one provider for your podcasts. Own your data and listening experience.</li> <li>Get detailed insights into your listening habits and discover patterns in your podcast consumption.</li> <li>Access your data from anywhere with our smart and quick export feature (coming very soon™).</li> </ul> <p><a href=\"https://nest-pod.org/?ref=sp\">Try it for free</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/boredguy74\"> /u/boredguy74 </a> <br /> <span><a href=\"https://i.redd.it/hpuhfbcmjtkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1myaaoc/building_nest_pod_100_private_and_free_podcast/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I built open-source, in browser ai image enhancer",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mye6mu/i_built_opensource_in_browser_ai_image_enhancer/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mye6mu/i_built_opensource_in_browser_ai_image_enhancer/\"> <img alt=\"I built open-source, in browser ai image enhancer\" src=\"https://preview.redd.it/3ynv0wnobukf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=71cddb36df93fcf5da79739e46bfe4a87982fe78\" title=\"I built open-source, in browser ai image enhancer\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I got tired of having to create accounts and make payments even for simple image background removal tasks on the internet, so I started developing <a href=\"http://turtleditor.pages.dev\">Turtleditor</a>. </p> <p><a href=\"http://turtleditor.pages.dev\">Turtleditor </a>is an open-source web application that runs entirely in the browser using <strong>Tensorflow.js</strong>. No registration, no payment, no limits. Additionally, since images are processed locally, no one else will see your images.</p> <p> </p> <p>The web application currently has five main functions: background removal, 2x upscaling, 4x upscaling, deblurring, and retouching. For background removal, I used the <strong>U-2-Net</strong> model converted to tfjs format, and for the remaining processes, I used the <strong>Upscalerjs</strong> package.</p> <p> </p> <p>The app is still in the development phase and is also one of my first open-source projects, so there may be some quality and performance issues. Please feel free to provide feedback if you have any suggestions or encounter any issues.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apprehensive-Kale351\"> /u/Apprehensive-Kale351 </a> <br /> <span><a href=\"https://i.redd.it/3ynv0wnobukf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mye6mu/i_built_opensource_in_browser_ai_image_enhancer/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for feedback and suggestions to improve an existing software tool."
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": true,
+      "example": "<p>However, due to browser limitations or insufficient VRAM on the graphics card, crashes may occur occasionally. Processing via the CPU is more stable but can take a long time. Therefore, there are still certain areas I need to improve.</p>"
+    }
+  },
+  {
+    "title": "A while back, we shared our AI agent builder here. Your feedback was huge. Now, after 200+ on our waitlist, we're opening the beta.",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mxxbx3/a_while_back_we_shared_our_ai_agent_builder_here/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1mxxbx3/a_while_back_we_shared_our_ai_agent_builder_here/\"> <img alt=\"A while back, we shared our AI agent builder here. Your feedback was huge. Now, after 200+ on our waitlist, we're opening the beta.\" src=\"https://external-preview.redd.it/c3p3cnM4c2dycWtmMX9zMvoN4mUqtT9jiYNFy6h7Vne6tzJOCJTYVutzuANE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6857df4e1c00a5da73be3b3a9672a63304d1be8a\" title=\"A while back, we shared our AI agent builder here. Your feedback was huge. Now, after 200+ on our waitlist, we're opening the beta.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/SideProject\">r/SideProject</a>, </p> <p>One months ago, some of you might have seen our first post about Deforge, our visual AI agent builder. The response was incredible and gave us the push we needed. Today, I'm excited to share a big update. </p> <p>We launched a waitlist to see if we were the only ones who felt this way. The response was validating: </p> <ul> <li>Over 30,000 impressions on our initial announcement. </li> <li>1,300+ website visits and over 200 of you joined the waitlist. </li> </ul> <p>This confirmed our belief: people want powerful AI tools that are genuinely simple. </p> <p>So, we got to work. For the end-user: We built an intuitive Form Builder. This lets you wrap your entire visual workflow into a clean, simple form. Now, your team or your clients can use the powerful AI agent you built just by filling out a few fields; no need for them to ever see a single node. <br /> <br /> Today, we're officially moving from a closed waitlist to our Open Beta, and we wanted this community to be the first to know. </p> <p>We would love for you to try it out, build something cool, and give us your honest feedback. </p> <p>Visit and Upvote us: <a href=\"https://www.producthunt.com/products/deforge-open-beta\">https://www.producthunt.com/products/deforge-open-beta</a></p> <p>I'll be here all day to answer every single question. Thank you for being part of our journey!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AnoyRC\"> /u/AnoyRC </a> <br /> <span><a href=\"https://v.redd.it/vi7209sgrqkf1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mxxbx3/a_while_back_we_shared_our_ai_agent_builder_here/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "requesting feedback and improvement on an existing product"
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Built FeedbackStar - collect user feedback with analytics",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mya3yi/built_feedbackstar_collect_user_feedback_with/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Built FeedbackStar to help websites collect and manage user feedback.</p> <p> - Users can rate and comment</p> <p> - Analytics dashboard to track trends</p> <p> - Easy setup</p> <p>Live at: <a href=\"https://feedbackstar.vercel.app/\">Feedbackstar</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Forward_Issue_7911\"> /u/Forward_Issue_7911 </a> <br /> <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mya3yi/built_feedbackstar_collect_user_feedback_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mya3yi/built_feedbackstar_collect_user_feedback_with/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for an improvement on an existing software solution"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Get Verified Business Emails Instantly — Anywhere in the World! 🌎",
+    "link": "https://www.reddit.com/r/SideProject/comments/1mya36w/get_verified_business_emails_instantly_anywhere/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey Reddit,</p> <p>I built an automation tool that can fetch verified business emails for ANY location or industry — instantly.</p> <p>Whether you need leads for real estate, coaching, restaurants, gyms, clinics, or startups, my tool delivers: ✅ Verified emails + contact info ✅ Ready-to-use in Excel/Google Sheets ✅ Saves hours of manual research</p> <p>💡 Example use cases: •500+ real estate agents in New York •300+ coaching centers in London •200+ restaurants in Dubai</p> <p>How it works: 1.You tell me the industry + location 2.I fetch a free sample of 50 contacts 3.You can purchase the full list (500–1,000 leads) or subscribe for monthly fresh leads. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Top-Start-8473\"> /u/Top-Start-8473 </a> <br /> <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mya36w/get_verified_business_emails_instantly_anywhere/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1mya36w/get_verified_business_emails_instantly_anywhere/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "New tool: Automatic, fast tracklist extractor for SoundCloud DJ sets (free tier included)",
+    "link": "https://www.reddit.com/r/SideProject/comments/1my5fei/new_tool_automatic_fast_tracklist_extractor_for/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1my5fei/new_tool_automatic_fast_tracklist_extractor_for/\"> <img alt=\"New tool: Automatic, fast tracklist extractor for SoundCloud DJ sets (free tier included)\" src=\"https://preview.redd.it/uee06h38mskf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7f0e93441266d99c750578c6bd7457b44dd62ab5\" title=\"New tool: Automatic, fast tracklist extractor for SoundCloud DJ sets (free tier included)\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Rave lovers and DJs, I am a solo builder (/ indie hacker), and I created<br /> set79[.]com – a tool that analyzes DJ sets and automatically extracts full tracklists, showing what the DJ plays at every minute of the set (even for live mixes).</p> <p>That’s the TL;DR, enough for a quick shout-out. But I decided to share a few more thoughts, like in linked post ;) You don’t have to read everything now; you can skip straight to the website. Not sure what SoundCloud is, or why someone would need a full tracklist? Share it with your DJ friends.</p> <p>If you’re not familiar with the scene, this is a common need among people who listen to full DJ sets. They’re often searching for what was played, which is why SoundCloud comments are full of “ID?” or why people hope someone will upload a tracklist to 1001tracklists. To solve this, I built set79:<br /> * Fully automatic (just post a SoundCloud link)<br /> * Fast, around 30 minutes per set<br /> * Accurate — not perfect, but reliably good<br /> * Generous freemium: analyze as many sets as you want (short queue for free users)<br /> * Simple UX: no signup needed, and you can listen to the set alongside the recognized tracklist in the in-app player </p> <p>I built it out of a real need, and it brings together two things I love: the rave world and programming. That’s why, when people ask me if it’s hard to make yourself sit down and work without a team, I tell them it’s not a problem at all: I’m doing what I love - programming, building my own product, in a domain I truly love. That alone is enough to fill me with motivation and drive. It’s not fake enthusiasm; it’s genuinely easy to wake up in the morning and start working.</p> <p>You might wonder what technical challenges there are in such a web tool. Well, there are many: a lot of engineering to make it run so fast, I had to learn audio fingerprinting from scratch to build a novel algorithm, I’m using state-of-the-art Audio Transformer architectures to detect song transitions, and more.</p> <p>So yes, there’s a lot of technology in such a system, and real coding challenges (the kind Claude or Cursor can’t solve). But as a solo entrepreneur with limited resources, who can only focus on one thing at a time, is opening the IDE to write more code always the most important task? When I look at where I invest my resources, the answer is clear: tech takes the top spot, while marketing, social media, user outreach, and everything else fall behind. I always seem to default to pulling from the tech pile, even though there are heaps of tasks waiting in sales, marketing, or operations. That’s something every indie hacker needs to keep in mind: also other parts of the startup need to be functioning, not just the ones that feel comfortable specifically for you..</p> <p>I have a vision for what this tool can become for producers and DJs. Some ideas are small features on the website that would help them “travel” between sets more easily, like better search tools. Others are bigger steps that could push the app into new capabilities, helping DJs explore fresh music and find inspiration for their sets. On top of that, I already have a large collection of annotated data, which opens opportunities ranging from improving accuracy to experimenting with more advanced AI ideas. But as I said earlier, now it’s time to bring it to a wider audience and invest more in marketing.</p> <p>That’s it. It’s been fun to share different angles of my work: about set79 itself, why I built it, the indie hacker journey, technical challenges, product thoughts, and more. There’s much more behind each of these, but I had to stop somewhere. I’m happy to continue the conversation, so feel free to dive into any of these topics here in the comments.</p> <p>Try it: set79[.]com</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Technical-Bag8507\"> /u/Technical-Bag8507 </a> <br /> <span><a href=\"https://i.redd.it/uee06h38mskf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my5fei/new_tool_automatic_fast_tracklist_extractor_for/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The post is asking for an improved version of the existing software/tool"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I have built an app for engineering leadership. Please tear it apart :)",
+    "link": "https://www.reddit.com/r/SideProject/comments/1my6td4/i_have_built_an_app_for_engineering_leadership/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I’m an engineering manager on parental leave, and I hacked together a side project called <strong>NgLead</strong>. The idea: help engineering leaders (new managers → senior leaders) practice and learn through real-world leadership scenarios, fun comics. Its <strong>FREE</strong> to try. Here’s the prototype 👉 <a href=\"https://nglead.org/\">https://nglead.org</a></p> <p>What I <em>don’t know yet</em> is whether this is genuinely useful? So I’d love some raw, unfiltered feedback from this community:</p> <ul> <li>Would a tool like this actually help, or is it a nice-to-have?</li> <li>What do you like about it?</li> <li>If you hated it after 5 minutes, why?</li> </ul> <p>Please be blunt — I’d rather hear the tough stuff now than later 🙏 Thanks a ton!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fluffy-Driver758\"> /u/Fluffy-Driver758 </a> <br /> <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my6td4/i_have_built_an_app_for_engineering_leadership/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my6td4/i_have_built_an_app_for_engineering_leadership/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for feedback and improvement on an existing app"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I'm building the easiest way to add social posting to your SaaS",
+    "link": "https://www.reddit.com/r/SideProject/comments/1my92w5/im_building_the_easiest_way_to_add_social_posting/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<table> <tr><td> <a href=\"https://www.reddit.com/r/SideProject/comments/1my92w5/im_building_the_easiest_way_to_add_social_posting/\"> <img alt=\"I'm building the easiest way to add social posting to your SaaS\" src=\"https://preview.redd.it/d1wqy2h8btkf1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1cb93edb4923244d44a7eba7e1b36f253dd97410\" title=\"I'm building the easiest way to add social posting to your SaaS\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have had the unique pleasure of integrating social media APIs in three different projects. Trust me when I say its not as easy as it looks. </p> <p>The docs are often missing information, they all have different media requirements, and its a pain maintaining 9 different API integrations for just one feature. </p> <p>So I made an open source unified API (Post for Me) that allows you to make a post to all social platforms with just one API request. </p> <p>The goal is to take care of all the cumbersome parts of connecting user accounts, processing media, and posting. So you can focus on the main features of your app. </p> <p>If you are building a social media scheduler, a mobile game, content creation app, or anything that could benefit social posting, I promise you our unified API will help you out. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mattdaymoondev\"> /u/mattdaymoondev </a> <br /> <span><a href=\"https://i.redd.it/d1wqy2h8btkf1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1my92w5/im_building_the_easiest_way_to_add_social_posting/\">[comments]</a></span> </td></tr></table>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software solution"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I'm Rob, failed at 5 SaaS attempts in 2 years, then built my 6th in stealth for 6 months. Added $1k MRR in 24 hours on launch day. Currently at $3.5k MRR (AMA)",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mq3pt1/im_rob_failed_at_5_saas_attempts_in_2_years_then/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hello fellow SaaS builders. My name’s Rob &amp; I just added $1k MRR in 24 hours after 5 failed attempts.</p> <p>A couple weeks ago was launch day for my 6th SaaS attempt. After building in stealth for 6 months, I went from $1,600 to $2,500+ MRR in a single day.</p> <p>I started my SaaS journey 2 years ago. Failed 5 times. Lost money, time, and almost my sanity. But with attempt #6 I did a few things differently.</p> <p>First off, I faced the pain-point myself. Every SaaS &quot;guru&quot; preaches build in public, launch fast, get feedback. But launching broken products never worked for me. Too much noise, too many opinions, too much damage to first impressions. So I tried something different.</p> <p><strong>My secrets to a successful launch day:</strong></p> <p><strong>Building in “Stealth”:</strong> I still posted publicly, but kept the product private until it was ready.</p> <ul> <li>Posted screenshots asking &quot;who wants to try this?&quot; - no product links</li> <li>DMed interested people to join private beta</li> <li>Got 30 paying users before anyone knew what I was building</li> <li>Their brutal feedback made the product 10x better</li> <li>Built hype so launch day went that much better</li> </ul> <p><strong>Launch Day Momentum:</strong> When you finally launch, ride the wave HARD.</p> <ul> <li>Posted a curry selfie celebrating 26 trials → 50,000 views</li> <li>Screenshot PostHog analytics → 20,000 views</li> <li>Screenshot Lemon Squeezy dashboard → 10,000 views</li> <li>Every win becomes content that drives more wins</li> </ul> <p><strong>Why Photos Matter:</strong> Text gets lost in the AI slop on X. But by showing you are a real human being with a real story, you stop and grab peoples’ attention.</p> <ul> <li>People root for underdogs (probably you)</li> <li>Authenticity beats polished marketing (especially in AI era)</li> </ul> <p><strong>The Numbers Game:</strong></p> <ul> <li>70 free trials in 24 hours</li> <li>50% trial conversion rate (industry average is 15-20%)</li> <li>200,000+ views on X in 24hrs</li> <li>95% of traffic from organic X posts</li> </ul> <p>Over 6 months of private beta, I built to $1,600 MRR. Then added $1,000 more in 24 hours. A couple weeks on, I’m at $4,500+ MRR with another 150 trials pending.</p> <p>Ask me anything about:</p> <ul> <li>Failing 5 times and what I learned</li> <li>Building in &quot;stealth&quot; while still posting publicly</li> <li>Getting 30 people to pay for a private beta</li> <li>Launch day execution</li> <li>Why posting a picture of me eating a curry converted more users than anything else</li> </ul> <p>Goal is $10k MRR well before the end of the year. After 5 failures, it finally feels possible.</p> <p>Happy to share specific tactics, screenshots, or just commiserate about the SaaS grind :)</p> <p>Let's gooo!</p> <p>(I'll be sticking around most of the day to answer questions. And I'll try my best to answer any asked even after today, so don't hesitate to leave your question!)</p> <p>EDIT: This was a lot of fun, thanks so much for asking all of your questions - there were some really great ones! I'll have to bookmark this myself so I can come back and re-read my answers, since I dropped most of my brain in here today haha. Catch you all next time or on X (hopefully past $10k MRR)! :D</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/robj3d3\"> /u/robj3d3 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mq3pt1/im_rob_failed_at_5_saas_attempts_in_2_years_then/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mq3pt1/im_rob_failed_at_5_saas_attempts_in_2_years_then/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is sharing their experience and asking for feedback on what worked well for them in order to improve future SaaS attempts."
+    },
+    "comments_checked": 118,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "I stopped \"validating\" ideas and started stealing them from Reddit instead",
+    "link": "https://www.reddit.com/r/SaaS/comments/1my7v1a/i_stopped_validating_ideas_and_started_stealing/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Everyone talks about validating ideas but nobody actually does it right.</p> <p>You make some surveys. You ask friends. You post in Facebook groups asking &quot;would you pay for X&quot; and people lie to your face because they want to be nice.</p> <p>I got tired of building stuff nobody wanted so I started doing something different. I just steal ideas directly from people complaining on Reddit.</p> <p><strong>How it actually works</strong></p> <p>I found this tool that scrapes Reddit for people literally begging for solutions. Not &quot;market research&quot; or &quot;would you be interested in&quot; posts. Real threads where someone is pissed off and saying &quot;why the hell doesn't this exist yet.&quot;</p> <p>Last month I pulled 50+ problems in my niche in about 10 minutes. Each one had direct links to the Reddit thread so I could see exactly how people were describing their pain.</p> <p>Then I picked the one that showed up most often and built exactly what they asked for.</p> <p><strong>Building the actual thing</strong></p> <p>I used the same platform's project management thing called BuildHub. Its nothing fancy but it keeps everything connected to the original Reddit posts so you dont lose sight of what people actually wanted.</p> <p>Most founders build what they think is cool. I built exactly what Reddit users were already asking for word for word.</p> <p><strong>Finding customers who already want it</strong></p> <p>This is where it gets interesting. The platform includes access to Linkeddit for free (normally costs $99 value).</p> <p>Linkeddit finds the exact Reddit users who were complaining about the problem you just solved. Then it helps you write posts and comments that get their attention without sounding like a spam bot.</p> <p>So instead of cold outreach or hoping your launch post gets traction, you're literally going back to the people who asked for this thing in the first place.</p> <p><strong>Results so far</strong></p> <p>Three weeks in and I have 47 people on my waiting list. All from the original Reddit threads where I found the idea.</p> <p>Zero paid ads. Zero cold emails. Zero &quot;growth hacking.&quot;</p> <p>I just solved a problem people were already complaining about and told them I solved it.</p> <p><strong>Why this pisses people off</strong></p> <p>Some people think this is &quot;unoriginal&quot; or that you should come up with ideas from scratch.</p> <p>Those people usually have zero paying customers.</p> <p>I'd rather copy a proven problem than invent one nobody cares about.</p> <p>The tool I used is called <a href=\"https://www.bigideasdb.com\">BigIdeasDB</a>. Try it if you want to stop guessing what people want and start building what they're already asking for.</p> <p>Am I wrong for just copying what works instead of trying to be innovative? What do you think?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Important_Word_4026\"> /u/Important_Word_4026 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my7v1a/i_stopped_validating_ideas_and_started_stealing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my7v1a/i_stopped_validating_ideas_and_started_stealing/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "describing a business process improvement"
+    },
+    "comments_checked": 20,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Creation of startup in niche with 100s of competitors",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mycc8j/creation_of_startup_in_niche_with_100s_of/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Basically title. I want to make just another one tool to post across different social networks.</p> <p>I have meme accounts across different social networks and back 5-6 years ago there were very few limitations across social networks and I was using one tool that mainly was working, but not always. At some point I just gave up using a tool for $25 per month that wasn't doing all what it actually promised to do, encountered some issues on a regular basis, and didn't evolve. Aaaand it lead me to situation where I only have alive meme channel in Telegram and the rest is mainly abandoned</p> <p>Technically, what I always wanted is an easy and pleasant way to JUST post across all my accounts in different social networks.</p> <p>While there are tons of other tools, I just don't feel like I want to use them because there's that prejudice that they are not gonna fit me anyway. And also if I ever need some new features - it likely that I'm not gonna get it (eg receival of messages via the same app / on mobile phone for that social network aggregator)</p> <p>It seems like a saturated market can also be a proven market. In crowded markets, it's common for existing options to be feature-heavy, and older companies might be dealing with technical debt. This can leave an opening for simpler, more focused solutions.</p> <p>Am I just trying to scratch my own itch that no one else has?</p> <p>Has anyone here ventured into a crowded market by focusing on a core feature and a better user experience? Generally the question is, do you think I should go and try to make that tool that may also have some potential for making revenue or better just pay for some tool and that's it?</p> <p>p.s. for context, I have extensive experience in both development and product management, so making working MVP not going to be any kind of problem, but still</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/linegel\"> /u/linegel </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mycc8j/creation_of_startup_in_niche_with_100s_of/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mycc8j/creation_of_startup_in_niche_with_100s_of/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking an improvement on an existing tool"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "One UX change took me from $16K to $28K MRR in 3 months",
+    "link": "https://www.reddit.com/r/SaaS/comments/1my26c9/one_ux_change_took_me_from_16k_to_28k_mrr_in_3/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone — I’m Axel.</p> <p>Last year I exited my SaaS, TuganAI, after scaling it to 60,000 users.</p> <p>It was a wild ride, but one problem kept haunting us the entire way: <strong>HIGH CHURN</strong>.</p> <p>At our peak, <strong>we were losing over 20% of our MRR every single month.</strong></p> <p>And what’s crazy is... it wasn’t just us.</p> <p>Every AI SaaS founder I spoke with was facing the same issue:</p> <ul> <li>Submagic ($7M ARR): ~15% monthly churn</li> <li>JoggAI ($2M ARR): ~23% monthly churn</li> <li>JenniAI ($8M ARR): ~16% monthly churn</li> </ul> <p>So…</p> <h1>Why is AI SaaS churn so insane?</h1> <p>Two main things I noticed:</p> <p><strong>1. Everyone's just &quot;testing&quot; AI tools</strong>. People sign up curious, play around for a week, then bounce to try the next shiny AI thing. They're not really committing.</p> <p><strong>2. You're selling to individuals, not companies.</strong> Most AI tools get adopted by one person at a company (a marketer, designer, etc.) not the whole team. These users are:</p> <ul> <li>Price sensitive</li> <li>Don't integrate deeply</li> <li>Leave fast</li> </ul> <p>So what actually worked for us?</p> <p>We didn't rebuild our product or fix our onboarding.</p> <p>We just added a cancellation flow when people tried to cancel.</p> <h1>Here's the exact flow that reduced our churn by 38%:</h1> <p><strong>Step 0:</strong> User clicks “Cancel my plan”</p> <p><strong>Step 1:</strong> Offer to pause their plan (up to 3 months)</p> <p><strong>Step 2:</strong> Offer a <em>50% discount</em> for 3 months if they stay</p> <p><strong>Step 3:</strong> Trigger a <strong>smart survey</strong> (with conditional logic)</p> <ul> <li>“<em>Too expensive</em>” → Offer 1 free month</li> <li>“<em>Technical issues</em>” → Offerdirect access to technical support</li> <li>“<em>I switched to another tool</em>” → Ask follow-up: “What do you find better?”</li> <li>“<em>Missing features</em>” → Suggest switching to another plan</li> <li>“<em>Other</em>” → Ask a follow-up question</li> </ul> <p><strong>Step 4:</strong> Remind the user what they’ll lose: saved content, credits, history, etc.</p> <p><strong>Bonus:</strong> After someone cancels, we send targeted emails based on why they left. </p> <ul> <li>Price issue = discount emails. </li> <li>Missing features = feature update emails. </li> <li>Technical problems = support check-ins.</li> </ul> <p>Our (monthly) churn went from 24% to 16% in 3 months.</p> <h1>Result: +$12K MRR from this one simple change</h1> <p>Most people hitting &quot;cancel&quot; aren't 100% sure. </p> <p>They just need a pause, a discount, or someone to actually give them a reason to stay.</p> <p>But most SaaS just let them walk away with a &quot;sorry to see you go&quot; page.</p> <p>We spend thousands to get customers, then don't give them a single reason to stay?</p> <p>Makes no sense to me.</p> <p><strong>If you are a SaaS founder struggling with high churn, add a cancellation flow ASAP</strong> (to build one quickly/easily, check out <a href=\"http://dontchurn.io\">dontchurn.io</a> - it's a no-code tool I made for this).</p> <p>Has anyone else tried something like this? Curious what's worked for you.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hibmuper\"> /u/hibmuper </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my26c9/one_ux_change_took_me_from_16k_to_28k_mrr_in_3/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my26c9/one_ux_change_took_me_from_16k_to_28k_mrr_in_3/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "describing a specific software solution (cancellation flow) that was implemented to improve churn rate"
+    },
+    "comments_checked": 37,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "I’ve Been Failing at Marketing My SaaS for 9 Months… Finally Got Traction, But It Feels Empty",
+    "link": "https://www.reddit.com/r/SaaS/comments/1myb5bw/ive_been_failing_at_marketing_my_saas_for_9/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey Reddit, I need to be brutally honest here.</p> <p>Nine months ago, I built my SaaS. It didn’t work. So I rebuilt it. Didn’t work. Again. Didn’t work. And again. And again.</p> <p>I’ve spent almost a year pouring my time, energy, and sanity into this thing, debugging, rebuilding, tweaking, trying every little marketing trick I could find. And now… after all that, my SaaS is finally getting some traction. But it’s tiny. Like, painfully small.</p> <p>I’m supposed to be happy, right? But I’m not. I feel… empty. Depressed. Unsatisfied. I thought I’d feel that rush, that high, when people actually started using what I built. But I just feel… stuck.</p> <p>I don’t know if this is normal or if I’m just broken. All I want is to see real traction, real people actually engaging with my product, for the first time. Just once. That’s it.</p> <p>I’m sharing this because I don’t want to hide the ugly side of being a solo founder. The frustration. The endless rebuilds. The hope that keeps getting crushed. And maybe, just maybe, someone here has been there, felt the same, and can tell me it gets better—or at least tell me how to survive this.</p> <p>Please Reddit… I don’t need compliments. I don’t need cheerleading. I just want raw honesty. And if this resonates with even a few people, maybe it can finally help me see some real traction.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Duggalji1\"> /u/Duggalji1 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myb5bw/ive_been_failing_at_marketing_my_saas_for_9/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myb5bw/ive_been_failing_at_marketing_my_saas_for_9/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "describing a business pain point that could be solved by software"
+    },
+    "comments_checked": 24,
+    "comment_analysis": {
+      "comments": [
+        {
+          "text": "but I just feel... stuck",
+          "author": "bro"
+        },
+        {
+          "text": "takes great strength to share the good and the bad.",
+          "author": "t"
+        },
+        {
+          "text": "<strong>Salam.</strong><br /> <strong>Everything is in your mind.</strong><br /> <strong>It’s not about the situation, it is about the reaction you give to the situation.</strong><br /> I already feel you earned your true reward. And it’s what marketing techniques you have practically learned and applied . Although the nitche was bad, or you lost just one tiny marketing detail, you earned lots of things. <strong>+994554195347 My WhatsApp and The Room WhatsApp Group where smart people just like you are getting together. I would like to benefit from what you have done so far. I have a brother recommendation for you.</strong>",
+          "author": "Salam"
+        },
+        {
+          "text": "Have you prospected your target (cold call, cold mail, LinkedIn)?",
+          "author": "Unknown"
+        },
+        {
+          "text": "What channels have you tried?",
+          "author": "Unknown"
+        },
+        {
+          "text": "I like it. Great idea.",
+          "author": "Unknown"
+        },
+        {
+          "text": "Unfortunately, nobody really calls my biz phone, but I still have it somewhere in my bag. Therefore a subscription does not make much sense. I would consider signing up if you offered a pure pay-per-use plan, because I might only get one call a month, who knows. Paying $1 when it happens makes more sense than a subscription.",
+          "author": "Unknown"
+        },
+        {
+          "text": "As for the website, I had trouble figuring out how it works. Do I just redirect my phone to your service, or is it simply a widget that gets embedded on the page for calls? I think an explanation near the top is necessary.",
+          "author": "Unknown"
+        },
+        {
+          "text": "Share some metrics and ill see if I can help in any segment. Also your paid vs organic channels .",
+          "author": "Unknown"
+        },
+        {
+          "text": "It looks good and polished but are you not getting eyeballs and traffic to your site? Or are people getting there but not signing up?",
+          "author": "Unknown"
+        },
+        {
+          "text": "Yeah, I’m actually getting traffic and conversions are fine… but the issue is volume. Like I know the thing works, but I just need more traffic to really validate this fully.",
+          "author": "Unknown"
+        },
+        {
+          "text": "Honestly i can’t tell you other than putting your content out there in front of people who are your audience so YouTube videos, articles, etc",
+          "author": "Unknown"
+        }
+      ],
+      "original_post": {
+        "text": "but I just feel... stuck Keep going, bro. I don't know about you, but I would rather be stuck and do something about it than stay stuck forever. Also, make sure to take short breaks from it. The burnout is real."
+      }
+    }
+  },
+  {
+    "title": "Smart or Dumb Pricing?",
+    "link": "https://www.reddit.com/r/SaaS/comments/1myg0wu/smart_or_dumb_pricing/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey SaaSers!<br /> I’m a solo founder tossing around an idea for my small SaaS project, and I need your take!<br /> I built this thing in about a month - nothing massive, just a lean tool that solves a niche problem. I’m thinking of offering a <strong>$5-10 lifetime deal</strong> (pay once, use forever)</p> <p>The goal? Reach a big audience and take a nice cut while keeping it super affordable and fair.<br /> From a business perspective, does this make sense? I figure a low price could pull in lots of users, but I’m worried about sustainability or if it’ll just scream “cheap” and flop. </p> <p>Important reasoning for me is that things just move too fast lately, subscriptions get canceled fast they never really play out as a straight upwards line of revenue unless you're Netflix or something. To me lifetime makes much more sense in a fast fashion SaaS environment. I believe that if I can solve a real pain for a very affordable price than the users will follow. </p> <p>Have any of you tried lifetime deals as indie makers? Did they pay off, or did you regret it? What’s the catch I’m not seeing?</p> <p>Would love to hear your stories, wins, or horror shows with pricing models like this!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Map7092\"> /u/Ok_Map7092 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myg0wu/smart_or_dumb_pricing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myg0wu/smart_or_dumb_pricing/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved pricing model"
+    },
+    "comments_checked": 7,
+    "comment_analysis": {
+      "found": true,
+      "example": "<https://chrome.google.com/webstore/detail/context-injector/kljkljlkjlkjlkj>"
+    }
+  },
+  {
+    "title": "I was stuck in DM hell—clients, investors, follow-ups—burnt out before real work even started.",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mydbu5/i_was_stuck_in_dm_hellclients_investors/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I’ve spent hours every single day replying to LinkedIn DMs, Twitter mentions, Reddit posts… trying to connect with clients, investors, or partners. Sometimes it works. Most times it drains you. Half the convos turn into long back-and-forths that leave you stressed, overwhelmed, and sometimes… stuck.</p> <p>I thought… why am I killing myself doing this grind? What if a tool could <em>remember everything</em>—past chats, goals, tone, context—and <em>suggest the perfect professional reply</em> automatically? Across LinkedIn, Twitter, Reddit, emails… even blogs. So you can focus on strategy, not the small talk.</p> <p>That’s why I built <strong>Personalized AI CRM + Sales Copilot</strong>. Paste a chat, get a professional response. Every contact has its own memory file: goals, tone, last conversation, follow-up suggestions. Multi-channel support means you never miss a lead.</p> <p>I don’t want to sell you anything yet. I just want feedback. DM me, try it for <strong>2 days free</strong>, see if it actually helps you connect with leads, clients, or investors… and tell me how you’d want it to work even better.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Black_Max_2001\"> /u/Black_Max_2001 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mydbu5/i_was_stuck_in_dm_hellclients_investors/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mydbu5/i_was_stuck_in_dm_hellclients_investors/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is seeking an improvement on their current workflow or process"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "The worst developer onboarding experience I’ve had (and why it still sucks in 2025)",
+    "link": "https://www.reddit.com/r/SaaS/comments/1my8keb/the_worst_developer_onboarding_experience_ive_had/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I thought joining a new company would be smooth. Interviews were great, culture seemed solid. But the first two weeks? Absolute chaos.</p> <ul> <li>No central doc, just random Notion pages from 2021.</li> <li>Environment setup took me 3 days because instructions were broken.</li> <li>Tasks were scattered across Jira, GitHub issues, and Slack messages.</li> <li>HR said onboarding was “done” after paperwork.</li> <li>Team lead had no time, so I was left asking around like a lost intern.</li> </ul> <p>After 2 weeks, I still had no clue about:</p> <ul> <li>The actual workflow.</li> <li>Who owned what.</li> <li>What the priorities were.</li> </ul> <p>It felt like onboarding = “sink or swim.”</p> <p>I’m curious if is this just normal in most dev teams?<br /> What’s your worst onboarding experience? Or best?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bluetub0\"> /u/bluetub0 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my8keb/the_worst_developer_onboarding_experience_ive_had/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my8keb/the_worst_developer_onboarding_experience_ive_had/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 5,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "I wasted months building a \"perfect\" Idea...",
+    "link": "https://www.reddit.com/r/SaaS/comments/1my8exr/i_wasted_months_building_a_perfect_idea/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I wish someone had slapped me with this advice a few months ago.</p> <p>When I started building my SaaS, I thought <strong>&quot;If I build the best product, i can just launch it on product hunt and I'll get thousands of users within a day.&quot;</strong><br /> So I locked myself in, spent months coding, and completely ignored marketing.</p> <p>Then I finally decided to “focus on marketing”… for <strong>two whole days</strong>.<br /> Nothing worked.</p> <p>So I assumed <strong>&quot;my product isn’t good enough yet&quot;</strong> and went back to adding more features.<br /> Big mistake.</p> <p>Here’s what I <strong>finally realised</strong> (painfully):<br /> The problem wasn’t my product.<br /> It was that I had <strong>no audience</strong> and <strong>no feedback loop</strong>.</p> <p>What I should’ve done instead:</p> <ul> <li>Ship the MVP <strong>in a week</strong>, not months</li> <li>Start building an audience on <strong>X and LinkedIn</strong> from day one</li> <li>Get <strong>real users</strong> onboard fast (free or discounted)</li> <li>Use their feedback to <strong>iterate and improve</strong></li> <li>Repeat the loop until it sticks</li> </ul> <p>Now I’ve flipped my approach:</p> <ul> <li><strong>Audience first</strong> → Build trust and get eyeballs before selling anything (using <a href=\"http://brandled.app\">brandled.app</a> to do it in minutes per day)</li> <li><p><strong>MVP fast</strong> → Ship something simple people can actually use (using copilot and lovable)</p></li> <li><p><strong>Iterate in public</strong> → Build with users, not for them</p></li> </ul> <p>It sounds obvious now, but back then, I was trapped in the <strong>“build more features”</strong> cycle.<br /> Don’t make the same mistake.</p> <p>• If you’re early-stage and stuck:<br /> • Stop building in isolation.<br /> • Start talking to people.<br /> • Start showing what you’re doing.<br /> • Start building distribution <strong>before</strong> you perfect the product.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/whyismail\"> /u/whyismail </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my8exr/i_wasted_months_building_a_perfect_idea/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my8exr/i_wasted_months_building_a_perfect_idea/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved approach to building a SaaS product"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "What are you building on Saturday? Drop your links",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mxxjpe/what_are_you_building_on_saturday_drop_your_links/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>What are you building?</p> <p>Share your project and a link if ready - would love to be inspired.</p> <p>Building an AI powered lead generation tool which will sales and marketing team to find quality leads. </p> <p>1.Lead generation 2.Lead enrichment 3.Buyer Intent signals 4. AI agent for live data research</p> <p>Looking for early users to test the product. Please join the waitlist - <a href=\"https://digitalthoughtz.kit.com/465f6010eb\">Landing page</a> to get early access and discount.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MarionberryMiddle652\"> /u/MarionberryMiddle652 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mxxjpe/what_are_you_building_on_saturday_drop_your_links/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mxxjpe/what_are_you_building_on_saturday_drop_your_links/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 65,
+    "comment_analysis": {
+      "found": false,
+      "example": "could not parse LLM response"
+    }
+  },
+  {
+    "title": "Just launched an MVP SaaS for Airbnb hosts – debating between scaling or selling it",
+    "link": "https://www.reddit.com/r/SaaS/comments/1myee7i/just_launched_an_mvp_saas_for_airbnb_hosts/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks, I’ve been hacking on a side project the last couple of months and wanted to share it here for feedback.</p> <p>It’s called AirbnbHostBoost – a toolkit for Airbnb/short-term rental hosts. The MVP is live and includes: • A Listing Optimization Analyzer that reviews titles, descriptions, and photos, then gives a score with recommendations. • Message templates for guest communication (check-in, welcome, review requests). • A Review booster script collection to increase 5-star reviews. • A blog section aimed at Airbnb host SEO traffic. • Lead magnets (free PDFs) to help with email list building.</p> <p>Built with React + Supabase, deployed lean (near-zero monthly expenses). It’s brand new, pre-revenue, but the market is obviously massive (4M+ Airbnb hosts worldwide).</p> <p>I’m at a crossroads now: • Either invest in content + marketing to grow it into a subscription/affiliate SaaS, • Or hand it off to someone who already has experience or an audience in this niche.</p> <p>If anyone here has experience growing SaaS in hospitality or short-term rentals, I’d love to hear your thoughts. And if someone’s looking for a ready-to-launch Airbnb SaaS MVP, I’m open to discussing a sale.</p> <p>Happy to share more details/screens with serious interests.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/webmasterleo\"> /u/webmasterleo </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myee7i/just_launched_an_mvp_saas_for_airbnb_hosts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myee7i/just_launched_an_mvp_saas_for_airbnb_hosts/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "user is debating between scaling or selling their existing MVP SaaS"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "I've built the worlds first ideological model cluster and I need someone to throw every edge case at it they can.",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mygl3a/ive_built_the_worlds_first_ideological_model/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>Over the past 4.5 months I've built the worlds first ideological bias machine learning cluster built on what I like to call DIMoB, in an internal benchmark against AllSides and AdFontes we scored a Mean Absolute Error of 0.07 and a Standard Deviation of 0.04. This is not a GPT wrapper as you may have realised by those numbers, this is built for content moderation and bias detection in embedded applications, eg: Detecting propaganda in a dataset. It scores text in 3 different axis, Social, Economic and Authority, we also give the exact words and the harmonic confidence of the model cluster, and did i mention we give scores up to the 16th decimal? As of this post i am trying to get a third party to evaluate our API and throw every edge case at it, if you or you know anyone else that could benchmark us please mention it in the comments. Feedback is welcome. This is what an example API response looks like:</p> <pre><code>{ &quot;article_id&quot;: &quot;ff8e0f9824376b3e2ee89114hd8jmaowff2948900...&quot;, &quot;analysis&quot;: { &quot;social_bias&quot;: -2.5, &quot;economic_bias&quot;: -3.5, &quot;authority_bias&quot;: -0.5, &quot;social_bias_exact&quot;: -2.625, &quot;economic_bias_exact&quot;: -3.4749999999999996, &quot;authority_bias_exact&quot;: -0.5249999999999999, &quot;harmony_confidence&quot;: 0.7146394848823547, &quot;total_models&quot;: 4, &quot;safe&quot;: false, &quot;biased&quot;: true, &quot;profane&quot;: false, &quot;profanity_score&quot;: 0.01248291414231062, &quot;words&quot;: [ { &quot;text&quot;: &quot;dissenting voices should be filtered online&quot;, &quot;start_char&quot;: 19, &quot;end_char&quot;: 62, &quot;axis&quot;: &quot;authority&quot; }, { &quot;text&quot;: &quot;Drag shows belong in churches&quot;, &quot;start_char&quot;: 64, &quot;end_char&quot;: 121, &quot;axis&quot;: &quot;social&quot; }, { &quot;text&quot;: &quot;The housing crisis is manufactured&quot;, &quot;start_char&quot;: 123, &quot;end_char&quot;: 157, &quot;axis&quot;: &quot;economic&quot; }, { &quot;text&quot;: &quot;manufactured so banks can seize more land&quot;, &quot;start_char&quot;: 145, &quot;end_char&quot;: 186, &quot;axis&quot;: &quot;economic&quot; }, { &quot;text&quot;: &quot;#DEMOCRATS&quot;, &quot;start_char&quot;: 188, &quot;end_char&quot;: 198, &quot;axis&quot;: &quot;social&quot; } ] }, &quot;metadata&quot;: { &quot;text_length&quot;: 198, &quot;truncated&quot;: false, &quot;response_time_ms&quot;: 75, &quot;status&quot;: &quot;success&quot;, &quot;first_seen&quot;: &quot;2025-08-22 22:29:20&quot;, &quot;last_seen&quot;: &quot;2025-08-22 22:29:20&quot;, &quot;request_count&quot;: 1, &quot;human_id&quot;: &quot;atk:sierra-fruit-mars&quot;, &quot;request_id&quot;: &quot;3629a212-8360-4e3a-82ab-acb684e5ab74&quot;, &quot;source&quot;: &quot;atk:USER&quot;, &quot;source_url&quot;: &quot;https://orkavi.com/&quot; } } </code></pre> <p>(Edit): as of this post we ingest content LIVE from 1.1 billion RSS feeds, yes, billion with a b, and we analyze that text for bias in real time, build heatmaps, graphs and real time intelligence charts, push to firehoses and send alerts for certain bias ranges. This project was not a small undertaking and burned 350k in GCP credits and more in the first fine tuning round for the L1, L2, R1 and R2 models. As of 24/08/2025 00:23 IST we have 9 billion pieces of text in our database.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Horror-Tower2571\"> /u/Horror-Tower2571 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mygl3a/ive_built_the_worlds_first_ideological_model/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mygl3a/ive_built_the_worlds_first_ideological_model/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "The user is seeking feedback and benchmarking for their existing software solution"
+    },
+    "comments_checked": 4,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "My SaaS has 0 users after 3 months. Here's my plan to get the first 100 (feedback welcome)",
+    "link": "https://www.reddit.com/r/SaaS/comments/1my3d8q/my_saas_has_0_users_after_3_months_heres_my_plan/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Yep, you read that right. 3 months of building, 0 paying users. Classic developer mistake - I built first, talked to users never.</p> <p>What I built: Agorasafe - a funnel builder with AI agents that can handle customer support. Think ClickFunnels meets Intercom, but way simpler and actually affordable.</p> <p><strong>What went wrong:</strong></p> <p>- Spent 3 months coding in my cave</p> <p>- Added features I <em>thought</em> people wanted</p> <p>- Never validated demand</p> <p>- Zero marketing (&quot;if you build it, they will come&quot; )</p> <p><strong>My 30-day plan to get 100 users:</strong></p> <p>Week 1: Direct Outreach </p> <p>- Find 100 businesses using expensive alternatives</p> <p>- Personalized LinkedIn/email outreach</p> <p>- Offer: &quot;I'll build your first funnel for free&quot; </p> <p>- Goal: 20 demos booked</p> <p>Week 2: Content Blitz </p> <p>- Document EVERYTHING I learned building this</p> <p>- 5 detailed tutorials on funnel optimization </p> <p>- Share on Reddit, Twitter, LinkedIn daily</p> <p>- Goal: 500 visitors to landing page</p> <p>Week 3: Free Tool Launch </p> <p>- Release AI chat widget as standalone free tool</p> <p>- Submit to Product Hunt, Hacker News</p> <p>- Include subtle Agorasafe branding</p> <p>- Goal: 1000 free tool users</p> <p>Week 4: Partnerships</p> <p>- Reach out to 20 marketing agencies</p> <p>- Offer white-label version at 50% off</p> <p>- Create affiliate program (30% recurring)</p> <p>- Goal: 3 agency partnerships</p> <p>The Nuclear Option:</p> <p>If this doesn't work, I'm doing something radical:</p> <p><strong>- Lifetime deal for $99</strong> (normally $36/month)</p> <p>- First 100 users only</p> <p>- Full access forever</p> <p>- Building in public with this cohort</p> <p>What I've learned so far:</p> <p>- Features don't matter if no one knows you exist</p> <p>- &quot;Build it and they will come&quot; is BS</p> <p>- Talking to users &gt; Writing code</p> <p>- Distribution &gt; Product (at least initially)</p> <p>My ask to this community:</p> <p>- What would make YOU try a new funnel builder?</p> <p>- Is the lifetime deal too cheap? Too expensive?</p> <p>- What's the #1 mistake in my plan?</p> <p>- Anyone want to be user #1? (seriously)</p> <p>I'll update in 30 days with results. Either I'll have 100 users or I'll be working at McDonald's. No in-between.</p> <p>PS: If you run any kind of online business and want a free funnel + AI chatbot built for you, DM me. I'll personally set it up this week.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/caleb-russel\"> /u/caleb-russel </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my3d8q/my_saas_has_0_users_after_3_months_heres_my_plan/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1my3d8q/my_saas_has_0_users_after_3_months_heres_my_plan/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for feedback and suggestions to improve an existing product"
+    },
+    "comments_checked": 12,
+    "comment_analysis": {
+      "found": [
+        {
+          "comment": "Hey Caleb, massive respect for putting this out there. The &quot;build in a cave&quot; trap is something 99% of technical founders fall into, and sharing the lessons is incredibly valuable for everyone here.",
+          "example": ""
+        },
+        {
+          "comment": "Instead of: &quot;I built a simpler alternative to ClickFunnels...&quot;<br /> Try: &quot;Saw you were frustrated with how complex funnel builders can be. I'm working on a simpler approach and would love to build your first funnel for free to get your feedback.&quot;",
+          "example": ""
+        },
+        {
+          "comment": "For the LinkedIn side, you might want to check out <a href=\"http://www.linkedingenie.com\">www.linkedingenie.com</a>. I’m building it to make posting and scheduling easier so you don’t have to think too much about content while you’re doing outreach. If you’re interested just DM me and I’ll sort you out with 2 weeks of beta access.",
+          "example": ""
+        },
+        {
+          "comment": "your 30-day plan looks solid but tbh i think you need to slow down a bit. from my experience helping startups build initial traction at influx, rushing through tactics rarely works. i'd stretch that plan to 90 days and focus heavily on the direct outreach part.",
+          "example": ""
+        }
+      ]
+    }
+  },
+  {
+    "title": "Your customer are DUMB",
+    "link": "https://www.reddit.com/r/SaaS/comments/1mygfjc/your_customer_are_dumb/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>you might not notice it, but people arent always able to grasp what you are saying. not even in this saas/business area of life, but in a general sense. peoples brains work differently. when someone gives you instruction and you just sit there saying 'huh', thats that mental gap that makes us all unique. is it necessary? sure. can it be annoying? of course.</p> <p>thats why they say talk to your customers, get feedback outside of yourself, apply it where possible, because the closer you can get to that point of universal understanding, the less your conversion rate will suck. the sad part is nobody gets even remotely close to that singularity.</p> <p>thats what makes users tricky, not dumb. theyre not actually clueless, they just interpret info differently than you expect. go look at your analytics right now, think &quot;why hasnt every user converted?&quot;. it can be a lack of information, but 99% of the time its information misrepresented to the point where visitors cant understand it. so they just leave.</p> <p>some might hit the contact page, send an email to clarify 1 thing that would take you 20 minutes too long to fully clear up, and obviously who has time for that? yes, conversate with users and help with issues, but not for minor problems like this.</p> <p>so how do we solve this? i have 3 suggestions for us developers:</p> <p>number 1 is <strong>a/b testing</strong>. a seriously underrated method to represent page info differently to different users. its a simple method where you:</p> <ul> <li>write out the text that would be on your hero section or faq or anywhere</li> <li>take it to chatgpt and ask it to make 3 variations to convey the same message with different wording</li> <li>use <a href=\"https://posthog.com\">posthog</a> to implement the a/b testing</li> <li>learn from the ones that convert and refine the non-working ones to be more like the working variants but still different its really that easy to a/b test</li> </ul> <p>i thought it would be a difficult process but its not. if you dont use posthog, there is alternatives</p> <p><strong>number 2 is customer support.</strong> this is what mainly helped me on my last project increase conversions by 32%. when done correctly, people dont mind ai customer support, especially when its clarity focused, not sales focused. so i built my own small widget on my landing page with basic analytics, and watched people ask 1 question, then head directly to sign up. it was crazy. a friend needed one too, so i packaged it into its own product <a href=\"https://custoq.com/?utm_source=reddit\">CustoQ</a> with more features. his conversion was even better than mine</p> <p>number 3 is <strong>tooltips</strong>. seriously underrated. even if people spend time reading a paragraph over and over, they might not be able to condense all that information and understand it. i would reccommend right now just:</p> <ul> <li>going to a big block of text on your landing page</li> <li>in the top right/left, adding a <a href=\"https://ui.shadcn.com/docs/components/tooltip\">tooltip</a> with a summary of what youre trying to say with chatgpt (50 characters max)</li> <li>watch people not get intimidated and be able to breeze through your landing page</li> </ul> <p>all 3 of these will make even the dumbest of customers look smart, and by that i mean will increase your conversion rate by farr.</p> <p>what else do you use to increase conversion apart from these? any help can help anyone</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Strong-Apartment6843\"> /u/Strong-Apartment6843 </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mygfjc/your_customer_are_dumb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1mygfjc/your_customer_are_dumb/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "request for improvement on existing software or tool"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "How to detect churn and reduce it in my SaaS app?",
+    "link": "https://www.reddit.com/r/SaaS/comments/1myg9pd/how_to_detect_churn_and_reduce_it_in_my_saas_app/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I'm new but I want to know more about how to prevent churns or detect it so that I can increase my user retention. </p> <p>What are your experiences and learnings in this?</p> <p>How do I learn more about the ways to do this?</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/taranify\"> /u/taranify </a> <br /> <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myg9pd/how_to_detect_churn_and_reduce_it_in_my_saas_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SaaS/comments/1myg9pd/how_to_detect_churn_and_reduce_it_in_my_saas_app/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for ways to improve user retention and detect churn in a SaaS app"
+    },
+    "comments_checked": 1,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Marketing as an introvert is literal hell: how I went from hiding behind my laptop to getting 35 signups (and still wanting to disappear)",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1my0jc6/marketing_as_an_introvert_is_literal_hell_how_i/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Duuude the marketing side of building my saas is absolutely destroying my soul and I need to vent somewhere...</p> <p>Like I can code all day no problem. Building features? Love it. Fixing bugs? Sure. But then I have to actually TELL people about what I built and suddenly I want to crawl into a hole and disappear forever</p> <p>The stuff that's been working (barely):</p> <ul> <li>Reddit comments where I actually help people then casually mention my tool</li> <li>Twitter building in public (posting daily even when I feel stupid)</li> <li>Cold emails to YouTubers (95% ignore rate but the 5% who respond are gold)</li> </ul> <p>The stuff that makes me want to die:</p> <ul> <li>TikTok videos (I look and sound like a robot)</li> <li>&quot;Networking&quot; on LinkedIn (feels so fake and gross)</li> <li>Promoting in Discord servers (always worried I'm being spammy)</li> </ul> <p>What's weird is when I force myself to be vulnerable and share struggles, people actually respond? Like my posts about failing and being confused get way more engagement than polished &quot;look at my cool feature&quot; content.</p> <p>But every single post feels like performing in a play where I don't know my lines. I'll write something, delete it, rewrite it 5 times, then post it and immediately regret it lol.</p> <p>The crazy part is it's actually working though? 35 signups, $700 revenue, 5 people interested in sponsor program. All from forcing myself to be uncomfortably public about everything.</p> <p>Still feels like I'm cosplaying as an entrepreneur while having constant anxiety about whether people think I'm annoying or fake.</p> <p>Anyone else deal with this? Like how do you market your stuff when self-promotion makes you physically uncomfortable?</p> <p>The whole &quot;just put yourself out there&quot; advice is useless when &quot;out there&quot; feels like standing naked in Times Square lol.</p> <p>What's the least painful marketing strategy you've found? Because I'm running out of ways to procrastinate on promotion</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CremeEasy6720\"> /u/CremeEasy6720 </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1my0jc6/marketing_as_an_introvert_is_literal_hell_how_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1my0jc6/marketing_as_an_introvert_is_literal_hell_how_i/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved marketing strategy due to discomfort with self-promotion"
+    },
+    "comments_checked": 6,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Canny prices are skyrocketing and I am thinking to leave it for a cost saving alternative",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mxz00p/canny_prices_are_skyrocketing_and_i_am_thinking/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi folks,</p> <p>Quick question for all you product owners, indie devs and startups out there: </p> <p>Would you be down to try a tool for gathering and managing product feedback that’s basically like Canny (you know, the one with voting boards, roadmaps, user segmentation, integrations, etc.) but 70% cheaper? </p> <p>I know there some alternatives of canny in the market, but still they are charging only 5-10% less than Canny.</p> <p>I’m talking serious savings without skimping on the core features that make feedback loops actually useful.</p> <p>I’ve been using Canny for my side project and love it, but damn, the pricing adds up quick. If something popped up that’s got 70% of the bells and whistles at a fraction of the cost, I’d jump on it in a heartbeat. What about you? </p> <p>Would price be the deal-breaker, or are there specific features you’d need that might make you stick with the big names?</p> <p>Curious to hear your thoughts, upvote if this sounds intriguing, and drop a comment if you’ve got recs or experiences!</p> <p>Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rukhsardev\"> /u/rukhsardev </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxz00p/canny_prices_are_skyrocketing_and_i_am_thinking/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxz00p/canny_prices_are_skyrocketing_and_i_am_thinking/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for a cost-saving alternative to an existing tool"
+    },
+    "comments_checked": 3,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "A perplexity alternative but open source",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mxudf7/a_perplexity_alternative_but_open_source/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I was one of perplexity users for a while and to be honest at the beginning it was just perfect, but in the last few months they started to charge more for just integrating new models where tbh I see that they have the same performance. So I decided to see an alternative, searching probably for an open source on github but I didn't find anything so that's why I have decided to build an open source one so if you're interested leave a comment I will share it with you</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sihamdisoudani\"> /u/sihamdisoudani </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxudf7/a_perplexity_alternative_but_open_source/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxudf7/a_perplexity_alternative_but_open_source/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "seeking an alternative to a paid software with similar performance"
+    },
+    "comments_checked": 2,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "How to Track User Behavior in Your MVP (Metrics, Tools & Best Practices)",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mxfvud/how_to_track_user_behavior_in_your_mvp_metrics/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p><strong>Why Track User Behavior?</strong></p> <ul> <li>Spot pain points and improve navigation.</li> <li>Double down on what users love, pivot away from what they ignore.</li> <li>Find insights that keep users coming back.</li> <li>Base choices on data, not gut feelings.</li> </ul> <p><strong>Key Metrics to Measure</strong></p> <ul> <li>Time spent, visit frequency, page views/session.</li> <li>Churn rate, repeat visits, lifetime value (LTV).</li> <li>Sign-up/purchase conversion rates, funnel drop-offs.</li> <li>CTR, heatmaps, scroll depth.</li> </ul> <p><strong>Top Tools for Tracking</strong></p> <ol> <li><strong>Google Analytics</strong> → Real-time tracking, conversions, demographics, custom reports.</li> <li><strong>Hotjar</strong> → Heatmaps, session replays, feedback polls, conversion funnels.</li> <li><strong>Mixpanel</strong> → Advanced event tracking, A/B testing, cohort &amp; funnel analysis.</li> <li><strong>Amplitude</strong> → Product analytics, behavior cohorts, retention insights, journey mapping.</li> <li><strong>Heap</strong> → Automatic event tracking, session replay, funnel/path analysis.</li> </ol> <p><strong>🔹 Best Practices</strong></p> <ol> <li>Define exactly what you want to track and why.</li> <li>Use more than one tool (analytics + heatmaps + feedback).</li> <li>Analyze trends frequently to adapt fast.</li> <li>Combine hard data with user interviews/surveys.</li> <li>Stay transparent and comply with laws like GDPR.</li> </ol> <p><strong>Final Takeaway:</strong><br /> Tracking user behavior is essential for refining your MVP. With the right mix of metrics, tools, and feedback, you’ll build a product that attracts, retains, and delights users. Start small, focus on the most important data, and keep iterating!</p> <p>📖 Full blog here: <a href=\"https://blog.mvplaunchpad.agency/how-to-track-user-behavior-in-your-mvp/\">https://blog.mvplaunchpad.agency/how-to-track-user-behavior-in-your-mvp/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Hunt-21\"> /u/Ok-Hunt-21 </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxfvud/how_to_track_user_behavior_in_your_mvp_metrics/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxfvud/how_to_track_user_behavior_in_your_mvp_metrics/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Asking for best practices and tools to improve user behavior tracking in an MVP"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Got data lying around within your small businesses, non-profits, and even people working on side projects? Let’s work on them to find some values 📊",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mx3lwq/got_data_lying_around_within_your_small/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>If you run a Small-scale business, startup, or non-profit, you probably already have the numbers: sales logs, donor lists, attendance sheets, invoices.</p> <p>But here’s the problem: they sit in spreadsheets without telling you the real story.</p> <p>That’s where I come in. Together, we can answer questions like:</p> <ul> <li><em>Which products bring in your repeat customers?</em></li> <li><em>Why are sales strong midweek but flat on weekends?</em></li> <li><em>Which donors stay loyal year after year?</em></li> <li><em>Where exactly is money leaking in daily operations?</em></li> </ul> <p>I’ll take the data you already have and turn it into <strong>clear visuals and insights</strong> that show you what’s working and what’s holding you back. No jargon, no corporate fluff — just answers you can act on.</p> <p>For you → it’s smarter decisions and proof of impact.<br /> For me → it’s real-world projects to add to my portfolio.</p> <p>If this sounds useful, let’s connect. Drop a comment or DM — happy to work with small industries, NGOs, or even side projects.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/insomniac963\"> /u/insomniac963 </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mx3lwq/got_data_lying_around_within_your_small/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mx3lwq/got_data_lying_around_within_your_small/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software solution to analyze and visualize existing data"
+    },
+    "comments_checked": 0
+  },
+  {
+    "title": "Solo business operator looking for cheaper options for business email address. Any suggestions?",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mwfxdc/solo_business_operator_looking_for_cheaper/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>My mom runs an ice-cream shop and does some catering on the side, on and off. She needs a business email and a basic website mostly for client outreach, but Google Workspace with Squarespace is a little expensive. Are there cheaper options? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rough_Jackfruit4726\"> /u/Rough_Jackfruit4726 </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwfxdc/solo_business_operator_looking_for_cheaper/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwfxdc/solo_business_operator_looking_for_cheaper/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking cheaper alternatives to existing software"
+    },
+    "comments_checked": 10,
+    "comment_analysis": {
+      "found": true,
+      "example": "<https://www.zoho.com/mail/>"
+    }
+  },
+  {
+    "title": "Shaving hours off my weekly marketing grind",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mwb5xa/shaving_hours_off_my_weekly_marketing_grind/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>Running solo, I used to spend 8–10 hours a week making posts, writing captions, editing product photos, etc. It was draining and kept me away from clients.</p> <p>I started leaning on Pippit to take on the bulk of that work. Now, I spend about 2–3 hours reviewing and scheduling content, which freed me up to actually grow the business instead of just feeding the content machine.</p> <p>For other solopreneurs: how do you handle the endless marketing work? Do you batch, outsource, or automate?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/letriseandgrind\"> /u/letriseandgrind </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwb5xa/shaving_hours_off_my_weekly_marketing_grind/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwb5xa/shaving_hours_off_my_weekly_marketing_grind/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved software/tool compared to what they use"
+    },
+    "comments_checked": 4,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "why settle for flat 5-digit salaries when you can just start something?",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mxa6es/why_settle_for_flat_5digit_salaries_when_you_can/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>I don’t get why so many of us (esp. 20–28) hang on to corporate jobs we hate, just to make a flat 5-digit salary. The upside is capped, the grind is endless.</p> <p>Meanwhile, you could just start something small, outsource, take commissions, run ops lean. Tools are there. Distribution is there. The only thing missing is risk appetite.</p> <p>I say this because me and my frens are doing it while doing our college, okay our college supports us but still. It makes the “safe job” look way less safe.</p> <p>Maybe I’m wrong, but not fully.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/-Akshai\"> /u/-Akshai </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxa6es/why_settle_for_flat_5digit_salaries_when_you_can/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mxa6es/why_settle_for_flat_5digit_salaries_when_you_can/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "asking for an improved solution to a problem"
+    },
+    "comments_checked": 27,
+    "comment_analysis": {
+      "found": false,
+      "example": ""
+    }
+  },
+  {
+    "title": "Desperate for Help: US LLC Rejections Are Blocking My Business",
+    "link": "https://www.reddit.com/r/Solopreneur/comments/1mwlcrs/desperate_for_help_us_llc_rejections_are_blocking/",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<!-- SC_OFF --><div class=\"md\"><p>🚨 I need urgent help! 🚨</p> <p>I registered an LLC in Wyoming, I have my EIN, but I don’t live in the US and I don’t have an SSN. Mercury has rejected my application 3 times, Airwallex once, and now I am completely stuck. Relay and BlueVine also require SSN, so I can’t move forward. No one is guiding me and I honestly don’t know what to do next. Has anyone been through this and found a real solution?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/appdatee\"> /u/appdatee </a> <br /> <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwlcrs/desperate_for_help_us_llc_rejections_are_blocking/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Solopreneur/comments/1mwlcrs/desperate_for_help_us_llc_rejections_are_blocking/\">[comments]</a></span>"
+      }
+    ],
+    "classification": {
+      "match": true,
+      "category": "improve",
+      "reason": "Seeking a solution to overcome existing software rejections"
     },
     "comments_checked": 2,
     "comment_analysis": {
