@@ -29,6 +29,7 @@ def main():
     except FileNotFoundError:
         ideas = []
 
+    # print(len(posts), "posts loaded from", in_path)
     existing_links = set(item["link"] for item in ideas if "link" in item)
 
     added = 0
@@ -41,7 +42,7 @@ def main():
                 f"Failed to classify post {post['title']} {post['link']}: {e}")
             continue
         print(classification)
-        if (classification['label'] == "positive" and classification['score'] > 0.85):
+        if (classification['label'] == "positive" and classification['score'] >= 0.90):
             if post["link"] not in existing_links:
                 ideas.append(post)
                 existing_links.add(post["link"])

@@ -8,7 +8,7 @@ import re
 
 subreddits = ["https://www.reddit.com/r/Doesthisexist/.rss",
               "https://www.reddit.com/r/apps/.rss", "https://www.reddit.com/r/smallbusiness/.rss",
-              "https://www.reddit.com/r/ProductManagement/.rss", "https://www.reddit.com/r/SideProject/.rss", "https://www.reddit.com/r/SaaS/.rss",
+              "https://www.reddit.com/r/SideProject/.rss", "https://www.reddit.com/r/SaaS/.rss",
               "https://www.reddit.com/r/Solopreneur/.rss"]
 
 
