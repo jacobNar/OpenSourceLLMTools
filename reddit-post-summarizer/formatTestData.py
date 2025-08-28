@@ -312,19 +312,19 @@ def format_data(json_file_path: str) -> list:
 
 def classify_posts_from_json():
     input_path = "posts.json"
-    output_path = "training-data-summarize.jsonl"
+    output_path = "training-data.jsonl"
     with open(input_path, "r", encoding="utf-8") as f:
         posts = json.load(f)
 
     results = []
     for post in posts:
         print("Processing post:", post.get("title", ""))
-        summary = post.get("summary", "")
-        classification = classify_post_text(summary)
+        content = post.get("content", "")
+        classification = classify_post_text(content)
         match = classification.get("match", False)
         target = "positive" if match else "negative"
         results.append({
-            "text": summary,
+            "text": content,
             "target": target
         })
 
@@ -335,7 +335,7 @@ def classify_posts_from_json():
 
 if __name__ == '__main__':
     # Replace with the actual path to your JSON file
-    # file_path = "reddit_saas_candidates.json"
+    # file_path = "posts.json"
     # formatted_data = format_data(file_path)
 
     # # Save to a JSONL file
