@@ -34,7 +34,7 @@ class LabelingApp:
             self.root.destroy()
             return
 
-        self.current_index = 0
+        self.current_index = 90
 
         # UI Elements
         self.text_label = tk.Label(
@@ -57,11 +57,32 @@ class LabelingApp:
             self.button_frame, text="Negative", bg='red', fg='white', command=self.on_no_click)
         self.no_button.pack(side='right', padx=10)
 
+        self.quit_button = tk.Button(
+            root, text="Quit", bg='gray', fg='white', command=self.on_quit)
+        self.quit_button.pack(pady=10)
+
         self.status_label = tk.Label(
             root, text="", bd=1, relief=tk.SUNKEN, anchor='w')
         self.status_label.pack(fill=tk.X, side='bottom')
 
         self.display_current_row()
+
+    def on_quit(self):
+        if self.current_index < len(self.data):
+            messagebox.showinfo(
+                "Warning", "You have unsaved changes. Do you want to save?")
+            save_response = messagebox.askyesno(
+                "Save?", "Do you want to save your changes?")
+            if save_response:
+                save_data(self.data, self.file_path)
+                self.root.quit()
+            else:
+                self.root.quit()
+        else:
+            messagebox.showinfo(
+                "Done", "You have finished labeling all the examples. The file has been updated.")
+            save_data(self.data, self.file_path)
+            self.root.quit()
 
     def display_current_row(self):
         if self.current_index < len(self.data):
@@ -91,7 +112,7 @@ class LabelingApp:
 
 # Main application loop
 if __name__ == "__main__":
-    file_name = "training-data-summarize.jsonl"  # Name of your file
+    file_name = "training-data.jsonl"  # Name of your file
     root = tk.Tk()
     app = LabelingApp(root, file_name)
     root.mainloop()
