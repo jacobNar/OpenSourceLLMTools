@@ -2,7 +2,7 @@
 from transformers import pipeline
 
 pipe = pipeline("text-classification",
-                model="jacobNar/distilbert-5batch-3epoch-reddit", device="cuda")
+                model="jacobNar/distilbert-5batch-3epoch-reddit-v3", device="cuda")
 
 examples = [
     "Reddit user is seeking information on a product that combines a kitchen scale with dishware, allowing users to track calories consumed from meals without having to weigh food multiple times. The desired product would be a plastic bowl-shaped shell with a built-in scale and display screen or app connectivity. This concept aims to simplify meal tracking for individuals monitoring their calorie intake for health reasons.",
@@ -12,10 +12,11 @@ examples = [
     "A developer has released an app called Mindcast, which uses voice journaling to help users understand themselves better. The app transcribes and analyzes spoken thoughts, providing features such as mood analysis, organization, and tracking progress. For a limited time, the Pro version is available for free, with plans to add additional languages in the future.",
     "Im looking for something that works like the OG iTunes. I would like to organize my music on my computer and then sync my music to my phone.",
     "Im looking to create community and wonder what is better element, discord or what up app?",
-    "I'm looking for a completely free software that could capture live audio from a webpage and translate it in real time into text. Nothing fancy, simple GUI and easy to use (I don't want to code anything, you should click on an exe and that's it). It should run in Windows, it has to be software for a desktop PC, not a cell phone app."
+    "I'm looking for a completely free software that could capture live audio from a webpage and translate it in real time into text. Nothing fancy, simple GUI and easy to use (I don't want to code anything, you should click on an exe and that's it). It should run in Windows, it has to be software for a desktop PC, not a cell phone app.",
+    ""
 ]
 
-result = pipe(examples[7])
+result = pipe(examples[4])
 # result2 = pipe(examples[1])
 print(result)
 # print(result2)

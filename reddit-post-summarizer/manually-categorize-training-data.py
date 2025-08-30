@@ -24,9 +24,11 @@ def save_data(data, file_path):
 
 
 class LabelingApp:
-    def __init__(self, root, file_path):
+    def __init__(self, root, file_path, startingIndex=0):
         self.root = root
         self.root.title("Text Labeler")
+        font = ("Arial", 18)
+        self.root.option_add("*Font", font)
 
         self.file_path = file_path
         self.data = load_data(file_path)
@@ -34,7 +36,7 @@ class LabelingApp:
             self.root.destroy()
             return
 
-        self.current_index = 90
+        self.current_index = startingIndex
 
         # UI Elements
         self.text_label = tk.Label(
@@ -93,6 +95,7 @@ class LabelingApp:
             self.text_box.config(state='disabled')
             self.status_label.config(
                 text=f"Progress: {self.current_index + 1}/{len(self.data)}")
+            self.text_box.config(font=('Arial', 18))
         else:
             messagebox.showinfo(
                 "Done", "You have finished labeling all the examples. The file has been updated.")
@@ -114,5 +117,5 @@ class LabelingApp:
 if __name__ == "__main__":
     file_name = "training-data.jsonl"  # Name of your file
     root = tk.Tk()
-    app = LabelingApp(root, file_name)
+    app = LabelingApp(root, file_name, startingIndex=161)
     root.mainloop()
