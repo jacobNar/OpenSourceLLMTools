@@ -1,12 +1,71 @@
+from langchain_chroma import Chroma
+from langchain_ollama import ChatOllama, OllamaEmbeddings
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 from typing import List, Dict
 import json
+import os
+from langchain_community.document_loaders import JSONLoader
 
-tokenizer = AutoTokenizer.from_pretrained("jacobNar/autotrain-vtwei-2s4ra")
-model = AutoModelForSequenceClassification.from_pretrained(
-    "jacobNar/autotrain-vtwei-2s4ra")
+persist_dir = "./reddit-chroma-db"
+
+ollama_emb = OllamaEmbeddings(
+    model="mxbai-embed-large",
+)
+
+llm = ChatOllama(
+    base_url="http://localhost:11434/",
+    model='gemma3:latest',
+    temperature=0.2,
+    num_predict=512,
+    device="cuda"
+)
+
+
+def call_ollama(prompt: str, max_tokens: int = 2048) -> str:
+    try:
+        # instantiate ChatOllama client and call .invoke with messages list
+        messages = [
+            ("system", "You will be passed in a reddit post. Your job is to summarizee it in 2-3 sentence and explain how software can help sove the question askers problem. If software cannot solve the problem, simply output 'I'm not sure'. Don't suggest any specific software or tools. Just explain how software can help solve the problem. Be concise."),
+            ("human", prompt),
+        ]
+        ai_msg = llm.invoke(messages)
+        return ai_msg.content
+    except Exception as e:
+        print("OLLAMA call failed:", e)
+        return ""
+
+# Define the metadata extraction function.
+
+
+def metadata_func(record: dict, metadata: dict) -> dict:
+    metadata["title"] = record.get("title")
+    metadata["link"] = record.get("link")
+
+    return metadata
+
+
+# if not os.path.exists(persist_dir):
+#     print("Creating new Chroma DB...")
+
+#     loader = JSONLoader(
+#         file_path="./ideas.json",
+#         jq_schema=".[]",
+#         content_key="content",
+#         metadata_func=metadata_func,
+#     )
+#     documents = loader.load()
+
+#     db = Chroma.from_documents(
+#         documents, ollama_emb, persist_directory=persist_dir)
+# else:
+#     print("Loading existing Chroma DB...")
+#     db = Chroma(persist_directory=persist_dir, embedding_function=ollama_emb)
+#     collection = db.get()
+#     documents = collection["documents"]
+
+
 pipe = pipeline("text-classification",
-                model="jacobNar/autotrain-vtwei-2s4ra", device="cuda")
+                model="jacobNar/distilbert-5batch-3epoch-reddit-v3", device="cuda")
 
 
 def classify_post_text_hf(text: str) -> Dict:
@@ -42,8 +101,11 @@ def main():
                 f"Failed to classify post {post['title']} {post['link']}: {e}")
             continue
         print(classification)
-        if (classification['label'] == "positive" and classification['score'] >= 0.90):
+        if (classification['label'] == "positive" and classification['score'] >= 0.50):
+
             if post["link"] not in existing_links:
+                summary = call_ollama(post["content"])
+                post["summary"] = summary
                 ideas.append(post)
                 existing_links.add(post["link"])
                 added += 1
