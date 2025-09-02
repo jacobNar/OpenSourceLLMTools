@@ -1,16 +1,8 @@
-from langchain_chroma import Chroma
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+
+from langchain_ollama import ChatOllama
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 from typing import List, Dict
 import json
-import os
-from langchain_community.document_loaders import JSONLoader
-
-persist_dir = "./reddit-chroma-db"
-
-ollama_emb = OllamaEmbeddings(
-    model="mxbai-embed-large",
-)
 
 llm = ChatOllama(
     base_url="http://localhost:11434/",
@@ -35,33 +27,6 @@ def call_ollama(prompt: str, max_tokens: int = 2048) -> str:
         return ""
 
 # Define the metadata extraction function.
-
-
-def metadata_func(record: dict, metadata: dict) -> dict:
-    metadata["title"] = record.get("title")
-    metadata["link"] = record.get("link")
-
-    return metadata
-
-
-# if not os.path.exists(persist_dir):
-#     print("Creating new Chroma DB...")
-
-#     loader = JSONLoader(
-#         file_path="./ideas.json",
-#         jq_schema=".[]",
-#         content_key="content",
-#         metadata_func=metadata_func,
-#     )
-#     documents = loader.load()
-
-#     db = Chroma.from_documents(
-#         documents, ollama_emb, persist_directory=persist_dir)
-# else:
-#     print("Loading existing Chroma DB...")
-#     db = Chroma(persist_directory=persist_dir, embedding_function=ollama_emb)
-#     collection = db.get()
-#     documents = collection["documents"]
 
 
 pipe = pipeline("text-classification",
