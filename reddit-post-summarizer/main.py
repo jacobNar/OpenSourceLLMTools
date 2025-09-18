@@ -231,7 +231,7 @@ class SavePostsChain(Chain):
     def _call(self, inputs: dict):
         posts = inputs["categorized_posts"]
 
-        # Convert posts -> Documents
+        # Convert posts -> Documents, include summary in metadata
         documents = [
             Document(
                 page_content=post["text"],
@@ -239,6 +239,7 @@ class SavePostsChain(Chain):
                     "title": post["title"],
                     "link": post["link"],
                     "category": post["category"],
+                    "summary": post.get("summary", ""),
                 },
             )
             for post in posts
@@ -248,13 +249,26 @@ class SavePostsChain(Chain):
             db = Chroma.from_documents(
                 documents, ollama_emb, persist_directory=persist_dir
             )
+            saved_count = len(documents)
         else:
             db = Chroma(
                 persist_directory=persist_dir, embedding_function=ollama_emb
             )
-            db.add_documents(documents)
+            new_documents = []
+            for doc in documents:
+                link = doc.metadata.get("link")
+                # Query Chroma for any document with this link in metadata
+                # Chroma's API does not support direct metadata filtering, but we can use where argument
+                # See: https://docs.trychroma.com/usage-guide#querying
+                matches = db.get(where={"link": link}, include=["metadatas"])
+                if matches and matches.get("metadatas") and len(matches["metadatas"]) > 0:
+                    continue  # Skip if found
+                new_documents.append(doc)
+            if new_documents:
+                db.add_documents(new_documents)
+            saved_count = len(new_documents)
 
-        return {"saved_count": len(posts)}
+        return {"saved_count": saved_count}
 
 
 fetch_posts_chain = FetchPostsChain()
@@ -277,4 +291,4 @@ if __name__ == "__main__":
     result = full_chain({})
     print("Saved posts:", result["saved_count"])
     for post in result["posts"]:
-        print(post["title"], post["category"], post.get("category"))
+        print(post["title"])
