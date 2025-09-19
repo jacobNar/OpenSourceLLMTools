@@ -117,5 +117,5 @@ class LabelingApp:
 if __name__ == "__main__":
     file_name = "training-data.jsonl"  # Name of your file
     root = tk.Tk()
-    app = LabelingApp(root, file_name, startingIndex=161)
+    app = LabelingApp(root, file_name, startingIndex=202)
     root.mainloop()

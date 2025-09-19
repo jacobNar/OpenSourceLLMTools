@@ -5,3 +5,6 @@ langchain/env/
 langchain/langchain-hf-rag-app/bill-sumarrizer
 langchain/chroma_db/*
 langchain/chroma_db_xml/*
+/reddit-chroma-db
+/__pycache__
+reddit-post-summarizer/__pycache__/
