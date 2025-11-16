@@ -26,6 +26,15 @@ chat = ChatOllama(
     num_ctx=16384,
 )
 
+tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-reranker-large")
+model = AutoModelForSequenceClassification.from_pretrained(
+    "BAAI/bge-reranker-large")
+
+
+def count_tokens(text):
+    """Counts the number of tokens in a given text."""
+    return len(tokenizer.encode(text))
+
 
 def rerank_documents_hf(
     query: str,
@@ -33,14 +42,12 @@ def rerank_documents_hf(
     model_name: str = "BAAI/bge-reranker-large",
     top_k: int = 10
 ) -> List[Dict[str, Any]]:
+
     if not documents:
         return []
 
     # Extract page content from Document objects
     document_texts = [doc.page_content for doc in documents]
-
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -287,7 +294,8 @@ while True:
     for i, result in enumerate(final_context, 0):
         context += f"Result {i}\n{result}\n\n"
 
-    print("context: ", context)
+    # print("context: ", context)
+    print(count_tokens(context), "tokens in context")
     messages.append(("human", "Context:" + context +
                     "\n\n Query:\n" + user_input))
 
