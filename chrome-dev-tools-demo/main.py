@@ -15,16 +15,28 @@ from langgraph.graph.message import AnyMessage
 from langgraph.prebuilt import ToolNode
 from langchain_mcp_adapters.tools import load_mcp_tools
 import json
+import re
+from langchain_openai import ChatOpenAI
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 SYSTEM_PROMPT = """
 **PRIMARY DIRECTIVE:** You are a dedicated, persistent web browsing expert. Your SOLE function is to achieve the user's task using the provided tools. 
 **You must NEVER state that you cannot proceed or lack information.** If you need information, you MUST call the appropriate tool to get it. 
 **NEVER** ask for permission, clarification, or further instructions once the task is started. Do not state you are analyzing or planning. never ask me to review something either.
 **Your output must ONLY be a tool call or the final answer.**
-If the output is a tool call simply return the tool call JSON don't wrap it in any markdown like ```json ``` or text.
+If the output is a tool call simply return the tool call JSON, DO NOT wrap it in any markdown like ```json ``` or text.
 
-Here's an example tool call output:
-{"name": "new_page", "arguments": {"url": "https://promo.united.com/offers/packmoremiles"}}\n\n{"name": "wait_for", "arguments": {"text": "Welcome to your account."}}
+Here's an example of a good tool call output:
+{"name": "new_page", "arguments": {"url": "https://promo.united.com/offers/packmoremiles"}}
+
+Here's an example of a tool call with no arguments:
+{"name": "take_snapshot", "arguments": {}}
+
+**IMPORTANT:** Even if the tool takes no arguments, you MUST use the JSON format with an empty 'arguments' object.
+**IMPORTANT:** The response for a tool call must contain the entire complete JSON of the tool call like above with the "name" and "arguments" keys. A response like 'take_snapshot{"arguments": {}}' is NOT valid since it can't be parsed as JSON. Instead the correct result would be '{ "name": "take_snapshot", "arguments": {}}'.
 
 Here's an example final answer output:
 I've successfully submitted the web form and recieved the confirmation message: "Thank you for signing up!"
@@ -33,10 +45,9 @@ I've successfully submitted the web form and recieved the confirmation message: 
 
 **TASK FLOW:**
 1. Always start with new_page then take_snapshot. 
-2. Analyze the snapshot content to plan the next step. 
-3. Call take_snapshot after any action that changes the page (navigation, click, fill).
-4. A take_snapshot should never be the final tool, call there should always be some tool call after take_snapshot
-5. Only when the final requested information is in your possession, respond with a final, concise answer.
+2. Call take_snapshot after any action that changes the page (navigation, click, fill) and analyze the snapshot content to plan the next step.
+3. A take_snapshot should never be the final tool, call there should always be some tool call after take_snapshot
+4. Only when the final requested information is in your possession, respond with a final, concise answer.
 """
 
 
@@ -47,19 +58,25 @@ class AgentState(TypedDict):
 
 
 def call_model(state: AgentState, config: RunnableConfig) -> dict:
-    # Filter to keep only the initial instruction and the last 2 messages (last step)
     messages = state['messages']
-    if len(messages) > 5:
-        messages = [messages[0]] + messages[-5:]
+    if len(messages) > 20:
+        messages = [messages[0]] + messages[-20:]
 
-    # Prepend the system prompt
-    messages = [SystemMessage(content=SYSTEM_PROMPT)] + messages
+    formatted_messages = [SystemMessage(content=SYSTEM_PROMPT)]
+    
+    for m in messages:
+        if isinstance(m, AIMessage):
+            formatted_messages.append(AIMessage(content=m.content))
+        elif isinstance(m, ToolMessage):
+            # Convert tool result to a clear text observation
+            formatted_messages.append(HumanMessage(content=f"Tool Output: {m.content}"))
+        else:
+            formatted_messages.append(m)
 
-    # 1. Invoke the model as usual
-    print(f"Calling model with {len(messages)} messages")
-    # for m in messages:
-    #     print(m.content)
-    result = chat.invoke(messages)
+    # 1. Invoke the model
+    print(f"Calling model with {len(formatted_messages)} messages")
+    
+    result = chat.invoke(formatted_messages)
     print("result from model (RAW)")
     print(result)
 
@@ -90,26 +107,60 @@ def call_model(state: AgentState, config: RunnableConfig) -> dict:
 
             pos = end_pos
         except json.JSONDecodeError:
-            # If parsing fails (e.g. it's just text), we stop parsing.
-            # If no tools were parsed, it will be treated as a final answer.
+            stripped = raw_content.strip()
+            if 'allowed_tool_names' in globals() and stripped in allowed_tool_names:
+                print(f"Parsed lazy tool call: {stripped}")
+                tool_call = ToolCall(
+                    name=stripped,
+                    args={},
+                    id=f"manual-call-{len(parsed_tool_calls)}"
+                )
+                parsed_tool_calls.append(tool_call)
+                break
+            
+            # Fallback 2: Check if it's ToolName{"arguments": ...}
+            match = re.match(r"^([a-zA-Z0-9_]+)\s*(\{.*)$", raw_content, re.DOTALL)
+            if match:
+                tool_name = match.group(1)
+                json_part = match.group(2)
+                if 'allowed_tool_names' in globals() and tool_name in allowed_tool_names:
+                    try:
+                        args_obj = json.loads(json_part)
+                        if "arguments" in args_obj:
+                            args = args_obj["arguments"]
+                        else:
+                            args = args_obj 
+                        
+                        print(f"Parsed prefixed tool call: {tool_name}")
+                        tool_call = ToolCall(
+                            name=tool_name,
+                            args=args,
+                            id=f"manual-call-{len(parsed_tool_calls)}"
+                        )
+                        parsed_tool_calls.append(tool_call)
+                        break
+                    except json.JSONDecodeError:
+                        pass
+
             print(
                 "Content is not valid JSON tool call, treating as final answer or text.")
             break
 
-    # 4. Construct the new AIMessage
     if parsed_tool_calls:
-        # If tool calls are found, create a new AIMessage with the tool_calls attribute populated
-        # The content should typically be empty in this case.
+
         final_ai_message = AIMessage(
-            content="",
+            content=raw_content, 
             tool_calls=parsed_tool_calls,
             # Copy over metadata/IDs from the original result if needed for debugging
             response_metadata=result.response_metadata,
             id=result.id
         )
     else:
-        # If no tool calls found, use the original result (which might be the final answer)
         final_ai_message = result
+        
+    if not final_ai_message.content and not final_ai_message.tool_calls:
+        print("WARNING: Model returned empty content and no tool calls. Substituting with fallback.")
+        final_ai_message = AIMessage(content="I apologize, but I encountered an issue and returned an empty response. I will try to proceed or retry the last step.")
 
     print("result from model (PARSED)")
     print(final_ai_message)
@@ -163,7 +214,7 @@ def should_continue(state: AgentState) -> str:
 
 
 async def main():
-    global tools, chat, agent, tool_executor
+    global tools, chat, agent, tool_executor, allowed_tool_names
     client = MultiServerMCPClient(
         {
             "chrome-devtools": {
@@ -181,44 +232,32 @@ async def main():
     async with client.session("chrome-devtools") as session:
         tools = await load_mcp_tools(session)
         tool_executor = ToolNode(tools)
-        # print(tools)
+
         allowed_tool_names = ["new_page", "take_snapshot", "click", "fill", "fill_form", "handle_dialog", "press_key", "take_screenshot", "close_page", "evaluate_script", "wait_for"]
         allowed_tools = [tool for tool in tools if tool.name in allowed_tool_names]
         for tool in allowed_tools:
             print(tool.name)
 
-        chat = ChatOllama(
-            base_url="http://localhost:11434/",
-            model="qwen2.5-coder",
-            temperature=0.8,
-            num_predict=32000,  # Increased for 128k context window
-        ).bind_tools(allowed_tools)
+        # Format tool definitions for the system prompt
+        tools_str = ""
+        for tool in allowed_tools:
+            tools_str += f"Tool: {tool.name}\nDescription: {tool.description}\nArguments: {tool.args}\n\n"
 
-        # agent = create_agent(
-        #     chat,
-        #     tools,
-        #     system_prompt="""
-        #     **PRIMARY DIRECTIVE:** You are a dedicated, persistent web browsing expert. Your SOLE function is to achieve the user's task using the provided tools.
-        #     **You must NEVER state that you cannot proceed or lack information.** If you need information, you MUST call the appropriate tool to get it.
-        #     **NEVER** ask for permission, clarification, or further instructions once the task is started. Do not state you are analyzing or planning. never ask me to review something either.
-        #     **Your output must ONLY be a tool call or the final answer.**
-        #     If the output is a tool call simply return the tool call JSON don't wrap it in any markdown like ```json ``` or text.
-        #
-        #     Here's an example tool call output:
-        #     {"name": "new_page", "arguments": {"url": "https://promo.united.com/offers/packmoremiles"}}\n\n{"name": "wait_for", "arguments": {"text": "Welcome to your account."}}
-        #
-        #     Here's an example final answer output:
-        #     I've successfully submitted the web form and recieved the confirmation message: "Thank you for signing up!"
-        #
-        #     **ERROR HANDLING:** If you receive a 'Tool execution failed' message, DO NOT STOP. Analyze the error details, assume the user expects you to fix the plan immediately, and respond with a corrected tool call to advance the task.
-        #
-        #     **TASK FLOW:**
-        #     1. Always start with new_page then take_snapshot.
-        #     2. Analyze the snapshot content to plan the next step.
-        #     3. Call take_snapshot after any action that changes the page (navigation, click, fill).
-        #     4. A take_snapshot should never be the final tool, call there should always be some tool call after take_snapshot
-        #     5. Only when the final requested information is in your possession, respond with a final, concise answer.
-        #     """)
+        global SYSTEM_PROMPT
+        SYSTEM_PROMPT += f"\n\n**AVAILABLE TOOLS:**\n{tools_str}"
+        print(SYSTEM_PROMPT)
+        # return
+        llm = HuggingFaceEndpoint(
+            repo_id="Qwen/Qwen2.5-Coder-32B-Instruct", # Note: Qwen3 is experimental; 2.5 is currently more stable on HF
+            task="text-generation",
+            max_new_tokens=2048,
+            do_sample=True,
+            temperature=0.8,
+            huggingfacehub_api_token=os.getenv("HF_TOKEN"),
+        )
+        
+        chat = ChatHuggingFace(llm=llm)
+
         workflow = StateGraph(AgentState)
 
         workflow.add_node("agent", call_model)
@@ -237,13 +276,13 @@ async def main():
 
         workflow.add_edge('tool', 'agent')
 
-        app = workflow.compile(checkpointer=MemorySaver())
-        config = {"configurable": {"thread_id": "3"}, "recursion_limit": 100}
+        app = workflow.compile()
+        config = {"configurable": {"thread_id": "100"}, "recursion_limit": 100}
 
         print("Streaming agent steps:")
         async for step in app.astream(
             {"messages": [HumanMessage(
-                content="visit https://promo.united.com/offers/packmoremiles. fill out the form with the mileageplus number xkc61520 and the card last 4 4480. Lastly, submit the form. Wait for text confirming registration. make sure to use these exact values otherwise the form will not submit.")]
+                content="visit promo.united.com/offers/packmoremiles. Fill out the form with the mileageplus number xkc61520 and the last four 4480. submit the form. confirm the form submission was successful by scanning the page.")]
              }, config=config):
             print(step)
             print('\n---------------------------------\n')
